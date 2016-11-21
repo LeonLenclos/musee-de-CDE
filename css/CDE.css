@@ -1,0 +1,31 @@
+body {
+	padding: 0;
+	margin: 3;
+	overflow: hidden;
+	font-family: helvetica;
+}
+h1, footer, nav {
+	font-size: 10px;
+}
+h1 {
+	position: absolute;
+	top: 0px;
+}
+nav {
+	text-align: right;
+	margin-bottom: 6px;
+}
+footer {
+	text-align: center;
+	margin-top: 6px;
+}
+
+div {
+	padding : 3px;
+	position: absolute;
+	background-color: white;
+	max-width: 800px;
+}
+canvas, div {
+	border : solid 3px black;
+}
