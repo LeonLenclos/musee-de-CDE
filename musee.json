@@ -613,7 +613,7 @@
       },
       {
         "type": "porte",
-        "nom": "Une pratique de collectionneur",
+        "nom": "Quelle métaphore pour la CDE",
         "texte": "Puisque j'y suis, on parle de Richter aussi par ici",
         "w": 60
       }
@@ -711,6 +711,123 @@
       }
     ],
     "Dans son contexte": [],
-    "Une pratique de collectionneur": []
+    "Quelle métaphore pour la CDE": [
+      {
+        "type": "CDE",
+        "nom": "lions.png",
+        "texte": "Le peintre Richter a développé un Corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prise. C'est un outil évidement utile pour un artiste qui peint d'après photos.",
+        "w": 664
+      },
+      {
+        "type": "CDE",
+        "nom": "lion.png",
+        "texte": "La collection d'images est une pratique courante, chez les artistes bien sûr mais aussi chez les adolescents et puis aussi pour tout un tas d'autres personnes.\n",
+        "w": 379
+      },
+      {
+        "type": "CDE",
+        "nom": "rouge_et_noir.png",
+        "texte": "Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'image, simplicité, immédiateté.",
+        "w": 299
+      },
+      {
+        "type": "CDE",
+        "nom": "killing_the_book.png",
+        "texte": "Je pense d'ailleurs que cette métaphore du coup de ciseaux peut être plus adaptée à la CDE (et à la deckstop metaphor) que celle de la photographie.",
+        "w": 221
+      },
+      {
+        "type": "CDE",
+        "nom": "code_repondeur.png",
+        "texte": "Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bête.",
+        "w": 686
+      },
+      {
+        "type": "CDE",
+        "nom": "bar_de_menu_bug.png",
+        "texte": "Les CDE report-issue. Quand un utilisateur repère un bug sur un logiciel ou un site et qu'il décide bienveillamment d'en informer les developpeurs, il peut lui être uttile de prendre une CDE du bug.",
+        "w": 755
+      },
+      {
+        "type": "CDE",
+        "nom": "Gwyddion.png",
+        "texte": "Une CDE on l'a déjà dis peut servir à présenter à de potentiels acheteurs l'interface graphique d'un d'un logiciel ou d'un jeu-vidéo. Les premières CDE avaient très certainement ce but commercial.",
+        "w": 741
+      },
+      {
+        "type": "CDE",
+        "nom": "avocate_qui_uttilise_des_cde.png",
+        "texte": "La CDE peut être un moyen rapide de transmettre une information a un ami, elle peut être un moyen d'archiver le contenu d'un site par exemple pour constituer une preuve dans le cadre d'une affaire judiciaire.",
+        "w": 540
+      },
+      {
+        "type": "CDE",
+        "nom": "appareil_photo_a_cde.png",
+        "texte": "La métaphore du coup de ciseaux dans les pages d'un magasine ne convient pas à toutes ces pratiques. La métaphore de la photocopieuse pourrait s'avérer plus pertinente dans certains cas, surtout qu'elle évoque l'idée, importante pour la CDE, de photographie à plat (reproduction d'un espace bidimensionel).",
+        "w": 655
+      },
+      {
+        "type": "CDE",
+        "nom": "exercice.png",
+        "texte": "En ce qui concerne la CDE artistique, la métaphore de la photographie semble souvent la plus pertinente. Notament en ce qui concerne la posture.",
+        "w": 231
+      },
+      {
+        "type": "CDE",
+        "nom": "Antti_Laitinen.png",
+        "texte": "Parfois, l'auteur de CDE  en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil a porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.",
+        "w": 508
+      },
+      {
+        "type": "CDE",
+        "nom": "Anne_horel.png",
+        "texte": "Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et 'réalisme') sont aussi présententes dans la photographie. (ici, cde d'une cde d'Anne Horel)",
+        "w": 347
+      },
+      {
+        "type": "porte",
+        "nom": "Paroles",
+        "texte": "Parlons par ici de l'exploit permis par la CDE de prendre en photo ce que les gens disent.",
+        "w": 60
+      },
+      {
+        "type": "CDE",
+        "nom": "deckstop_is.png",
+        "texte": "Ça c'est la page d'accueil de Deckstop IS, une éxposition en ligne de capture d'écran de bureau (en 97)",
+        "w": 811
+      }
+    ],
+    "Paroles": [
+      {
+        "type": "CDE",
+        "nom": "orthographe.png",
+        "texte": "Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour ’photographier’ des paroles, ce que la photographie ne peut pas faire.\n",
+        "w": 564
+      },
+      {
+        "type": "CDE",
+        "nom": "contrevolutioniste.png",
+        "texte": "Les CDE de dialogues, ont un fort pouvoir narratif. C'est une forme proche de la bande dessinée puisque ce sont des images de personnages qui parlent et de ce qu'ils disent. (Et puis les developpeurs d'interface de chat et de messagerie se réapproprient parfois la bulle de BD.)",
+        "w": 324
+      },
+      {
+        "type": "CDE",
+        "nom": "sms.png",
+        "texte": "On trouve sur internet une abondance de Capture d'écran de téléphone ou l'on peut lire une conversation sms entre deux personne. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouves que ce jeu de mise en scène virtuelle est conceptuellemnt intéressant, qu'il meriterait d'être creusé.\n",
+        "w": 1265
+      },
+      {
+        "type": "CDE",
+        "nom": "sans_commentaires.png",
+        "texte": "C'est tout ce que je voulais dire à ce propos.",
+        "w": 768
+      },
+      {
+        "type": "porte",
+        "nom": "Dans son contexte",
+        "texte": "Voilà une porte qui mène vers cette salle où l'on parle de contexte.",
+        "w": 60
+      }
+    ]
   }
 }
