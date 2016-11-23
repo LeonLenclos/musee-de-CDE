@@ -37,7 +37,7 @@ var ecart = 150; // entre les CDE
 
 //
 var LARGEUR_SCENE =4000; // ça varie
-var HAUTEUR_SCENE =1000;
+var HAUTEUR_SCENE =2183;
 var couleurMur;
 
 //objets p5.play
@@ -50,6 +50,9 @@ var direction=1;
 var auSol; // bol
 var contreLeMur= false;
 var ilParle = false;
+var ilDanse = false;
+var danseMouvement=1; // actuel mouvemeent de danse
+var nbDanseMouvement = 3; // (combien de mouvement de danse disponnibles)
 var tetelevee = false;
 var chosesDite =""; // ce qui dois etre dit
 
@@ -87,20 +90,23 @@ function preload () {
 	//On récupère toutes les infos sur le contenu du musee
 	musee = loadJSON('musee.json');
 
+	//C'est un objet p5.play qui servira pour les moments un peu speciaux...
+	spe = createSprite(30,HAUTEUR_SCENE-70,1000,HAUTEUR_SCENE);
+	spe.addAnimation('NUMENBOY',"img/numenboy/1.png","img/numenboy/6.png");
+	spe.addAnimation('DANSE',"img/dancefloor/1.png");
+	spe.animation.frameDelay = 1;
+
 	//C'est un objet p5.play qui est enfait le guide
-	man = createSprite(100,200,60,120);
+	man = createSprite(100,200,120,120);
 	man.addAnimation('MARCHE', "img/marche/1.png", "img/marche/8.png");
 	man.addAnimation('MARCHETETELEVEE', "img/marchetetelevee/1.png", "img/marchetetelevee/8.png");
 	man.addAnimation('ARRET', "img/arret/1.png");
 	man.addAnimation('SAUT', "img/saut/1.png", "img/saut/3.png");
 	man.addAnimation('LEVELATETE', "img/levelatete/2.png");
+	for (var i = 1; i <=nbDanseMouvement; i++) {
+		man.addAnimation('DANSE'+i, "img/danse/"+i+"1.png", "img/danse/"+i+"9.png");
+	}
 	man.animation.frameDelay = 5;
-
-	//C'est un objet p5.play qui servira pour les moments un peu speciaux...
-	spe = createSprite(30,HAUTEUR_SCENE-70,60,120);
-	spe.addAnimation('NUMENBOY',"img/numenboy/1.png","img/numenboy/6.png");
-	spe.animation.frameDelay = 1;
-
 
 
 }
@@ -126,7 +132,7 @@ function setup() {
 	cnv.resize(windowWidth-20,cnvHeight);
 
 	//go!
-	installerLaSalle('Accueil');
+	installerLaSalle('accueil');
 
 
 
@@ -215,11 +221,25 @@ function PART_ANIMATION () {
 		// Il ne marche pas :
 		man.velocity.x=0;
 
-		// Tête levée ou baissée ?	
-		if (!tetelevee){
-			man.changeAnimation('ARRET');
+		// En train de danser ?
+		if(ilDanse) {
+
+			console.log(int(frameCount/(9*5*2)%3+1));
+			man.changeAnimation('DANSE'+int(frameCount/200%3+1));
+
+			if(man.animation.getFrame()==8){
+				man.animation.goToFrame(0);
+			} else if (man.animation.getFrame()==0) {
+				man.animation.goToFrame(8);
+			}
+		
 		} else {
-			man.changeAnimation('LEVELATETE');
+			// Tête levée ou baissée ?
+			if (!tetelevee){
+				man.changeAnimation('ARRET');
+			} else {
+				man.changeAnimation('LEVELATETE');
+			}
 		}
 	}
 
@@ -268,10 +288,14 @@ function PART_CAMERA () {
 
 //PART HISTOIRE fait parler le perso
 function PART_HISTOIRE () {
+	ilDanse = false;
 	for (var i = 0; i < salle.length; i++) {
 		if(man.position.x >= obj[i].x && man.position.x <= obj[i].x+obj[i].w ){	//check si le guide est devant un obj
 			chosesDite = obj[i].texte;
 			ilParle = true;
+			if(obj[i].nom == 'DANSE') {
+				ilDanse = true;
+			}
 			return;
 		}
 	}
@@ -324,7 +348,7 @@ function PART_PORTE () {
 //INSTALLER LA SALLE (la salle à installer en entree) innitiallise les objets dans la salle (porte et cde)
 // cette fonction calcule aussi la position des cde, la taille de la salle et deux trois truc.
 function installerLaSalle (s) {
-	
+	s=s.toLowerCase();
 	//Verification de l'existence de la salle
 	if(!musee.salles[s]){
 		alert('cette salle n\'existe pas...');
@@ -367,7 +391,7 @@ function installerLaSalle (s) {
 	camera.position.y = HAUTEUR_SCENE - height/2;
 	camera.position.x = width/2;
 	man.position.x = 100;
-	man.position.y = 200;
+	man.position.y = HAUTEUR_SCENE - height-120;
 	
 	//c'est parti mon kiki
 	loading = false;
@@ -408,16 +432,26 @@ function ObjetMusee (objet) {
 				hauteur = HAUTEUR_SCENE - this.image.height - HAUTEUR_MIN_CDE;
 			}
 			//on affiche l'image
-			image(this.image,this.x,hauteur);
+			if(this.image.width>1) {
+				image(this.image,this.x,hauteur);
+			} else {
+				this.loadingDisplay();
+			}
+
 		} else if (this.type == "porte") { // POUR LES PORTES
 			fill(0);
 			stroke(0);
 			strokeWeight(3);
 			rect(this.x,HAUTEUR_SCENE-this.hPorte,this.w,this.hPorte); //enfait c'est juste un rectangle noir
 			this.nomPorte(); // et le nom au dessus
-		} else { // POUR LES TRUC SPECIAUX
+		} else  { // POUR LES TRUC SPECIAUX
 			spe.changeAnimation(this.nom); // l'animation est définie par le nom
 			spe.visible = true;
+			if (this.nom=='DANSE') {
+				spe.position.y = HAUTEUR_SCENE/2 -60;
+			} else {
+				spe.position.y = HAUTEUR_SCENE-70;
+			}
 			spe.position.x = this.x + spe.width/2;
 		}
 	};
@@ -448,5 +482,27 @@ function ObjetMusee (objet) {
 		
 		// on réaffiche le nom
 		this.nomPorte();
+	};
+
+	//THIS.LOADINGDISPLAY créé un carré noir de 30px au centre de l'objet avec une animation de cercle qui tourne à l'interieur
+	this.loadingDisplay = function () {
+		noStroke();
+		fill(0);
+		var points = ".";
+		for (var i=1; i<(sin(frameCount/10)*3+3); i++) {
+			points = points + ".";
+		}
+		text("cde loading " + points,this.x,HAUTEUR_SCENE-height/2);
+		// fill(0);
+		// rect(this.x,HAUTEUR_SCENE - height/2 -30,this.w,30);
+		// push();
+		// translate(this.x+this.w/2,HAUTEUR_SCENE - height/2 - 15);
+		// noStroke();
+		// fill(0); rect(-15,-15,30,30);
+		// fill(255); ellipse(0,0,20,20);
+		// fill(0); ellipse(0,0,15,15);
+		// rotate(frameCount/10);
+		// fill(0); rect(-11,-10,11,20);
+		// pop();
 	};
 }

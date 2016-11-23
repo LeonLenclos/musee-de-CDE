@@ -6,7 +6,7 @@
     "nav": "<a href='CDE-about.html'>À propos</a> | <a href='CDE-help.html'>Aide</a>"
   },
   "salles": {
-    "Accueil": [
+    "accueil": [
       {
         "type": "CDE",
         "nom": "une_capture_d_ecran.png",
@@ -15,12 +15,12 @@
       },
       {
         "type": "porte",
-        "nom": "Introduction",
+        "nom": "introduction",
         "texte": "Cette porte mène vers la salle d'introduction.<br/>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passe devant en marchant. ",
         "w": 60
       }
     ],
-    "Introduction": [
+    "introduction": [
       {
         "type": "CDE",
         "nom": "62747_heures.png",
@@ -83,13 +83,13 @@
       },
       {
         "type": "porte",
-        "nom": "Les mondes dans le monde",
+        "nom": "les mondes dans le monde",
         "texte": "Par ici nous parlerons des mondes dans le monde de l'ordinateur qui ressemblent particulièrement au monde réel.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Accueil",
+        "nom": "accueil",
         "texte": "Par ici vous pouvez retourner à l'accueil (remarquez que le nom des salles que vous avez déjà visité s'affiche en italique)",
         "w": 60
       },
@@ -100,7 +100,7 @@
         "w": 1920
       }
     ],
-    "Les mondes dans le monde": [
+    "les mondes dans le monde": [
       {
         "type": "CDE",
         "nom": "Aaaa.png",
@@ -163,13 +163,13 @@
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "Par ici on va parler des differences formelles qui opposent une photographie et une capture d'écran.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Accueil",
+        "nom": "accueil",
         "texte": "Par là on peut revenir à l'Accueil. (Le nom des salles que vous avez déjà visité s'affiche en italique)",
         "w": 60
       },
@@ -180,7 +180,7 @@
         "w": 364
       }
     ],
-    "Differences formelles entre photos et CDE": [
+    "differences formelles entre photos et cde": [
       {
         "type": "CDE",
         "nom": "FUNNY.png",
@@ -195,30 +195,30 @@
       },
       {
         "type": "porte",
-        "nom": "À propos de la précision",
+        "nom": "à propos de la précision",
         "texte": "Dans cette salle nous verrons comment la photographie est infiniment moins fidèle à son monde que la CDE au sien",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À propos du numen",
+        "nom": "à propos du numen",
         "texte": "Dans celle-là nous parlerons du concept de Numen en photographie et comment il peut s'appliquer ou non à la CDE. ",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À propos du cadre",
+        "nom": "à propos du cadre",
         "texte": "Dans celle-ci nous verrons ce qui distingue le cadrage d'une photo et celui d'une CDE",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Accueil",
+        "nom": "accueil",
         "texte": "  Retour au point de départ....",
         "w": 60
       }
     ],
-    "À propos du cadre": [
+    "à propos du cadre": [
       {
         "type": "CDE",
         "nom": "l_homme_a_la_camera_pellicule.png",
@@ -233,18 +233,18 @@
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "Visitez si vous ne l'avez pas encore fait les autres différences entre CDE et photos.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À quoi ressemble une CDE",
+        "nom": "à quoi ressemble une cde",
         "texte": "Car nous allons laisser ce sujet de côté pour parler de l'esthétique CDE, dans un premier temps à travers son rapport au cadre.",
         "w": 60
       }
     ],
-    "Les failles": [
+    "les failles": [
       {
         "type": "CDE",
         "nom": "dvd_cde.png",
@@ -259,12 +259,12 @@
       },
       {
         "type": "porte",
-        "nom": "À propos de la précision",
+        "nom": "à propos de la précision",
         "texte": "Revenons à nos moutons !",
         "w": 60
       }
     ],
-    "À propos de la précision": [
+    "à propos de la précision": [
       {
         "type": "CDE",
         "nom": "photo_reel.png",
@@ -291,7 +291,7 @@
       },
       {
         "type": "porte",
-        "nom": "Les failles",
+        "nom": "les failles",
         "texte": "Bon.. Peut-être une ou deux failles mais pas plus...",
         "w": 60
       },
@@ -315,18 +315,18 @@
       },
       {
         "type": "porte",
-        "nom": "Les raisins",
+        "nom": "les raisins",
         "texte": "Cette histoire de parfaite réplique me semble importante. Quelle difference persiste alors entre la CDE et son référend ?",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "Par ici pour explorer d'autres differences entre photo et CDE.",
         "w": 60
       }
     ],
-    "Les raisins": [
+    "les raisins": [
       {
         "type": "CDE",
         "nom": "Et_des_americains_peignent_leur_pelouse.png",
@@ -365,12 +365,12 @@
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "FUNNY !",
         "w": 60
       }
     ],
-    "Salle 2": [
+    "salle 2": [
       {
         "type": "CDE",
         "nom": "gazon.png",
@@ -378,11 +378,11 @@
       },
       {
         "type": "porte",
-        "nom": "Accueil",
+        "nom": "accueil",
         "texte": "Pour retourner à l'Accueil"
       }
     ],
-    "À propos du numen": [
+    "à propos du numen": [
       {
         "type": "CDE",
         "nom": "aiguilles_attachées.png",
@@ -415,13 +415,13 @@
       },
       {
         "type": "porte",
-        "nom": "Expérience",
+        "nom": "expérience",
         "texte": "D'ailleur, puisque nous somme dans un jeu vidéo, je vous propose par ici une petite experience du Numen.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Pile",
+        "nom": "pile",
         "texte": "Et par ici je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écrans qui ont du être prises à la seconde près.",
         "w": 60
       },
@@ -433,12 +433,12 @@
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "Par là vous pouvez revenir à la page sur les differences entre photo et CDE.",
         "w": 60
       }
     ],
-    "Pile": [
+    "pile": [
       {
         "type": "CDE",
         "nom": "1.png",
@@ -543,7 +543,7 @@
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "par ici :",
         "w": 60
       },
@@ -554,7 +554,7 @@
         "w": 192
       }
     ],
-    "Expérience": [
+    "expérience": [
       {
         "type": "CDE",
         "nom": "les_yeux_fermes.png",
@@ -569,12 +569,12 @@
       },
       {
         "type": "porte",
-        "nom": "À propos du numen",
+        "nom": "à propos du numen",
         "texte": "À bientôt mon ami !",
         "w": 60
       }
     ],
-    "À quoi ressemble une CDE": [
+    "à quoi ressemble une cde": [
       {
         "type": "CDE",
         "nom": "le_polystyrene_est_inflamable.png",
@@ -596,12 +596,12 @@
       {
         "type": "CDE",
         "nom": "milovanoff.png",
-        "texte": "Cette idée de contexte qui déborde visuellement sur sur le sujet et la présence de mots et d'images tronquées ne sont pas propre a la CDE et ont déjà été éxplorées dans d'autres médiums.",
+        "texte": "Cette idée de contexte qui déborde visuellement sur sur le sujet et la présence de mots et d'images tronquées ne sont pas propre a la CDE et ont déjà été éxplorées dans d'autres média.",
         "w": 513
       },
       {
         "type": "porte",
-        "nom": "Dans son contexte",
+        "nom": "dans son contexte",
         "texte": "Par ici creusons le rapport entre une CDE et son contexte.",
         "w": 60
       },
@@ -613,7 +613,7 @@
       },
       {
         "type": "porte",
-        "nom": "Quelle métaphore pour la CDE",
+        "nom": "quelle métaphore pour la cde",
         "texte": "Puisque j'y suis, on parle de Richter aussi par ici",
         "w": 60
       }
@@ -627,73 +627,73 @@
       },
       {
         "type": "porte",
-        "nom": "Accueil",
+        "nom": "accueil",
         "texte": "Pour aller ici enfait il suffit de recharger la page.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Introduction",
+        "nom": "introduction",
         "texte": "Ou il est question de deckstop metaphore.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Les mondes dans le monde",
+        "nom": "les mondes dans le monde",
         "texte": "Ou il est question des mondes dans les mondes.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Differences formelles entre photos et CDE",
+        "nom": "differences formelles entre photos et cde",
         "texte": "Ou il est question des differences entre photo et CDE (parce que enfait c'est pas si pareil).",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À propos du cadre",
+        "nom": "à propos du cadre",
         "texte": "Ce qui est different entre cadre de CDE et cadre de photo.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À propos de la précision",
+        "nom": "à propos de la précision",
         "texte": "Ce qui est different entre la precision d'une CDE et la précision d'une photo.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À propos du numen",
+        "nom": "à propos du numen",
         "texte": "parler de numen est il aussi  pertinant dans la CDE que dans la photo ?",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Les failles",
+        "nom": "les failles",
         "texte": "CDE et DVD",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Les raisins",
+        "nom": "les raisins",
         "texte": "Là on parle d'un vieu peintre qui peignait les raisins comme personne.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Pile",
+        "nom": "pile",
         "texte": "La collection dans la collection.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "Expérience",
+        "nom": "expérience",
         "texte": "Pout tirer un dé.",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "À quoi ressemble une CDE",
+        "nom": "à quoi ressemble une cde",
         "texte": "bonne question non ?",
         "w": 60
       },
@@ -710,8 +710,57 @@
         "w": 612
       }
     ],
-    "Dans son contexte": [],
-    "Quelle métaphore pour la CDE": [
+    "dans son contexte": [
+      {
+        "type": "CDE",
+        "nom": "taken_out_of_context.png",
+        "texte": "Une capture d'écran cadrée (qui n'est pas une capture de tout l'écran) comme elle est une partie extraite d'un tout montre toujours une situation ’sortie de son contexte’.",
+        "w": 135
+      },
+      {
+        "type": "CDE",
+        "nom": "deux_cles.png",
+        "texte": "La CDE cadrée permet, en le sortant de son contexte, de redéfinir le sens de son referend.",
+        "w": 443
+      },
+      {
+        "type": "porte",
+        "nom": "on peut avoir du mal",
+        "texte": "Nous voyons dans cette salle qu'on peut avoir du mal avec la notion d'auteur de CDE. puisque l'auteur de CDE ne fait absolument que transférer des extraits de créations d'autres auteurs.",
+        "w": 60
+      },
+      {
+        "type": "CDE",
+        "nom": "diptique_vague.png",
+        "texte": "Mais l'avantage d'un medium aussi simple que la CDE c'est qu'il est possible de décortiquer assez son geste pour comprendre où se situe la marge de créativité. Une fois qu'une marge de créativité est identifiée le problème de l'idée de créateur est positivement résolu.",
+        "w": 452
+      },
+      {
+        "type": "CDE",
+        "nom": "screenshot_art_exercise.png",
+        "texte": "La marge de créativité de la CDE se situe dans deux moments. Premièrement ce que fait l'auteur de CDE avant la CDE, Deuxièmement ce qu'il fait pendant.",
+        "w": 290
+      },
+      {
+        "type": "CDE",
+        "nom": "archipel.png",
+        "texte": "Ce qu'il fait avant on l'a dit, c'est se balader dans le monde de l'ordinateur et interagir avec lui. La manière dont il se balade et dont il interagit déterminent ce qu'il y aura sur la CDE.",
+        "w": 431
+      },
+      {
+        "type": "CDE",
+        "nom": "Does_this_look_white.png",
+        "texte": "Ce qu'il fait pendant c'est choisir l'instant (Ce choix de l'instant, vue la temporalité du monde de l'ordinateur, a une faible influence) et, pour les CDE cadrées, choisir le cadre. Le choix du cadre c'est sortir le référent de son contexte et c'est je pense ce qu'il y a de majeur dans le geste CDE.",
+        "w": 112
+      },
+      {
+        "type": "porte",
+        "nom": "à quoi ressemble une cde",
+        "texte": "Par-là c'est de nouveau la salle avec une photo de polystirènne.",
+        "w": 60
+      }
+    ],
+    "quelle métaphore pour la cde": [
       {
         "type": "CDE",
         "nom": "lions.png",
@@ -786,7 +835,7 @@
       },
       {
         "type": "porte",
-        "nom": "Paroles",
+        "nom": "paroles",
         "texte": "Parlons par ici de l'exploit permis par la CDE de prendre en photo ce que les gens disent.",
         "w": 60
       },
@@ -797,7 +846,7 @@
         "w": 811
       }
     ],
-    "Paroles": [
+    "paroles": [
       {
         "type": "CDE",
         "nom": "orthographe.png",
@@ -824,8 +873,116 @@
       },
       {
         "type": "porte",
-        "nom": "Dans son contexte",
+        "nom": "dans son contexte",
         "texte": "Voilà une porte qui mène vers cette salle où l'on parle de contexte.",
+        "w": 60
+      }
+    ],
+    "on peut avoir du mal": [
+      {
+        "type": "CDE",
+        "nom": "je_t_explique.png",
+        "texte": "On peut avoir du mal a considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal a considerer la CDE comme un medium car le monde de l'ordinateur est souvent considéré comme un medium, alors que non, c'est un monde ou à la limite un super-medium, un méta-medium.",
+        "w": 633
+      },
+      {
+        "type": "CDE",
+        "nom": "chargement_bug.png",
+        "texte": "On peut avoir du mal à considérer que la CDE produit des image. En effet, tout ce qu'une capture d'écran peut capturer c'est des images créée par l'homme ou des images créés par des créations de l'homme. Les images produites par une CDE ont pour ainsi dire, déjà été produite. Chaque partie d'une CDE est la reproduction d'une oeuvre (que ce soit un bout de texte, une photo, une typographie, un icône, le design d'une scroll-bar).",
+        "w": 227
+      },
+      {
+        "type": "CDE",
+        "nom": "panorama.png",
+        "texte": "Dans ce musée toute les CDE ont été prise par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devait y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plus-part des pays, mes CDE seraient des rectangles noirs. ",
+        "w": 1039
+      },
+      {
+        "type": "CDE",
+        "nom": "la_question_des_droits_d_auteurs_screenshot.png",
+        "texte": "Pourtant ces CDE sont les miennes et je ne peux pas m'empêcher de penser que ce sont des images que je produit. Je ne vais pas aller plus loin dans cette reflexion, ce sont des questions beaucoup trop compliqués, il leur faudrait un deuxième musée de CDE.",
+        "w": 407
+      },
+      {
+        "type": "CDE",
+        "nom": "la_nature_peut_faire.png",
+        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.\n",
+        "w": 290
+      },
+      {
+        "type": "porte",
+        "nom": "beaux bugs",
+        "texte": "Ce qui s'en approche le plus c'est les moments ou l'homme perd le contrôle de la machine, j'en parle très rapidement dans cette pièce.",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "conclusion",
+        "texte": "Enfait on arrive à la fin du musée. la dernière salle du musée c'est celle là…",
+        "w": 60
+      }
+    ],
+    "beaux bugs": [
+      {
+        "type": "CDE",
+        "nom": "glitch_glisse.png",
+        "texte": "J'ai dis que la CDE était toujours la copie d'une création humaine ou d'une création de création humaine.",
+        "w": 557
+      },
+      {
+        "type": "CDE",
+        "nom": "deroute.png",
+        "texte": "Ces créations de créations humaines sont des formes sur lesquelles l'humain semble n'avoir pas eu d'emprise.",
+        "w": 634
+      },
+      {
+        "type": "CDE",
+        "nom": "youtube_couleur.png",
+        "texte": "J'ai pu en identifié deux, les premières sont les endroit ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glictch. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultats d'un défaut de la machine du à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non-maitrisé).",
+        "w": 871
+      },
+      {
+        "type": "CDE",
+        "nom": "fichier_code.png",
+        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adresse pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.",
+        "w": 1107
+      },
+      {
+        "type": "CDE",
+        "nom": "main_sur_un_arbre.png",
+        "texte": "Malgrè que l'on puisse dire que l'homme en est l'auteur (indirectement mais indéniablement), on trouve dans ces deux images quelquechose proche de ce qu'on appelle dans le monde réél, la nature. Des formes qui semble arbitraires ou l'on peut percevoir pourtant une logique soujacente. Une sorte d'irrégularité tranquille. Je ressent un très fort besoin que j'ai de prendre une capture d'écran de ces situations quand j'en vois une.",
+        "w": 303
+      },
+      {
+        "type": "CDE",
+        "nom": "Yang_tse.png",
+        "texte": "Ces situations sont pitoresques au sens propre : elles méritent de devenir images.",
+        "w": 431
+      },
+      {
+        "type": "porte",
+        "nom": "on peut avoir du mal",
+        "texte": "Revenons à la salle précédente.",
+        "w": 60
+      }
+    ],
+    "conclusion": [
+      {
+        "type": "CDE",
+        "nom": "conclusion.png",
+        "texte": "Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ai pas de porte et qu'elle s'appelle ’conclusion’ m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.",
+        "w": 831
+      },
+      {
+        "type": "CDE",
+        "nom": "Deguisement_feuille.png",
+        "texte": "Et si je faisait plutôt une petite danse ?",
+        "w": 536
+      },
+      {
+        "type": "special",
+        "nom": "DANSE",
+        "texte": "lalala lalalalala !!",
         "w": 60
       }
     ]

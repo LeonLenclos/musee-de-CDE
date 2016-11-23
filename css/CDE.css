@@ -29,3 +29,12 @@ div {
 canvas, div {
 	border : solid 3px black;
 }
+
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
