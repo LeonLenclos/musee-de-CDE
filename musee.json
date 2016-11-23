@@ -1,7 +1,6 @@
 {
   "extra": {
     "titre": "Le musee de CDE",
-    "version": "(VERSION ALPHA 14/11/2016 NE PAS PARTAGER)",
     "footer": "Se déplacer <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Regarder plus en l'air ou plus en bas <img src=\"img/icones_commandes/fleches_U_D.png\", alt=\"flèches haut et bas\"></img> | Passer une porte <img src=\"img/icones_commandes/space.png\", alt=\"barre d'espace\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Courir <img src=\"img/icones_commandes/shift.png\", alt=\"shift\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Acceder à une salle en connaissant son nom <img src=\"img/icones_commandes/entrer.png\", alt=\"entrer\"></img>",
     "nav": "<a href='CDE-about.html'>À propos</a> | <a href='CDE-help.html'>Aide</a>"
   },
@@ -634,19 +633,19 @@
       {
         "type": "porte",
         "nom": "introduction",
-        "texte": "Ou il est question de deckstop metaphore.",
+        "texte": "Où il est question de deckstop metaphor.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "les mondes dans le monde",
-        "texte": "Ou il est question des mondes dans les mondes.",
+        "texte": "Où il est question des mondes dans les mondes.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "differences formelles entre photos et cde",
-        "texte": "Ou il est question des differences entre photo et CDE (parce que enfait c'est pas si pareil).",
+        "texte": "Où il est question des differences entre photo et CDE (parce que enfait c'est pas si pareil).",
         "w": 60
       },
       {
@@ -664,13 +663,13 @@
       {
         "type": "porte",
         "nom": "à propos du numen",
-        "texte": "parler de numen est il aussi  pertinant dans la CDE que dans la photo ?",
+        "texte": "Parler de numen est il aussi  pertinant dans la CDE que dans la photo ?",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "les failles",
-        "texte": "CDE et DVD",
+        "texte": "CDE et DVD.",
         "w": 60
       },
       {
@@ -694,19 +693,55 @@
       {
         "type": "porte",
         "nom": "à quoi ressemble une cde",
-        "texte": "bonne question non ?",
+        "texte": "Bonne question non ?",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "quelle métaphore pour la cde",
+        "texte": "N'est pas que photographie.",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "paroles",
+        "texte": "La plus grande CDE du musée est dans cette salle.",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "dans son contexte",
+        "texte": "Ici on résume le geste CDE.",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "on peut avoir du mal",
+        "texte": "On soulève des petits problèmes de la CDE.",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "beaux bugs",
+        "texte": "Ici on trouves ça beau.",
+        "w": 60
+      },
+      {
+        "type": "porte",
+        "nom": "conclusion",
+        "texte": "Ici c'est la fête dans le musée !",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "portes",
-        "texte": "ici.",
+        "texte": "Ici c'est ici.",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "calle_porte.png",
-        "texte": "voilà.",
+        "texte": "Voilà.",
         "w": 612
       }
     ],
@@ -983,7 +1018,7 @@
         "type": "special",
         "nom": "DANSE",
         "texte": "lalala lalalalala !!",
-        "w": 60
+        "w": 600
       }
     ]
   }
