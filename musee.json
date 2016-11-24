@@ -384,7 +384,7 @@
     "à propos du numen": [
       {
         "type": "CDE",
-        "nom": "aiguilles_attachées.png",
+        "nom": "aiguilles_attachees.png",
         "texte": "On a évoqué dans l'introduction la difference radicale entre le fonctionnement spatio-temporel du monde de l'ordinateur et celui du monde réel. Cette difference va être significative pour notre comparaison entre CDE et photographie. En effet la photographie est une technique qui repose beaucoup sur sa faculté à fixer l'instant présent.\n",
         "w": 787
       },
@@ -402,7 +402,7 @@
       },
       {
         "type": "CDE",
-        "nom": "immobilité.png",
+        "nom": "immobilite.png",
         "texte": "On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur referend. En effet, Si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde reel). On n'aurait pas de mal a distinguer une captue d'écran de ce qu'elle a capturé.",
         "w": 254
       },

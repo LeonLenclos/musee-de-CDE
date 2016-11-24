@@ -55,7 +55,7 @@ var danseMouvement=1; // actuel mouvemeent de danse
 var nbDanseMouvement = 3; // (combien de mouvement de danse disponnibles)
 var tetelevee = false;
 var chosesDite =""; // ce qui dois etre dit
-
+var speed = 3; //vitesse marche
 
 //
 var entreDansLaPorte = null; //dans quelle porte il entre
@@ -191,7 +191,7 @@ function PART_DISPLAYOBJ () {
 //PART ANIMATION fait avancer le perso, l'anime, etc
 function PART_ANIMATION () {
 	// Est-ce qu'il marche ?
-	if (keyDown(RIGHT_ARROW) || keyDown(LEFT_ARROW)) {
+	if (keyIsDown(RIGHT_ARROW) || keyIsDown(LEFT_ARROW)) {
 		//Il marche : 
 
 		// Tête levée ou baissée ?
@@ -202,13 +202,16 @@ function PART_ANIMATION () {
 		}
 
 		// rapide ou lent ? 
-		var speed = 3;
-		if(keyDown(SHIFT)){
+		
+		if(keyIsDown(SHIFT)){
 			speed=30;
+			console.log('run');
+		} else {
+			speed =3;
 		}
 
 		// vers la gauche ou la droite ?
-		if(keyDown(RIGHT_ARROW)){
+		if(keyIsDown(RIGHT_ARROW)){
 			man.mirrorX(1);
 			man.velocity.x=speed;
 
@@ -223,7 +226,6 @@ function PART_ANIMATION () {
 		// En train de danser ?
 		if(ilDanse) {
 
-			console.log(int(frameCount/(9*5*2)%3+1));
 			man.changeAnimation('DANSE'+int(frameCount/200%3+1));
 
 			if(man.animation.getFrame()==8){
@@ -314,27 +316,37 @@ function PART_PORTE () {
 				}
 			}
 		}
-		if (estEnTrainDePasserLaPorte) { // S'IL PASSE UNE PORTE
+	} else {
+		//estEnTrainDePasserLaPorte = false;
+		//entreDansLaPorte = null;
+	}
+
+
+
+	if (estEnTrainDePasserLaPorte) { // S'IL PASSE UNE PORTE
+
 			obj[entreDansLaPorte].cachePorte(); //ON MET LE CACHE
+		
 			if(man.position.x <= obj[entreDansLaPorte].x -50 || man.position.x >= obj[entreDansLaPorte].x+obj[entreDansLaPorte].w+50) {
 				estEnTrainDePasserLaPorte = false;
 				installerLaSalle(obj[entreDansLaPorte].nom);
+			}// else 	if(man.position.x-15/2 >= obj[i].x && man.position.x+15 <= obj[i].x+obj[i].w) {
+			// 	estEnTrainDePasserLaPorte = false;
+			// 	installerLaSalle(obj[entreDansLaPorte].nom);
+			// }
+	}
+
+	
+	if (keyDown(ENTER)) { // ENTRER
+		var p = prompt('Entrez le nom de la salle à laquelle vous souhaitez accéder. (Prenez soin de respecter accents et majuscules).');
+		if(p !== null && p !== ""){
+			if(p=="mur") {
+				couleurMur = color(random(200,255),random(155,200),random(155,200));
+			} else {
+				installerLaSalle(p);
 			}
 		}
-
-
-	} else if (keyDown(ENTER)) {
-		var p = prompt('Entrez le nom de la salle à laquelle vous souhaitez accéder. (Prenez soin de respecter accents et majuscules).');
-
-		if(p=="mur") {
-			couleurMur = color(random(200,255),random(155,200),random(155,200));
-		} else {
-			installerLaSalle(p);
-		}
-	} else {
-		estEnTrainDePasserLaPorte = false;
-		entreDansLaPorte = null;
-	}
+	} 
 }
 
 
@@ -460,6 +472,7 @@ function ObjetMusee (objet) {
 		textAlign(CENTER);
 		noStroke();
 		fill(0);
+		textSize(12);
 		textStyle(sallesVisitees.includes(this.nom) ? ITALIC : NORMAL); // en italic si la salle a étée visitée
 		text(this.nom, this.x+this.w/2, HAUTEUR_SCENE-this.hPorte-10);
 	};
@@ -486,6 +499,9 @@ function ObjetMusee (objet) {
 	//THIS.LOADINGDISPLAY créé un carré noir de 30px au centre de l'objet avec une animation de cercle qui tourne à l'interieur
 	this.loadingDisplay = function () {
 		noStroke();
+		textAlign(LEFT);
+		textStyle(NORMAL);
+		textSize(10);
 		fill(0);
 		var points = ".";
 		for (var i=1; i<(sin(frameCount/10)*3+3); i++) {
