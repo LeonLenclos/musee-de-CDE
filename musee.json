@@ -9,13 +9,13 @@
       {
         "type": "CDE",
         "nom": "une_capture_d_ecran.png",
-        "texte": "Bonjour visiteur, bienvenue dans le musée de CDE.<br/>Je vais te guider tout au long de ta visite. Toi tu n'as qu'à uttiliser les touches flêchées pour aller voir où tu veux.",
+        "texte": "Bonjour visiteur, bienvenue dans le musée de CDE.<br/>Je vais te guider tout au long de ta visite. Toi tu n'as qu'à utiliser les touches fléchées pour aller voir où tu veux.",
         "w": 208
       },
       {
         "type": "porte",
         "nom": "introduction",
-        "texte": "Cette porte mène vers la salle d'introduction.<br/>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passe devant en marchant. ",
+        "texte": "Cette porte mène vers la salle d'introduction.<br/>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passes devant en marchant. ",
         "w": 60
       }
     ],
@@ -23,25 +23,25 @@
       {
         "type": "CDE",
         "nom": "62747_heures.png",
-        "texte": "En fait, à partir du début des années 80 il y a un changement radical dans le monde de l'informatique grand public : l’arrivée des premières interfaces graphiques. Avant un ordinateur c'était des lignes de textes peu intuitives ou totalement incompréhensibles pour le novice. Le but est de rendre l'utilisation des ordinateurs plus facile pour qu'ils puissent se répandre dans les bureaux voire les salons.",
+        "texte": "En fait, à partir du début des années 80 il y a un changement radical dans le monde de l'informatique grand public : l’arrivée des premières interfaces graphiques. Avant, un ordinateur c'était des lignes de textes peu intuitives ou totalement incompréhensibles pour le novice. Le but est de rendre l'utilisation des ordinateurs plus facile pour qu'ils puissent se répandre dans les bureaux voire les salons.",
         "w": 395
       },
       {
         "type": "CDE",
         "nom": "chaise_de_bureau.png",
-        "texte": "Alors oui, un ordinateur avec une interface graphique développé coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés de cette entreprise sera longue et coûteuse.",
+        "texte": "Alors oui, un ordinateur avec une interface graphique développée coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés de cette entreprise sera longue et coûteuse.",
         "w": 610
       },
       {
         "type": "CDE",
         "nom": "metaphaure_ouh.png",
-        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie à ce moment là pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC (un centre de recherche en informatique) qui ont l'idee de developper la dekstop metaphor. Elle etait déjà vaguement perceptible dans le vocabulaire informatique mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
+        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie à ce moment-là pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC (un centre de recherche en informatique) qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
         "w": 311
       },
       {
         "type": "CDE",
         "nom": "3_poubelles.png",
-        "texte": "Etant donné qu'on s'adresse à des employés de bureau on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que depuis, tous les système d'exploitation ont suivi cette idée de \"métaphore du bureau\".",
+        "texte": "Étant donné qu'on s'adresse à des employés de bureau, on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que depuis, tous les systèmes d'exploitation ont suivi cette idée de \"métaphore du bureau\".",
         "w": 750
       },
       {
@@ -53,49 +53,49 @@
       {
         "type": "CDE",
         "nom": "deckstopmetaphor.png",
-        "texte": "Evidemment la métaphore du bureau ne s'arrête pas au langage, elle est aussi visuelle (des icônes en forme de dossiers) et structurelle (les fichiers sont rangés dans des dossiers). Le monde de l'ordinateur est une sorte d'imitation abstraite et approximative du monde réel. Nous on joue le jeu,",
+        "texte": "Évidemment, la métaphore du bureau ne s'arrête pas au langage, elle est aussi visuelle (des icônes en forme de dossiers) et structurelle (les fichiers sont rangés dans des dossiers). Le monde de l'ordinateur est une sorte d'imitation abstraite et approximative du monde réel. Nous, on joue le jeu,",
         "w": 544
       },
       {
         "type": "CDE",
         "nom": "Bureau_bien_range.png",
-        "texte": "on range notre bureau, on va chercher dans la corbeille un document qu'on a jeté par erreur. On se sent chez soi dans l'ordinateur et internet (qui prend de plus en plus un rôle important dans notre uttilisation du PC) prend assez naturellement la place du monde exterieur.",
+        "texte": "on range notre bureau, on va chercher dans la corbeille un document qu'on a jeté par erreur. On se sent chez soi dans l'ordinateur et internet (qui prend de plus en plus un rôle important dans notre utilisation du PC) prend assez naturellement la place du monde extérieur.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "se_connecter_a_l_exterieur.png",
-        "texte": "Avec ses boutiques, ses lieux de rencontre (des forums, autre métaphore), un monde qui grouille, en évolution continue et avec un fonctionnement spatio-temporel tres différent de celui du monde réel..",
+        "texte": "Avec ses boutiques, ses lieux de rencontre (des forums, autre métaphore), un monde qui grouillent, en évolution continue et avec un fonctionnement spatio-temporel très différent de celui du monde réel...",
         "w": 227
       },
       {
         "type": "CDE",
         "nom": "voyage_voyage_voyage_voyage.png",
-        "texte": "Dans le monde de l'ordinateur, autre chose importante, on se déplace : on va voir dans ce dossier on va visiter ce site. Ce site comme ce dossier ont une adresse.",
+        "texte": "Dans le monde de l'ordinateur, autre chose importante, on se déplace : on va voir dans ce dossier, on va visiter ce site. Ce site comme ce dossier ont une adresse.",
         "w": 396
       },
       {
         "type": "CDE",
         "nom": "Vive_les_cde.png",
-        "texte": "Ce qu'il se passe, ce pourquoi on est là, c'est qu'au cours de notre exploration du monde de l'ordinateur, on peut prendre des captures d'écran. Étant donné la dimension métaphorique de ce monde, il est assez naturel de considérer que la capture d'écran est l'équivalent, dans le monde réel, de la photographie. Je vous propose d'éxplorer maintenant les enjeux de cette équivalence.",
+        "texte": "Ce qu'il se passe, ce pour quoi on est là, c'est qu'au cours de notre exploration du monde de l'ordinateur, on peut prendre des captures d'écran. Étant donné la dimension métaphorique de ce monde, il est assez naturel de considérer que la capture d'écran est l'équivalent, dans le monde réel, de la photographie. Je vous propose d'explorer maintenant les enjeux de cette équivalence.",
         "w": 192
       },
       {
         "type": "porte",
         "nom": "les mondes dans le monde",
-        "texte": "Par ici nous parlerons des mondes dans le monde de l'ordinateur qui ressemblent particulièrement au monde réel.",
+        "texte": "Par ici, nous parlerons des mondes dans le monde de l'ordinateur qui ressemblent particulièrement au monde réel.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "accueil",
-        "texte": "Par ici vous pouvez retourner à l'accueil (remarquez que le nom des salles que vous avez déjà visité s'affiche en italique)",
+        "texte": "Par ici, vous pouvez retourner à l'accueil (remarquez que le nom des salles que vous avez déjà visitées s'affiche en italique)",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "ecran_range.png",
-        "texte": "Ici on a une autre manière de ranger son bureau. (Peut être ai-je oublié de vous dire que vous pouvez me faire lever la tête en appuyant sur la flêche du haut. Ça s'averera pratique pour toutes les captures d'écran plus grande que votre fenêtre puisque nous avons pris le parti de présenter toutes les CDE de notre collection à echelle 1)",
+        "texte": "Ici on a une autre manière de ranger son bureau. (Peut-être ai-je oublié de vous dire que vous pouvez me faire lever la tête en appuyant sur la flèche du haut. Ça s'avérera pratique pour toutes les captures d'écran plus grandes que votre fenêtre puisque nous avons pris le parti de présenter toutes les CDE de notre collection à échelle 1)",
         "w": 1920
       }
     ],
@@ -103,37 +103,37 @@
       {
         "type": "CDE",
         "nom": "Aaaa.png",
-        "texte": "Alors on se balade dans le monde de l'ordinateur et on prends des captures d'écran comme on se balade dans le monde réél en prenant des photos.",
+        "texte": "Alors on se balade dans le monde de l'ordinateur et on prend des captures d'écran comme on se balade dans le monde réel en prenant des photos.",
         "w": 71
       },
       {
         "type": "CDE",
         "nom": "jeu_cde.png",
-        "texte": "Dans la plus-part des mondes on trouve, si on les regarde de près, des mondes dans le monde. Le monde de l'ordinateur, par exemple, est un monde dans le monde réel.",
+        "texte": "Dans la plupart des mondes, on trouve, si on les regarde de près, des mondes dans le monde. Le monde de l'ordinateur, par exemple, est un monde dans le monde réel.",
         "w": 258
       },
       {
         "type": "CDE",
         "nom": "jeu_du_bus.png",
-        "texte": "Certains des mondes dans le mondes de l'ordinateur sont particulièrement adaptée à une pratique de la capture d'écran analogue à celle de la photographie car la manière dont on s'y balade ressemble a celle dont on se balade dans le monde réel.",
+        "texte": "Certains des mondes dans le monde de l'ordinateur sont particulièrement adaptés à une pratique de la capture d'écran analogue à celle de la photographie, car la manière dont on s'y balade ressemble à celle dont on se balade dans le monde réel.",
         "w": 478
       },
       {
         "type": "CDE",
         "nom": "gta_vol.png",
-        "texte": "Ce n'est pas étonnant de voir que beaucoup de capture d'écran sont prisent dans les jeux vidéos. Je suis impressionné par la beauté des graphisme devant un paysage, je prends une CDE. Je veux garder une trace de ce que je viens d'accomplir, je prends une CDE. Une situation amusante, CDE.",
+        "texte": "Ce n'est pas étonnant de voir que beaucoup de captures d'écran sont prises dans les jeux vidéos. Je suis impressionné par la beauté des graphismes devant un paysage, je prends une CDE. Je veux garder une trace de ce que je viens d'accomplir, je prends une CDE. Une situation amusante, CDE.",
         "w": 800
       },
       {
         "type": "CDE",
         "nom": "gazon.png",
-        "texte": "Il faut aussi souligner que l'industrie du jeu vidéo a besoin de CDE pour vendre ses produits, On achète pas un jeu avant d'avoir vu ce à quoi il ressemble et la beauté des graphismes est souvent au coeur de l'argumentaire de vente.",
+        "texte": "Il faut aussi souligner que l'industrie du jeu vidéo a besoin de CDE pour vendre ses produits, on n’achète pas un jeu avant d'avoir vu ce à quoi il ressemble et la beauté des graphismes est souvent au cœur de l'argumentaire de vente.",
         "w": 486
       },
       {
         "type": "CDE",
         "nom": "real_life.png",
-        "texte": "Les créateurs de jeux vidéos font parfois appel à des personnes extérieures dont le rôle sera de prendre les CDE qui mettrons le plus en valeur le travail des graphistes. Ici, le geste ressemble énormément à celui du photographe.",
+        "texte": "Les créateurs de jeux vidéos font parfois appel à des personnes extérieures dont le rôle sera de prendre les CDE qui mettront le plus en valeur le travail des graphistes. Ici, le geste ressemble énormément à celui du photographe.",
         "w": 554
       },
       {
@@ -145,57 +145,57 @@
       {
         "type": "CDE",
         "nom": "regard_cam_4.png",
-        "texte": "Google steet view donne reellement l'illusion d'être dans le monde reel et de pouvoir s'y déplacer à son gré. En réalité, on ne peut aller bien sûr, que là ou la voiture de google est passée",
+        "texte": "Google Street View donne réellement l'illusion d'être dans le monde réel et de pouvoir s'y déplacer à son gré. En réalité, on ne peut aller bien sûr, que là où la voiture de Google est passée",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "regard_cam_5.png",
-        "texte": "(c'est à dire essentiellement sur les routes des pays occidentaux) Mais Google street view est fait de telle sorte à ce qu'on oublie assez facilement la présence de la voiture aux 15 yeux et qu'on s'identifie à son point de vue.",
+        "texte": "(c'est à dire essentiellement sur les routes des pays occidentaux), mais Google Street View est fait de telle sorte à ce qu'on oublie assez facilement la présence de la voiture aux 15 yeux et qu'on s'identifie à son point de vue.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "rafman.png",
-        "texte": "Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerai dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes se prennent au jeu de la CDE street-view. Cette pratique pose évidement des questions morales, légales et artistiques sur le statut de créateur d’image.",
+        "texte": "Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerait dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes se prennent au jeu de la CDE Street View. Cette pratique pose évidemment des questions morales, légales et artistiques sur le statut de créateur d’image.",
         "w": 684
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
-        "texte": "Par ici on va parler des differences formelles qui opposent une photographie et une capture d'écran.",
+        "nom": "différences formelles entre photos et cde",
+        "texte": "Par ici, on va parler des différences formelles qui opposent une photographie et une capture d'écran.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "accueil",
-        "texte": "Par là on peut revenir à l'Accueil. (Le nom des salles que vous avez déjà visité s'affiche en italique)",
+        "texte": "Par là, on peut revenir à l'Accueil. (Le nom des salles que vous avez déjà visitées s'affiche en italique)",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "gazon_synthetique_version_luxe.png",
-        "texte": "Le mini golf est à l'instar de l'ordinateur un monde dans le monde réel. J'uttilise l'expression \"monde réél\", expression discutable puisque les autres mondes dont je parles n'ont rien d'irréels. Je veux parler en fait du monde qui contient tous les autres. Et à la fois celui dans le quel nous avons l'habitude d'évoluer.",
+        "texte": "Le mini golf est à l'instar de l'ordinateur un monde dans le monde réel. J'utilise l'expression \"monde réel\", expression discutable puisque les autres mondes dont je parle n'ont rien d'irréels. Je veux parler en fait du monde qui contient tous les autres. Et à la fois celui dans lequel nous avons l'habitude d'évoluer.",
         "w": 364
       }
     ],
-    "differences formelles entre photos et cde": [
+    "différences formelles entre photos et cde": [
       {
         "type": "CDE",
         "nom": "FUNNY.png",
-        "texte": "Je trouve cette image très drôle !",
+        "texte": "Je trouve cette image très drôle !",
         "w": 543
       },
       {
         "type": "CDE",
         "nom": "cde_a_l_ancienne.png",
-        "texte": "Celle là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des differences fondamentales entre photo et CDE.",
+        "texte": "Celle là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des différences fondamentales entre photo et CDE.",
         "w": 561
       },
       {
         "type": "porte",
         "nom": "à propos de la précision",
-        "texte": "Dans cette salle nous verrons comment la photographie est infiniment moins fidèle à son monde que la CDE au sien",
+        "texte": "Dans cette salle, nous verrons comment la photographie est infiniment moins fidèle à son monde que la CDE au sien",
         "w": 60
       },
       {
@@ -207,13 +207,13 @@
       {
         "type": "porte",
         "nom": "à propos du cadre",
-        "texte": "Dans celle-ci nous verrons ce qui distingue le cadrage d'une photo et celui d'une CDE",
+        "texte": "Dans celle-ci, nous verrons ce qui distingue le cadrage d'une photo et celui d'une CDE",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "accueil",
-        "texte": "  Retour au point de départ....",
+        "texte": "Retour au point de départ....",
         "w": 60
       }
     ],
@@ -221,18 +221,18 @@
       {
         "type": "CDE",
         "nom": "l_homme_a_la_camera_pellicule.png",
-        "texte": "En photo, le cadre est déterminé par le format de la pellicule (en photographie argentique) ou du capteur (en photographie numérique). En ce qui concerne la CDE, dans la plus-part des systèmes d'exploitation, l'utilisateur peut choisir son cadre librement sans contrainte de proportions. C'est une différence radicale dans la manière dont l'image peut être composée.",
+        "texte": "En photo, le cadre est déterminé par le format de la pellicule (en photographie argentique) ou du capteur (en photographie numérique). En ce qui concerne la CDE, dans la plupart des systèmes d'exploitation, l'utilisateur peut choisir son cadre librement sans contrainte de proportions. C'est une différence radicale dans la manière dont l'image peut être composée.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "facebook_turn_black.png",
-        "texte": "De plus l'auteur de CDE peut aussi choisir de ne pas cadrer, de prendre une CDE de tout son écran, ce choix-non-choix lui permet d'adopter un point de vue total. Cette idee de point de vue total, sans recadrage de la réalité est totalement étrangère à la photographie.",
+        "texte": "De plus, l'auteur de CDE peut aussi choisir de ne pas cadrer, de prendre une CDE de tout son écran, ce choix-non-choix lui permet d'adopter un point de vue total. Cette idée de point de vue total, sans recadrage de la réalité est totalement étrangère à la photographie.",
         "w": 1280
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
+        "nom": "différences formelles entre photos et cde",
         "texte": "Visitez si vous ne l'avez pas encore fait les autres différences entre CDE et photos.",
         "w": 60
       },
@@ -253,13 +253,13 @@
       {
         "type": "CDE",
         "nom": "dvd_cde_noir.png",
-        "texte": "Une CDE est une copie parfaite de son monde dans presque toutes les situations. Il existe des situations ou la CDE échoue. Je vais citer l'exemple de l'application Lecteur DVD sous mac OSX. Pour des raisons de copyright, si vous prenez une capture d'écran de cette application, vous verrez un écran noir (comme ci-dessus). Ici manifestement la CDE ne réstitue pas une copie sans faille de son monde. Et c'est dommage. Mais c'est comme ça.",
+        "texte": "Une CDE est une copie parfaite de son monde dans presque toutes les situations. Il existe des situations ou la CDE échoue. Je vais citer l'exemple de l'application Lecteur DVD sous Mac OSX. Pour des raisons de copyright, si vous prenez une capture d'écran de cette application, vous verrez un écran noir (comme ci-dessus). Ici manifestement la CDE ne réstitue pas une copie sans faille de son monde. Et c'est dommage. Mais c'est comme ça.",
         "w": 720
       },
       {
         "type": "porte",
         "nom": "à propos de la précision",
-        "texte": "Revenons à nos moutons !",
+        "texte": "Revenons à nos moutons !",
         "w": 60
       }
     ],
@@ -267,7 +267,7 @@
       {
         "type": "CDE",
         "nom": "photo_reel.png",
-        "texte": "On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde reel. Mais la photographie est loin de réussir, dans son monde, cette mission si bien que la CDE dans le siens.",
+        "texte": "On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde réel. Mais la photographie est loin de réussir, dans son monde, cette mission si bien que la CDE dans le siens.",
         "w": 585
       },
       {
@@ -279,19 +279,19 @@
       {
         "type": "CDE",
         "nom": "cette_etoile.png",
-        "texte": "Si je suppose qu'il y a dans le monde réel une echelle de détail qui serai l'echelle du plus petit détail qui soit un détail petit comme la longueur de Planck, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.",
+        "texte": "Si je suppose qu'il y a dans le monde réel une échelle de détail qui serai l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.",
         "w": 777
       },
       {
         "type": "CDE",
         "nom": "datamoshing.png",
-        "texte": "Dans le monde de l'ordinateur, ce détail le plus petit qui soit est le pixel. En réussissant à se renseigner dans l'instant sur la couleur précise de chaque pixel, la CDE réussi, dans son monde, le défi de la copie parfaite sans défauts, sans faille.",
+        "texte": "Dans le monde de l'ordinateur, ce détail le plus petit qui soit est le pixel. En réussissant à se renseigner dans l'instant sur la couleur précise de chaque pixel, la CDE réussi, dans son monde, le défi de la copie parfaite sans défaut, sans faille.",
         "w": 1280
       },
       {
         "type": "porte",
         "nom": "les failles",
-        "texte": "Bon.. Peut-être une ou deux failles mais pas plus...",
+        "texte": "Bon... Peut-être une ou deux failles, mais pas plus...",
         "w": 60
       },
       {
@@ -303,25 +303,25 @@
       {
         "type": "CDE",
         "nom": "Guide.png",
-        "texte": "les sujets représentés sur une CDE sont à echelle 1:1 , un icône qui mesurait 30 pixels de large mesurera exactement 30 pixels de large dans la CDE qui le représente.",
+        "texte": "les sujets représentés sur une CDE sont à échelle 1:1 , un icône qui mesurait 30 pixels de large mesurera exactement 30 pixels de large dans la CDE qui le représente.",
         "w": 90
       },
       {
         "type": "CDE",
         "nom": "mesurez_la_taille_de_l_ecran.png",
-        "texte": "Je peux tirer une photographie de telle sorte à ce que le sujet ai environ la même taille sur l'image qu'en vrai. Mais ce ne sera jamais exact. ",
+        "texte": "Je peux tirer une photographie de telle sorte à ce que le sujet ait environ la même taille sur l'image qu'en vrai. Mais ce ne sera jamais exact. ",
         "w": 677
       },
       {
         "type": "porte",
         "nom": "les raisins",
-        "texte": "Cette histoire de parfaite réplique me semble importante. Quelle difference persiste alors entre la CDE et son référend ?",
+        "texte": "Cette histoire de parfaite réplique me semble importante. Quelle différence persiste alors entre la CDE et son référent ?",
         "w": 60
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
-        "texte": "Par ici pour explorer d'autres differences entre photo et CDE.",
+        "nom": "différences formelles entre photos et cde",
+        "texte": "Par ici pour explorer d'autres différences entre photo et CDE.",
         "w": 60
       }
     ],
@@ -335,25 +335,25 @@
       {
         "type": "CDE",
         "nom": "bras_long.png",
-        "texte": "Ici nous voyons la capture d'écran d'un cadre de texte.",
+        "texte": "Ici, nous voyons la capture d'écran d'un cadre de texte.",
         "w": 445
       },
       {
         "type": "CDE",
         "nom": "cadre.png",
-        "texte": "Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant Ils ne sont pas de même nature, le cadre dans le quel je suis en train de parler est une interpretation par votre navigateur d'une ligne de code html, la CDE n'est qu'une image. Et malgrès les apparences ça change tout. Car le dans le cadre ou je suis en train de parler, vous pouvez selectionnez le texte et par exemple le copier pour le coller autre-part. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.",
+        "texte": "Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant ils ne sont pas de même nature, le cadre dans lequel je suis en train de parler est une interprétation par votre navigateur d'une ligne de code HTML, la CDE n'est qu'une image. Et malgré les apparences, ça change tout. Car dans le cadre où je suis en train de parler, vous pouvez sélectionner le texte et par exemple le copier pour le coller autre part. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.",
         "w": 812
       },
       {
         "type": "CDE",
         "nom": "balduchi_blaine.png",
-        "texte": "Cette petite experience nous apprend beaucoup, je trouves, sur la nature des CDE. Nous avons affaire a des illusions parfaites pour l'oeil mais qui ne résiste pas a l'expérience de la souris et de l'interaction.",
+        "texte": "Cette petite expérience nous apprend beaucoup, je trouve, sur la nature des CDE. Nous avons affaire à des illusions parfaites pour l'œil, mais qui ne résiste pas a l'expérience de la souris et de l'interaction.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "copie-parfaite.png",
-        "texte": "Entre ces fichiers image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra selectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.",
+        "texte": "Entre ces fichiers image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra sélectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.",
         "w": 875
       },
       {
@@ -364,64 +364,52 @@
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
-        "texte": "FUNNY !",
+        "nom": "différences formelles entre photos et cde",
+        "texte": "FUNNY !",
         "w": 60
-      }
-    ],
-    "salle 2": [
-      {
-        "type": "CDE",
-        "nom": "gazon.png",
-        "texte": "J'aurai pu appeller la salle 2 \" le petit jardin \""
-      },
-      {
-        "type": "porte",
-        "nom": "accueil",
-        "texte": "Pour retourner à l'Accueil"
       }
     ],
     "à propos du numen": [
       {
         "type": "CDE",
         "nom": "aiguilles_attachees.png",
-        "texte": "On a évoqué dans l'introduction la difference radicale entre le fonctionnement spatio-temporel du monde de l'ordinateur et celui du monde réel. Cette difference va être significative pour notre comparaison entre CDE et photographie. En effet la photographie est une technique qui repose beaucoup sur sa faculté à fixer l'instant présent.\n",
+        "texte": "On a évoqué dans l'introduction la différence radicale entre le fonctionnement spatio-temporel du monde de l'ordinateur et celui du monde réel. Cette différence va être significative pour notre comparaison entre CDE et photographie. En effet, la photographie est une technique qui repose beaucoup sur sa faculté à fixer l'instant présent.",
         "w": 787
       },
       {
         "type": "CDE",
         "nom": "la.png",
-        "texte": "Dans le monde de l'ordinateur, il y a beaucoup de moment où tout, ou presque, est figé l'auteur de CDE a tout son temps. Sur internet, la plus-part des sites sont immobiles tant qu'on interagi pas avec eux et qu'on ne recharge pas la page.\n",
+        "texte": "Dans le monde de l'ordinateur, il y a beaucoup de moment où tout, ou presque, est figé l'auteur de CDE a tout son temps. Sur internet, la plupart des sites sont immobiles tant qu'on n’interagit pas avec eux et qu'on ne recharge pas la page.",
         "w": 292
       },
       {
         "type": "CDE",
         "nom": "ferdi_vol.png",
-        "texte": "Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif Le monde réél est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthe appelle le numen.",
+        "texte": "Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthe appelle le numen.",
         "w": 239
       },
       {
         "type": "CDE",
         "nom": "immobilite.png",
-        "texte": "On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur referend. En effet, Si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde reel). On n'aurait pas de mal a distinguer une captue d'écran de ce qu'elle a capturé.",
+        "texte": "On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur référent. En effet, si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde réel). On n'aurait pas de mal a distinguer une capture d'écran de ce qu'elle a capturé.",
         "w": 254
       },
       {
         "type": "CDE",
         "nom": "fake_snow.png",
-        "texte": "Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une experience du Numen est aussi possible dans les jeux vidéos.",
+        "texte": "Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du Numen est aussi possible dans les jeux vidéos.",
         "w": 1280
       },
       {
         "type": "porte",
         "nom": "expérience",
-        "texte": "D'ailleur, puisque nous somme dans un jeu vidéo, je vous propose par ici une petite experience du Numen.",
+        "texte": "D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du Numen.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "pile",
-        "texte": "Et par ici je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écrans qui ont du être prises à la seconde près.",
+        "texte": "Et par ici, je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écrans qui ont dû être prises à la seconde près.",
         "w": 60
       },
       {
@@ -432,8 +420,8 @@
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
-        "texte": "Par là vous pouvez revenir à la page sur les differences entre photo et CDE.",
+        "nom": "différences formelles entre photos et cde",
+        "texte": "Par là, vous pouvez revenir à la page sur les différences entre photo et CDE.",
         "w": 60
       }
     ],
@@ -441,13 +429,13 @@
       {
         "type": "CDE",
         "nom": "1.png",
-        "texte": "Vous êtes venus visiter la collection d'heures piles !",
+        "texte": "Vous êtes venus visiter la collection d'heures pile !",
         "w": 497
       },
       {
         "type": "CDE",
         "nom": "2.png",
-        "texte": "C'est une collection qui comporte à l'heure ou je vous parles 42 elements.",
+        "texte": "C'est une collection qui comporte à l'heure où je vous parle 42 éléments.",
         "w": 851
       },
       {
@@ -459,7 +447,7 @@
       {
         "type": "CDE",
         "nom": "4.png",
-        "texte": "C'est le moment de vous rappeller que vous pouvez courir en maintenant la touche shift enfoncée pendant que vous vous déplacez. ",
+        "texte": "C'est le moment de vous rappeler que vous pouvez courir en maintenant la touche shift enfoncée pendant que vous vous déplacez. ",
         "w": 372
       },
       {
@@ -471,25 +459,25 @@
       {
         "type": "CDE",
         "nom": "11.png",
-        "texte": "Cette collection a commencée le 13 avril 2013 à 11h11 et 11 secondes, lorsque j'ai pris cette CDE.",
+        "texte": "Cette collection a commencé le 13 avril 2013 à 11h11 et 11 secondes, lorsque j'ai pris cette CDE.",
         "w": 293
       },
       {
         "type": "CDE",
         "nom": "12.png",
-        "texte": "Une de mes premières collections de CDE !",
+        "texte": "Une de mes premières collections de CDE !",
         "w": 230
       },
       {
         "type": "CDE",
         "nom": "13.png",
-        "texte": "Ça me fait penser que je ne vous ai pas encore parlé de http://cherchetescles.tumblr.com ! C'est une autre collection de CDE que je tiens. Allez jeter un coup d'oeil !\n",
+        "texte": "Ça me fait penser que je ne vous ai pas encore parlé de http://cherchetescles.tumblr.com ! C'est une autre collection de CDE que je tiens. Allez jeter un coup d'œil !",
         "w": 559
       },
       {
         "type": "CDE",
         "nom": "14.png",
-        "texte": "Vous ne pouvez pas immaginer le nombre de CDE d'heures piles que j'ai ratée !",
+        "texte": "Vous ne pouvez pas imaginer le nombre de CDE d'heures piles que j'ai raté !",
         "w": 464
       },
       {
@@ -501,13 +489,13 @@
       {
         "type": "CDE",
         "nom": "16.png",
-        "texte": "Parfois je vois qu'il est 13h13m2s, ce qui me laisse le temps de me préparer. Mais, malheur, je prend la CDE trop tôt 13h13m12s ! le temps que j'en prenne une seconde il est trop tard... ",
+        "texte": "Parfois je vois qu'il est 13h13m2s, ce qui me laisse le temps de me préparer. Mais, malheur, je prends la CDE trop tôt 13h13m12s ! le temps que j'en prenne une seconde il est trop tard... ",
         "w": 321
       },
       {
         "type": "CDE",
         "nom": "17.png",
-        "texte": "comme il me manque les CDE d'heures pile de toute une partie de la journée (de 5h5m5s à 9h9m9s), j'ai parfois pensé à tricher, à déregler l'horloge de mon ordinateur pour enfin atteindre l'objectif tour-du-cadran.",
+        "texte": "Comme il me manque les CDE d'heures pile de toute une partie de la journée (de 5h5m5s à 9h9m9s), j'ai parfois pensé à tricher, à déregler l'horloge de mon ordinateur pour enfin atteindre l'objectif tour-du-cadran.",
         "w": 422
       },
       {
@@ -537,13 +525,13 @@
       {
         "type": "CDE",
         "nom": "22.png",
-        "texte": "Reprennons la visite de salles plus interessantes.",
+        "texte": "Reprenons la visite de salles plus intéressantes.",
         "w": 980
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
-        "texte": "par ici :",
+        "nom": "différences formelles entre photos et cde",
+        "texte": "par ici :",
         "w": 60
       },
       {
@@ -557,7 +545,7 @@
       {
         "type": "CDE",
         "nom": "les_yeux_fermes.png",
-        "texte": "Je vais vous présenter mon ami, pour une experience du Numen vous pouvez en faire une capture d'écran et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.",
+        "texte": "Je vais vous présenter mon ami, pour une expérience du Numen vous pouvez en faire une capture d'écran et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.",
         "w": 525
       },
       {
@@ -569,7 +557,7 @@
       {
         "type": "porte",
         "nom": "à propos du numen",
-        "texte": "À bientôt mon ami !",
+        "texte": "À bientôt mon ami !",
         "w": 60
       }
     ],
@@ -583,7 +571,7 @@
       {
         "type": "CDE",
         "nom": "crepes.png",
-        "texte": "On reconnait une CDE à ce que son cadre souvent bave, une CDE de photo a souvent sur ses bords des indices du contexte dans le quel elle a été prise. (regardez bien)",
+        "texte": "On reconnait une CDE à ce que son cadre souvent bave, une CDE de photo a souvent sur ses bords des indices du contexte dans lequel elle a été prise. (regardez bien)",
         "w": 504
       },
       {
@@ -595,19 +583,19 @@
       {
         "type": "CDE",
         "nom": "milovanoff.png",
-        "texte": "Cette idée de contexte qui déborde visuellement sur sur le sujet et la présence de mots et d'images tronquées ne sont pas propre a la CDE et ont déjà été éxplorées dans d'autres média.",
+        "texte": "Cette idée de contexte qui déborde visuellement sur le sujet et la présence de mots et d'images tronquées ne sont pas propres à la CDE et ont déjà été explorées dans d'autres média.",
         "w": 513
       },
       {
         "type": "porte",
         "nom": "dans son contexte",
-        "texte": "Par ici creusons le rapport entre une CDE et son contexte.",
+        "texte": "Par ici, creusons le rapport entre une CDE et son contexte.",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "tote.png",
-        "texte": "Certaines jeunes peintures de Richter, pour les raisons que l'on viens d'ennoncer, ressemblent beaucoup à des CDE.",
+        "texte": "Certaines jeunes peintures de Richter, pour les raisons que l'on vient d'énoncer, ressemblent beaucoup à des CDE.",
         "w": 752
       },
       {
@@ -621,13 +609,13 @@
       {
         "type": "CDE",
         "nom": "After_Hours_porte.png",
-        "texte": "Ici c'est un peu de la triche puisque tu peux acceder à toutes les salles du musee.",
+        "texte": "Ici c'est un peu de la triche puisque tu peux accéder à toutes les salles du musée.",
         "w": 1280
       },
       {
         "type": "porte",
         "nom": "accueil",
-        "texte": "Pour aller ici enfait il suffit de recharger la page.",
+        "texte": "Pour aller ici en fait il suffit de recharger la page.",
         "w": 60
       },
       {
@@ -644,26 +632,26 @@
       },
       {
         "type": "porte",
-        "nom": "differences formelles entre photos et cde",
-        "texte": "Où il est question des differences entre photo et CDE (parce que enfait c'est pas si pareil).",
+        "nom": "différences formelles entre photos et cde",
+        "texte": "Où il est question des différences entre photo et CDE (parce qu’en fait c'est pas si pareil).",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "à propos du cadre",
-        "texte": "Ce qui est different entre cadre de CDE et cadre de photo.",
+        "texte": "Ce qui est différent entre cadre de CDE et cadre de photo.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "à propos de la précision",
-        "texte": "Ce qui est different entre la precision d'une CDE et la précision d'une photo.",
+        "texte": "Ce qui est différent entre la précision d'une CDE et la précision d'une photo.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "à propos du numen",
-        "texte": "Parler de numen est il aussi  pertinant dans la CDE que dans la photo ?",
+        "texte": "Parler de numen est-il aussi pertinent dans la CDE que dans la photo ?",
         "w": 60
       },
       {
@@ -675,7 +663,7 @@
       {
         "type": "porte",
         "nom": "les raisins",
-        "texte": "Là on parle d'un vieu peintre qui peignait les raisins comme personne.",
+        "texte": "Là on parle d'un vieux peintre qui peignait les raisins comme personne.",
         "w": 60
       },
       {
@@ -687,13 +675,13 @@
       {
         "type": "porte",
         "nom": "expérience",
-        "texte": "Pout tirer un dé.",
+        "texte": "Pour tirer un dé.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "à quoi ressemble une cde",
-        "texte": "Bonne question non ?",
+        "texte": "Bonne question non ?",
         "w": 60
       },
       {
@@ -723,13 +711,13 @@
       {
         "type": "porte",
         "nom": "beaux bugs",
-        "texte": "Ici on trouves ça beau.",
+        "texte": "Ici on trouve ça beau.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "conclusion",
-        "texte": "Ici c'est la fête dans le musée !",
+        "texte": "Ici c'est la fête dans le musée !",
         "w": 60
       },
       {
@@ -755,25 +743,25 @@
       {
         "type": "CDE",
         "nom": "deux_cles.png",
-        "texte": "La CDE cadrée permet, en le sortant de son contexte, de redéfinir le sens de son referend.",
+        "texte": "La CDE cadrée permet, en le sortant de son contexte, de redéfinir le sens de son référent.",
         "w": 443
       },
       {
         "type": "porte",
         "nom": "on peut avoir du mal",
-        "texte": "Nous voyons dans cette salle qu'on peut avoir du mal avec la notion d'auteur de CDE. puisque l'auteur de CDE ne fait absolument que transférer des extraits de créations d'autres auteurs.",
+        "texte": "Nous voyons dans cette salle qu'on peut avoir du mal avec la notion d'auteur de CDE. Puisque l'auteur de CDE ne fait absolument que transférer des extraits de créations d'autres auteurs.",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "diptique_vague.png",
-        "texte": "Mais l'avantage d'un medium aussi simple que la CDE c'est qu'il est possible de décortiquer assez son geste pour comprendre où se situe la marge de créativité. Une fois qu'une marge de créativité est identifiée le problème de l'idée de créateur est positivement résolu.",
+        "texte": "Mais l'avantage d'un médium aussi simple que la CDE c'est qu'il est possible de décortiquer assez son geste pour comprendre où se situe la marge de créativité. Une fois qu'une marge de créativité est identifiée, le problème de l'idée de créateur est positivement résolu.",
         "w": 452
       },
       {
         "type": "CDE",
         "nom": "screenshot_art_exercise.png",
-        "texte": "La marge de créativité de la CDE se situe dans deux moments. Premièrement ce que fait l'auteur de CDE avant la CDE, Deuxièmement ce qu'il fait pendant.",
+        "texte": "La marge de créativité de la CDE se situe dans deux moments. Premièrement ce que fait l'auteur de CDE avant la CDE, deuxièmement ce qu'il fait pendant.",
         "w": 290
       },
       {
@@ -785,13 +773,13 @@
       {
         "type": "CDE",
         "nom": "Does_this_look_white.png",
-        "texte": "Ce qu'il fait pendant c'est choisir l'instant (Ce choix de l'instant, vue la temporalité du monde de l'ordinateur, a une faible influence) et, pour les CDE cadrées, choisir le cadre. Le choix du cadre c'est sortir le référent de son contexte et c'est je pense ce qu'il y a de majeur dans le geste CDE.",
+        "texte": "Ce qu'il fait pendant c'est choisir l'instant (ce choix de l'instant, vu la temporalité du monde de l'ordinateur, a une faible influence) et, pour les CDE cadrées, choisir le cadre. Le choix du cadre c'est sortir le référent de son contexte et c'est, je pense, ce qu'il y a de majeur dans le geste CDE.",
         "w": 112
       },
       {
         "type": "porte",
         "nom": "à quoi ressemble une cde",
-        "texte": "Par-là c'est de nouveau la salle avec une photo de polystirènne.",
+        "texte": "Par là, c'est de nouveau la salle avec une photo de polystyrène.",
         "w": 60
       }
     ],
@@ -799,13 +787,13 @@
       {
         "type": "CDE",
         "nom": "lions.png",
-        "texte": "Le peintre Richter a développé un Corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prise. C'est un outil évidement utile pour un artiste qui peint d'après photos.",
+        "texte": "Le peintre Richter a développé un Corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.",
         "w": 664
       },
       {
         "type": "CDE",
         "nom": "lion.png",
-        "texte": "La collection d'images est une pratique courante, chez les artistes bien sûr mais aussi chez les adolescents et puis aussi pour tout un tas d'autres personnes.\n",
+        "texte": "La collection d'images est une pratique courante, chez les artistes bien sûr, mais aussi chez les adolescents et puis aussi pour tout un tas d'autres personnes.",
         "w": 379
       },
       {
@@ -823,49 +811,49 @@
       {
         "type": "CDE",
         "nom": "code_repondeur.png",
-        "texte": "Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bête.",
+        "texte": "Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bêtes.",
         "w": 686
       },
       {
         "type": "CDE",
         "nom": "bar_de_menu_bug.png",
-        "texte": "Les CDE report-issue. Quand un utilisateur repère un bug sur un logiciel ou un site et qu'il décide bienveillamment d'en informer les developpeurs, il peut lui être uttile de prendre une CDE du bug.",
+        "texte": "Les CDE report-issue. Quand un utilisateur repère un bug sur un logiciel ou un site et qu'il décide bienveillamment d'en informer les développeurs, il peut lui être utile de prendre une CDE du bug.",
         "w": 755
       },
       {
         "type": "CDE",
         "nom": "Gwyddion.png",
-        "texte": "Une CDE on l'a déjà dis peut servir à présenter à de potentiels acheteurs l'interface graphique d'un d'un logiciel ou d'un jeu-vidéo. Les premières CDE avaient très certainement ce but commercial.",
+        "texte": "Une CDE on l'a déjà dit peut servir à présenter à de potentiels acheteurs l'interface graphique d'un logiciel ou d'un jeu vidéo. Les premières CDE avaient très certainement ce but commercial.",
         "w": 741
       },
       {
         "type": "CDE",
         "nom": "avocate_qui_uttilise_des_cde.png",
-        "texte": "La CDE peut être un moyen rapide de transmettre une information a un ami, elle peut être un moyen d'archiver le contenu d'un site par exemple pour constituer une preuve dans le cadre d'une affaire judiciaire.",
+        "texte": "La CDE peut être un moyen rapide de transmettre une information à un ami, elle peut être un moyen d'archiver le contenu d'un site par exemple pour constituer une preuve dans le cadre d'une affaire judiciaire.",
         "w": 540
       },
       {
         "type": "CDE",
         "nom": "appareil_photo_a_cde.png",
-        "texte": "La métaphore du coup de ciseaux dans les pages d'un magasine ne convient pas à toutes ces pratiques. La métaphore de la photocopieuse pourrait s'avérer plus pertinente dans certains cas, surtout qu'elle évoque l'idée, importante pour la CDE, de photographie à plat (reproduction d'un espace bidimensionel).",
+        "texte": "La métaphore du coup de ciseaux dans les pages d'un magazine ne convient pas à toutes ces pratiques. La métaphore de la photocopieuse pourrait s'avérer plus pertinente dans certains cas, surtout qu'elle évoque l'idée, importante pour la CDE, de photographie à plat (reproduction d'un espace bidimensionnel).",
         "w": 655
       },
       {
         "type": "CDE",
         "nom": "exercice.png",
-        "texte": "En ce qui concerne la CDE artistique, la métaphore de la photographie semble souvent la plus pertinente. Notament en ce qui concerne la posture.",
+        "texte": "En ce qui concerne la CDE artistique, la métaphore de la photographie semble souvent la plus pertinente. Notamment en ce qui concerne la posture.",
         "w": 231
       },
       {
         "type": "CDE",
         "nom": "Antti_Laitinen.png",
-        "texte": "Parfois, l'auteur de CDE  en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil a porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.",
+        "texte": "Parfois, l'auteur de CDE en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil a porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.",
         "w": 508
       },
       {
         "type": "CDE",
         "nom": "Anne_horel.png",
-        "texte": "Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et 'réalisme') sont aussi présententes dans la photographie. (ici, cde d'une cde d'Anne Horel)",
+        "texte": "Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et 'réalisme') sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)",
         "w": 347
       },
       {
@@ -877,7 +865,7 @@
       {
         "type": "CDE",
         "nom": "deckstop_is.png",
-        "texte": "Ça c'est la page d'accueil de Deckstop IS, une éxposition en ligne de capture d'écran de bureau (en 97)",
+        "texte": "Ça c'est la page d'accueil de Deckstop IS, une exposition en ligne de capture d'écran de bureau (en 97)",
         "w": 811
       }
     ],
@@ -885,19 +873,19 @@
       {
         "type": "CDE",
         "nom": "orthographe.png",
-        "texte": "Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour ’photographier’ des paroles, ce que la photographie ne peut pas faire.\n",
+        "texte": "Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour ’photographier’ des paroles, ce que la photographie ne peut pas faire.",
         "w": 564
       },
       {
         "type": "CDE",
         "nom": "contrevolutioniste.png",
-        "texte": "Les CDE de dialogues, ont un fort pouvoir narratif. C'est une forme proche de la bande dessinée puisque ce sont des images de personnages qui parlent et de ce qu'ils disent. (Et puis les developpeurs d'interface de chat et de messagerie se réapproprient parfois la bulle de BD.)",
+        "texte": "Les CDE de dialogues ont un fort pouvoir narratif. C'est une forme proche de la bande dessinée puisque ce sont des images de personnages qui parlent et de ce qu'ils disent. (Et puis les développeurs d'interface de chat et de messagerie se réapproprient parfois la bulle de BD.)",
         "w": 324
       },
       {
         "type": "CDE",
         "nom": "sms.png",
-        "texte": "On trouve sur internet une abondance de Capture d'écran de téléphone ou l'on peut lire une conversation sms entre deux personne. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouves que ce jeu de mise en scène virtuelle est conceptuellemnt intéressant, qu'il meriterait d'être creusé.\n",
+        "texte": "On trouve sur internet une abondance de capture d'écran de téléphone ou l'on peut lire une conversation SMS entre deux personnes. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouve que ce jeu de mise en scène virtuelle est conceptuellement intéressant, qu'il mériterait d'être creusé.",
         "w": 1265
       },
       {
@@ -917,31 +905,31 @@
       {
         "type": "CDE",
         "nom": "je_t_explique.png",
-        "texte": "On peut avoir du mal a considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal a considerer la CDE comme un medium car le monde de l'ordinateur est souvent considéré comme un medium, alors que non, c'est un monde ou à la limite un super-medium, un méta-medium.",
+        "texte": "On peut avoir du mal à considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal a considérer la CDE comme un medium car le monde de l'ordinateur est souvent considéré comme un médium, alors que non, c'est un monde ou à la limite un super-médium, un métamédium.",
         "w": 633
       },
       {
         "type": "CDE",
         "nom": "chargement_bug.png",
-        "texte": "On peut avoir du mal à considérer que la CDE produit des image. En effet, tout ce qu'une capture d'écran peut capturer c'est des images créée par l'homme ou des images créés par des créations de l'homme. Les images produites par une CDE ont pour ainsi dire, déjà été produite. Chaque partie d'une CDE est la reproduction d'une oeuvre (que ce soit un bout de texte, une photo, une typographie, un icône, le design d'une scroll-bar).",
+        "texte": "On peut avoir du mal à considérer que la CDE produit des images. En effet, tout ce qu'une capture d'écran peut capturer c'est des images créées par l'homme ou des images créés par des créations de l'homme. Les images produites par une CDE ont pour ainsi dire, déjà été produites. Chaque partie d'une CDE est la reproduction d'une œuvre (que ce soit un bout de texte, une photo, une typographie, un icône, le design d'une scroll-bar).",
         "w": 227
       },
       {
         "type": "CDE",
         "nom": "panorama.png",
-        "texte": "Dans ce musée toute les CDE ont été prise par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devait y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plus-part des pays, mes CDE seraient des rectangles noirs. ",
+        "texte": "Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plupart des pays, mes CDE seraient des rectangles noirs. ",
         "w": 1039
       },
       {
         "type": "CDE",
         "nom": "la_question_des_droits_d_auteurs_screenshot.png",
-        "texte": "Pourtant ces CDE sont les miennes et je ne peux pas m'empêcher de penser que ce sont des images que je produit. Je ne vais pas aller plus loin dans cette reflexion, ce sont des questions beaucoup trop compliqués, il leur faudrait un deuxième musée de CDE.",
+        "texte": "Pourtant ces CDE sont les miennes et je ne peux pas m'empêcher de penser que ce sont des images que je produis. Je ne vais pas aller plus loin dans cette réflexion, ce sont des questions beaucoup trop compliquées, il leur faudrait un deuxième musée de CDE.",
         "w": 407
       },
       {
         "type": "CDE",
         "nom": "la_nature_peut_faire.png",
-        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.\n",
+        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.",
         "w": 290
       },
       {
@@ -953,7 +941,7 @@
       {
         "type": "porte",
         "nom": "conclusion",
-        "texte": "Enfait on arrive à la fin du musée. la dernière salle du musée c'est celle là…",
+        "texte": "Enfait, on arrive à la fin du musée. La dernière salle du musée c'est celle-là…",
         "w": 60
       }
     ],
@@ -961,7 +949,7 @@
       {
         "type": "CDE",
         "nom": "glitch_glisse.png",
-        "texte": "J'ai dis que la CDE était toujours la copie d'une création humaine ou d'une création de création humaine.",
+        "texte": "J'ai dit que la CDE était toujours la copie d'une création humaine ou d'une création de création humaine.",
         "w": 557
       },
       {
@@ -973,25 +961,25 @@
       {
         "type": "CDE",
         "nom": "youtube_couleur.png",
-        "texte": "J'ai pu en identifié deux, les premières sont les endroit ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glictch. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultats d'un défaut de la machine du à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non-maitrisé).",
+        "texte": "J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glictch. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maitrisé).",
         "w": 871
       },
       {
         "type": "CDE",
         "nom": "fichier_code.png",
-        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adresse pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.",
+        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adresse pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.",
         "w": 1107
       },
       {
         "type": "CDE",
         "nom": "main_sur_un_arbre.png",
-        "texte": "Malgrè que l'on puisse dire que l'homme en est l'auteur (indirectement mais indéniablement), on trouve dans ces deux images quelquechose proche de ce qu'on appelle dans le monde réél, la nature. Des formes qui semble arbitraires ou l'on peut percevoir pourtant une logique soujacente. Une sorte d'irrégularité tranquille. Je ressent un très fort besoin que j'ai de prendre une capture d'écran de ces situations quand j'en vois une.",
+        "texte": "Malgrè que l'on puisse dire que l'homme en est l'auteur (indirectement, mais indéniablement), on trouve dans ces deux images quelque chose proche de ce qu'on appelle dans le monde réel, la nature. Des formes qui semblent arbitraires ou l'on peut percevoir pourtant une logique soujacente. Une sorte d'irrégularité tranquille. Je ressens un très fort besoin que j'ai de prendre une capture d'écran de ces situations quand j'en vois une.",
         "w": 303
       },
       {
         "type": "CDE",
         "nom": "Yang_tse.png",
-        "texte": "Ces situations sont pitoresques au sens propre : elles méritent de devenir images.",
+        "texte": "Ces situations sont pittoresques au sens propre : elles méritent de devenir images.",
         "w": 431
       },
       {
@@ -1005,21 +993,22 @@
       {
         "type": "CDE",
         "nom": "conclusion.png",
-        "texte": "Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ai pas de porte et qu'elle s'appelle ’conclusion’ m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.",
+        "texte": "Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ait pas de porte et qu'elle s'appelle ’conclusion’ m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.",
         "w": 831
       },
       {
         "type": "CDE",
         "nom": "Deguisement_feuille.png",
-        "texte": "Et si je faisait plutôt une petite danse ?",
+        "texte": "Et si je faisais plutôt une petite danse ?",
         "w": 536
       },
       {
         "type": "special",
         "nom": "DANSE",
-        "texte": "lalala lalalalala !!",
+        "texte": "lalala lalalalala !!",
         "w": 600
       }
-    ]
+    ],
+    "choisissez la salle": []
   }
 }

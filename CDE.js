@@ -55,12 +55,14 @@ var danseMouvement=1; // actuel mouvemeent de danse
 var nbDanseMouvement = 3; // (combien de mouvement de danse disponnibles)
 var tetelevee = false;
 var chosesDite =""; // ce qui dois etre dit
+var mute = false; //mode silencieux
 var speed = 3; //vitesse marche
 
-//
+// Portes
 var entreDansLaPorte = null; //dans quelle porte il entre
 var estEnTrainDePasserLaPorte = false;
 var sallesVisitees = []; //historique
+var passeDansLaPorteParLaGauche; //bol
 
 //
 var loading = true;
@@ -159,6 +161,26 @@ function draw() {
 		PART_PORTE();
 	} else {
 		divBulle.html("loading....");
+	}
+}
+
+function keyTyped () {
+	if(key === 'm') {
+		if(mute){
+			mute = false;
+			divBulle.show();
+		} else {
+			alert('En appuyant sur M, vous passez en mode muet. Appuyez une nouvelle fois sur M pour annuler.');
+			mute = true;
+			divBulle.hide();
+		}
+	}
+	if(key === 'd') {
+		if(!ilDanse) {
+			alert('Quand vous appuyez sur D, le guide s\'immagine qu\'il danse.');
+		} else {
+			alert('Le guide adore danser !!!')
+		}
 	}
 }
 
@@ -307,33 +329,34 @@ function PART_HISTOIRE () {
 //PART PORTE gere les portes et le chanement de salle
 function PART_PORTE () {
 	if(keyDown(' ')){ //SI ON APPUIE SUR LA BARRE D'ESPACE
-
 		for (var i = 0; i < obj.length; i++) { // ON REGARDE TOUS LES OBJET
 			if(obj[i].type=='porte'){ // PARTICULIÈREMENT CEUX QUI SONT DES PORTES
 				if (man.position.x-20/2 >= obj[i].x && man.position.x+20 <= obj[i].x+obj[i].w) { //SI LE PERSO EST DANS L'UNE D'ELLES
 					entreDansLaPorte = i; // ON IDENTIFIE LA PORTE
 					estEnTrainDePasserLaPorte = true; // ON NOTE CE QU'IL SE PASSE
+										if(man.position.x > obj[i].x + obj[i].w/2){ //ON VOIS DE QUEL CÔTÉ IL PASSE LA PORTE
+						passeDansLaPorteParLaGauche = true;
+					} else {
+						passeDansLaPorteParLaGauche = false;
+					}
+
 				}
 			}
 		}
-	} else {
-		//estEnTrainDePasserLaPorte = false;
-		//entreDansLaPorte = null;
 	}
-
-
-
 	if (estEnTrainDePasserLaPorte) { // S'IL PASSE UNE PORTE
-
-			obj[entreDansLaPorte].cachePorte(); //ON MET LE CACHE
-		
-			if(man.position.x <= obj[entreDansLaPorte].x -50 || man.position.x >= obj[entreDansLaPorte].x+obj[entreDansLaPorte].w+50) {
-				estEnTrainDePasserLaPorte = false;
-				installerLaSalle(obj[entreDansLaPorte].nom);
-			}// else 	if(man.position.x-15/2 >= obj[i].x && man.position.x+15 <= obj[i].x+obj[i].w) {
-			// 	estEnTrainDePasserLaPorte = false;
-			// 	installerLaSalle(obj[entreDansLaPorte].nom);
-			// }
+		obj[entreDansLaPorte].cachePorte(); //ON MET LE CACHE
+		//S'IL SORS, C'EST PARTI
+		if(man.position.x <= obj[entreDansLaPorte].x -50 || man.position.x >= obj[entreDansLaPorte].x+obj[entreDansLaPorte].w+50) {
+			estEnTrainDePasserLaPorte = false;
+			installerLaSalle(obj[entreDansLaPorte].nom);
+		}
+		//S'IL REPASSE PAR LE MILIEU ON ANNULE
+		if ((!passeDansLaPorteParLaGauche && man.position.x > obj[entreDansLaPorte].x  + obj[entreDansLaPorte].w/2) ||
+			(passeDansLaPorteParLaGauche && man.position.x < obj[entreDansLaPorte].x + obj[entreDansLaPorte].w/2)) {
+			estEnTrainDePasserLaPorte = false;
+			entreDansLaPorte = null;
+		}
 	}
 
 	
