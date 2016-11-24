@@ -179,7 +179,7 @@ function keyTyped () {
 		if(!ilDanse) {
 			alert('Quand vous appuyez sur D, le guide s\'immagine qu\'il danse.');
 		} else {
-			alert('Le guide adore danser !!!')
+			alert('Le guide adore danser !!!');
 		}
 	}
 }
@@ -212,6 +212,8 @@ function PART_DISPLAYOBJ () {
 
 //PART ANIMATION fait avancer le perso, l'anime, etc
 function PART_ANIMATION () {
+
+
 	// Est-ce qu'il marche ?
 	if (keyIsDown(RIGHT_ARROW) || keyIsDown(LEFT_ARROW)) {
 		//Il marche : 
@@ -223,14 +225,12 @@ function PART_ANIMATION () {
 			man.changeAnimation('MARCHETETELEVEE');
 		}
 
-		// rapide ou lent ? 
-		
-		if(keyIsDown(SHIFT)){
+		if(keyIsDown(SHIFT)){		// rapide ou lent ? 
 			speed=30;
-			console.log('run');
 		} else {
 			speed =3;
 		}
+
 
 		// vers la gauche ou la droite ?
 		if(keyIsDown(RIGHT_ARROW)){
@@ -334,7 +334,7 @@ function PART_PORTE () {
 				if (man.position.x-20/2 >= obj[i].x && man.position.x+20 <= obj[i].x+obj[i].w) { //SI LE PERSO EST DANS L'UNE D'ELLES
 					entreDansLaPorte = i; // ON IDENTIFIE LA PORTE
 					estEnTrainDePasserLaPorte = true; // ON NOTE CE QU'IL SE PASSE
-										if(man.position.x > obj[i].x + obj[i].w/2){ //ON VOIS DE QUEL CÔTÉ IL PASSE LA PORTE
+					if(man.position.x > obj[i].x + obj[i].w/2){ //ON VOIS DE QUEL CÔTÉ IL PASSE LA PORTE
 						passeDansLaPorteParLaGauche = true;
 					} else {
 						passeDansLaPorteParLaGauche = false;
@@ -346,16 +346,17 @@ function PART_PORTE () {
 	}
 	if (estEnTrainDePasserLaPorte) { // S'IL PASSE UNE PORTE
 		obj[entreDansLaPorte].cachePorte(); //ON MET LE CACHE
-		//S'IL SORS, C'EST PARTI
-		if(man.position.x <= obj[entreDansLaPorte].x -50 || man.position.x >= obj[entreDansLaPorte].x+obj[entreDansLaPorte].w+50) {
-			estEnTrainDePasserLaPorte = false;
-			installerLaSalle(obj[entreDansLaPorte].nom);
-		}
+
 		//S'IL REPASSE PAR LE MILIEU ON ANNULE
+			console.log(entreDansLaPorte);
 		if ((!passeDansLaPorteParLaGauche && man.position.x > obj[entreDansLaPorte].x  + obj[entreDansLaPorte].w/2) ||
 			(passeDansLaPorteParLaGauche && man.position.x < obj[entreDansLaPorte].x + obj[entreDansLaPorte].w/2)) {
 			estEnTrainDePasserLaPorte = false;
 			entreDansLaPorte = null;
+		//S'IL SORS, C'EST PARTI
+		} else if(man.position.x <= obj[entreDansLaPorte].x -50 || man.position.x >= obj[entreDansLaPorte].x+obj[entreDansLaPorte].w+50) {
+			estEnTrainDePasserLaPorte = false;
+			installerLaSalle(obj[entreDansLaPorte].nom);
 		}
 	}
 
@@ -369,7 +370,7 @@ function PART_PORTE () {
 				installerLaSalle(p);
 			}
 		}
-	} 
+	}
 }
 
 
