@@ -1,7 +1,7 @@
 {
   "extra": {
     "titre": "Le musee de CDE",
-    "footer": "Se déplacer <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Regarder plus en l'air ou plus en bas <img src=\"img/icones_commandes/fleches_U_D.png\", alt=\"flèches haut et bas\"></img> | Passer une porte <img src=\"img/icones_commandes/space.png\", alt=\"barre d'espace\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Courir <img src=\"img/icones_commandes/shift.png\", alt=\"shift\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Acceder à une salle en connaissant son nom <img src=\"img/icones_commandes/entrer.png\", alt=\"entrer\"></img>",
+    "footer": "Se déplacer <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Regarder plus en l'air ou plus en bas <img src=\"img/icones_commandes/fleches_U_D.png\", alt=\"flèches haut et bas\"></img> | Passer une porte <img src=\"img/icones_commandes/space.png\", alt=\"barre d'espace\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Courir <img src=\"img/icones_commandes/shift.png\", alt=\"shift\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Lire la glose (s'il y a un *) <img src=\"img/icones_commandes/alt.png\", alt=\"alt\"></img> | Acceder à une salle en connaissant son nom <img src=\"img/icones_commandes/entrer.png\", alt=\"entrer\"></img>",
     "nav": "<a href='CDE-about.html'>À propos</a> | <a href='CDE-help.html'>Aide</a>"
   },
   "salles": {
@@ -24,78 +24,91 @@
         "type": "CDE",
         "nom": "62747_heures.png",
         "texte": "En fait, à partir du début des années 80 il y a un changement radical dans le monde de l'informatique grand public : l’arrivée des premières interfaces graphiques. Avant, un ordinateur c'était des lignes de textes peu intuitives ou totalement incompréhensibles pour le novice. Le but est de rendre l'utilisation des ordinateurs plus facile pour qu'ils puissent se répandre dans les bureaux voire les salons.",
+        "alt": "",
         "w": 395
       },
       {
         "type": "CDE",
         "nom": "chaise_de_bureau.png",
         "texte": "Alors oui, un ordinateur avec une interface graphique développée coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés de cette entreprise sera longue et coûteuse.",
+        "alt": "",
         "w": 610
       },
       {
         "type": "CDE",
         "nom": "metaphaure_ouh.png",
-        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie à ce moment-là pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC (un centre de recherche en informatique) qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
+        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie à ce moment-là pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
+        "alt": "Le Xerox PARC (aujourd'hui : PARC tout court) c'est un centre de recherche informatique qui a inventé tout un tas de choses dans les années 70-80. On raconte souvent la visite de Steave Jobs au Xerox PARC en 79 déterminante pour le développement de LISA.",
         "w": 311
       },
       {
         "type": "CDE",
         "nom": "3_poubelles.png",
         "texte": "Étant donné qu'on s'adresse à des employés de bureau, on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que depuis, tous les systèmes d'exploitation ont suivi cette idée de \"métaphore du bureau\".",
+        "alt": "",
         "w": 750
       },
       {
         "type": "CDE",
         "nom": "Bug_Window.png",
         "texte": "Il y a bien sûr des limites à la dekstop metaphor, tout dans l'ordinateur ne peut pas être comparé à un élément du bureau, mais ce n'est pas pour autant qu'on invente beaucoup de nouveaux mots lorsque l'on est confronté à ces limites. On préférera de nouvelles métaphores, les fenêtres, les menus, les virus…",
+        "alt": "",
         "w": 110
       },
       {
         "type": "CDE",
         "nom": "deckstopmetaphor.png",
         "texte": "Évidemment, la métaphore du bureau ne s'arrête pas au langage, elle est aussi visuelle (des icônes en forme de dossiers) et structurelle (les fichiers sont rangés dans des dossiers). Le monde de l'ordinateur est une sorte d'imitation abstraite et approximative du monde réel. Nous, on joue le jeu,",
+        "alt": "",
         "w": 544
       },
       {
         "type": "CDE",
         "nom": "Bureau_bien_range.png",
         "texte": "on range notre bureau, on va chercher dans la corbeille un document qu'on a jeté par erreur. On se sent chez soi dans l'ordinateur et internet (qui prend de plus en plus un rôle important dans notre utilisation du PC) prend assez naturellement la place du monde extérieur.",
+        "alt": "",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "se_connecter_a_l_exterieur.png",
         "texte": "Avec ses boutiques, ses lieux de rencontre (des forums, autre métaphore), un monde qui grouillent, en évolution continue et avec un fonctionnement spatio-temporel très différent de celui du monde réel...",
+        "alt": "",
         "w": 227
       },
       {
         "type": "CDE",
         "nom": "voyage_voyage_voyage_voyage.png",
         "texte": "Dans le monde de l'ordinateur, autre chose importante, on se déplace : on va voir dans ce dossier, on va visiter ce site. Ce site comme ce dossier ont une adresse.",
+        "alt": "",
         "w": 396
       },
       {
         "type": "CDE",
         "nom": "Vive_les_cde.png",
         "texte": "Ce qu'il se passe, ce pour quoi on est là, c'est qu'au cours de notre exploration du monde de l'ordinateur, on peut prendre des captures d'écran. Étant donné la dimension métaphorique de ce monde, il est assez naturel de considérer que la capture d'écran est l'équivalent, dans le monde réel, de la photographie. Je vous propose d'explorer maintenant les enjeux de cette équivalence.",
+        "alt": "",
         "w": 192
       },
       {
         "type": "porte",
         "nom": "les mondes dans le monde",
         "texte": "Par ici, nous parlerons des mondes dans le monde de l'ordinateur qui ressemblent particulièrement au monde réel.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "accueil",
         "texte": "Par ici, vous pouvez retourner à l'accueil (remarquez que le nom des salles que vous avez déjà visitées s'affiche en italique)",
+        "alt": "",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "ecran_range.png",
         "texte": "Ici on a une autre manière de ranger son bureau. (Peut-être ai-je oublié de vous dire que vous pouvez me faire lever la tête en appuyant sur la flèche du haut. Ça s'avérera pratique pour toutes les captures d'écran plus grandes que votre fenêtre puisque nous avons pris le parti de présenter toutes les CDE de notre collection à échelle 1)",
+        "alt": "",
         "w": 1920
       }
     ],
@@ -104,78 +117,91 @@
         "type": "CDE",
         "nom": "Aaaa.png",
         "texte": "Alors on se balade dans le monde de l'ordinateur et on prend des captures d'écran comme on se balade dans le monde réel en prenant des photos.",
+        "alt": "",
         "w": 71
       },
       {
         "type": "CDE",
         "nom": "jeu_cde.png",
         "texte": "Dans la plupart des mondes, on trouve, si on les regarde de près, des mondes dans le monde. Le monde de l'ordinateur, par exemple, est un monde dans le monde réel.",
+        "alt": "",
         "w": 258
       },
       {
         "type": "CDE",
         "nom": "jeu_du_bus.png",
         "texte": "Certains des mondes dans le monde de l'ordinateur sont particulièrement adaptés à une pratique de la capture d'écran analogue à celle de la photographie, car la manière dont on s'y balade ressemble à celle dont on se balade dans le monde réel.",
+        "alt": "",
         "w": 478
       },
       {
         "type": "CDE",
         "nom": "gta_vol.png",
         "texte": "Ce n'est pas étonnant de voir que beaucoup de captures d'écran sont prises dans les jeux vidéos. Je suis impressionné par la beauté des graphismes devant un paysage, je prends une CDE. Je veux garder une trace de ce que je viens d'accomplir, je prends une CDE. Une situation amusante, CDE.",
+        "alt": "",
         "w": 800
       },
       {
         "type": "CDE",
         "nom": "gazon.png",
         "texte": "Il faut aussi souligner que l'industrie du jeu vidéo a besoin de CDE pour vendre ses produits, on n’achète pas un jeu avant d'avoir vu ce à quoi il ressemble et la beauté des graphismes est souvent au cœur de l'argumentaire de vente.",
+        "alt": "",
         "w": 486
       },
       {
         "type": "CDE",
         "nom": "real_life.png",
         "texte": "Les créateurs de jeux vidéos font parfois appel à des personnes extérieures dont le rôle sera de prendre les CDE qui mettront le plus en valeur le travail des graphistes. Ici, le geste ressemble énormément à celui du photographe.",
+        "alt": "",
         "w": 554
       },
       {
         "type": "CDE",
         "nom": "regard_cam_3.png",
         "texte": "Un autre monde dans le monde de l'ordinateur qui, par sa ressemblance avec le monde réel, incite à une pratique de la CDE très proche de celle de la photographie c'est Google Street View. ",
+        "alt": "",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "regard_cam_4.png",
         "texte": "Google Street View donne réellement l'illusion d'être dans le monde réel et de pouvoir s'y déplacer à son gré. En réalité, on ne peut aller bien sûr, que là où la voiture de Google est passée",
+        "alt": "",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "regard_cam_5.png",
-        "texte": "(c'est à dire essentiellement sur les routes des pays occidentaux), mais Google Street View est fait de telle sorte à ce qu'on oublie assez facilement la présence de la voiture aux 15 yeux et qu'on s'identifie à son point de vue.",
+        "texte": "(c'est à dire essentiellement sur les routes des pays occidentaux), mais Google Street View est fait de telle sorte à ce qu'on oublie assez facilement la présence de la voiture aux 15 yeux* et qu'on s'identifie à son point de vue.",
+        "alt": "La Google Street View Car est coiffée d'une boule de 15 caméras qui lui permettent de photographier tout autour d'elle.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "rafman.png",
         "texte": "Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerait dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes se prennent au jeu de la CDE Street View. Cette pratique pose évidemment des questions morales, légales et artistiques sur le statut de créateur d’image.",
+        "alt": "",
         "w": 684
       },
       {
         "type": "porte",
         "nom": "différences formelles entre photos et cde",
         "texte": "Par ici, on va parler des différences formelles qui opposent une photographie et une capture d'écran.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "accueil",
         "texte": "Par là, on peut revenir à l'Accueil. (Le nom des salles que vous avez déjà visitées s'affiche en italique)",
+        "alt": "",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "gazon_synthetique_version_luxe.png",
         "texte": "Le mini golf est à l'instar de l'ordinateur un monde dans le monde réel. J'utilise l'expression \"monde réel\", expression discutable puisque les autres mondes dont je parle n'ont rien d'irréels. Je veux parler en fait du monde qui contient tous les autres. Et à la fois celui dans lequel nous avons l'habitude d'évoluer.",
+        "alt": "",
         "w": 364
       }
     ],

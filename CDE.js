@@ -102,6 +102,8 @@ function preload () {
 	man = createSprite(100,200,120,120);
 	man.addAnimation('MARCHE', "img/marche/1.png", "img/marche/8.png");
 	man.addAnimation('MARCHETETELEVEE', "img/marchetetelevee/1.png", "img/marchetetelevee/8.png");
+	man.addAnimation('COURSE', "img/course/1.png", "img/course/8.png");
+	man.addAnimation('COURSETETELEVEE', "img/coursetetelevee/1.png", "img/coursetetelevee/8.png");
 	man.addAnimation('ARRET', "img/arret/1.png");
 	man.addAnimation('SAUT', "img/saut/1.png", "img/saut/3.png");
 	man.addAnimation('LEVELATETE', "img/levelatete/2.png");
@@ -217,19 +219,22 @@ function PART_ANIMATION () {
 	// Est-ce qu'il marche ?
 	if (keyIsDown(RIGHT_ARROW) || keyIsDown(LEFT_ARROW)) {
 		//Il marche : 
-
-		// Tête levée ou baissée ?
-		if (!tetelevee){
-			man.changeAnimation('MARCHE');
-		} else {
-			man.changeAnimation('MARCHETETELEVEE');
-		}
+		var anim ="";
 
 		if(keyIsDown(SHIFT)){		// rapide ou lent ? 
-			speed=30;
+			anim += "COURSE";
+			speed=15;
 		} else {
+			anim += "MARCHE";
 			speed =3;
 		}
+
+		// Tête levée ou baissée ?
+		if (tetelevee){
+			anim += "TETELEVEE";
+		}
+
+		man.changeAnimation(anim);
 
 
 		// vers la gauche ou la droite ?
@@ -314,7 +319,14 @@ function PART_HISTOIRE () {
 	ilDanse = false;
 	for (var i = 0; i < salle.length; i++) {
 		if(man.position.x >= obj[i].x && man.position.x <= obj[i].x+obj[i].w ){	//check si le guide est devant un obj
-			chosesDite = obj[i].texte;
+			if(keyIsDown(ALT) && obj[i].alt){
+				chosesDite = "* " + obj[i].alt;
+				divBulle.style("font-size", "11px");
+			} else {
+				chosesDite = obj[i].texte;
+				divBulle.style("font-size", "15px");
+
+			}
 			ilParle = true;
 			if(obj[i].nom == 'DANSE') {
 				ilDanse = true;
@@ -446,6 +458,7 @@ function ObjetMusee (objet) {
 	this.type = objet.type;
 	this.texte = objet.texte;
 	this.w = objet.w;
+	this.alt = objet.alt ? objet.alt : null;
 
 	// position
 	this.x=0;
