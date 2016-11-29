@@ -3,10 +3,10 @@
 ~ Cette porte mène vers la salle d'introduction.<br/>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passes devant en marchant. 
 # introduction
 ~ En fait, à partir du début des années 80 il y a un changement radical dans le monde de l'informatique grand public : l’arrivée des premières interfaces graphiques. Avant, un ordinateur c'était des lignes de textes peu intuitives ou totalement incompréhensibles pour le novice. Le but est de rendre l'utilisation des ordinateurs plus facile pour qu'ils puissent se répandre dans les bureaux voire les salons.
-~ Alors oui, un ordinateur avec une interface graphique développée coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés de cette entreprise sera longue et coûteuse.
-~ Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.
+~ Alors oui, un ordinateur avec une interface graphique développée coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés sera longue et coûteuse.
+~ Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser sur elle tout l'environnement de l'ordinateur.
 * Le Xerox PARC (aujourd'hui : PARC tout court) c'est un centre de recherche informatique qui a inventé tout un tas de choses dans les années 70-80. On raconte souvent la visite de Steave Jobs au Xerox PARC en 79 déterminante pour le développement de LISA.
-~ Étant donné qu'on s'adresse à des employés de bureau, on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que depuis, tous les systèmes d'exploitation ont suivi cette idée de "métaphore du bureau".
+~ Étant donné qu'on s'adresse à des employés de bureau, on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que tous les systèmes d'exploitation ont suivi depuis cette idée de "métaphore du bureau".
 ~ Il y a bien sûr des limites à la dekstop metaphor, tout dans l'ordinateur ne peut pas être comparé à un élément du bureau, mais ce n'est pas pour autant qu'on invente beaucoup de nouveaux mots lorsque l'on est confronté à ces limites. On préférera de nouvelles métaphores, les fenêtres, les menus, les virus…
 ~ Évidemment, la métaphore du bureau ne s'arrête pas au langage, elle est aussi visuelle (des icônes en forme de dossiers) et structurelle (les fichiers sont rangés dans des dossiers). Le monde de l'ordinateur est une sorte d'imitation abstraite et approximative du monde réel. Nous, on joue le jeu,
 ~ On range notre bureau, on va chercher dans la corbeille un document qu'on a jeté par erreur. On se sent chez soi dans l'ordinateur et internet (qui a de plus en plus un rôle important dans notre utilisation du PC) prend assez naturellement la place du monde extérieur.
@@ -33,7 +33,7 @@
 ~ Le mini golf est à l'instar de l'ordinateur un monde dans le monde réel. J'utilise l'expression "monde réel", expression discutable puisque les autres mondes dont je parle n'ont rien d'irréels. Je veux parler en fait du monde qui contient tous les autres. Et à la fois celui dans lequel nous avons l'habitude d'évoluer.
 # différences formelles entre photos et cde
 ~ Je trouve cette image très drôle !
-~ Celle là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des différences fondamentales entre photo et CDE.
+~ Celle-là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des différences fondamentales entre photo et CDE.
 ~ Dans cette salle, nous verrons comment la photographie est infiniment moins fidèle à son monde que la CDE au sien.
 ~ Dans celle-là nous parlerons du concept de Numen en photographie et comment il peut s'appliquer ou non à la CDE. 
 ~ Dans celle-ci, nous verrons ce qui distingue le cadrage d'une photo et celui d'une CDE.
@@ -44,26 +44,26 @@
 ~ Visitez si vous ne l'avez pas encore fait les autres différences entre CDE et photos.
 ~ Car nous allons laisser ce sujet de côté pour parler de l'esthétique CDE, dans un premier temps à travers son rapport au cadre.
 # les failles
-~ J'ai eu besoin de dire dans la salle "À propos de la précision" qu'une CDE était "[une] copie parfaite [de son monde] sans défaut, sans faille". J'avais besoins de dire ça pour construire mon propos. Et je ne le regrette pas. Mais maintenant que l'on est ici dans une salle un peu plus secondaire je souhaite nuancer.
-~ Une CDE est une copie parfaite de son monde dans presque toutes les situations. Il existe des situations ou la CDE échoue. Je vais citer l'exemple de l'application Lecteur DVD sous Mac OSX. Pour des raisons de copyright, si vous prenez une capture d'écran de cette application, vous verrez un écran noir (comme ci-dessus). Ici manifestement la CDE ne réstitue pas une copie sans faille de son monde. Et c'est dommage. Mais c'est comme ça.
+~ J'ai eu besoin de dire dans la salle "À propos de la précision" qu'une CDE était "[une] copie parfaite [de son monde] sans défaut, sans faille". J'avais besoin de dire ça pour construire mon propos. Et je ne le regrette pas. Mais maintenant que l'on est ici dans une salle un peu plus secondaire je souhaite nuancer.
+~ Une CDE est une copie parfaite de son monde dans presque toutes les situations. Il existe des situations ou la CDE échoue. Je vais citer l'exemple de l'application Lecteur DVD sous Mac OSX. Pour des raisons de copyright, si vous prenez une capture d'écran de cette application, vous verrez un écran noir (comme ci-dessus). Ici manifestement la CDE ne restitue pas une copie sans faille de son monde. Et c'est dommage. Mais c'est comme ça.
 ~ Revenons à nos moutons !
 # à propos de la précision
-~ On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde réel. Mais la photographie est loin de réussir, dans son monde, cette mission si bien que la CDE dans le siens.
+~ On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde réel. Mais la photographie est loin, dans son monde, de réussir cette mission si bien que la CDE dans le sien.
 ~ Si je regarde une photographie de très près, je trouverai toujours un détail qui manque.
-~ Si je suppose qu'il y a dans le monde réel une échelle de détail qui serai l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.
+~ Si je suppose qu'il y a dans le monde réel une échelle de détail qui serait l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.
 ~ Dans le monde de l'ordinateur, ce détail le plus petit qui soit est le pixel. En réussissant à se renseigner dans l'instant sur la couleur précise de chaque pixel, la CDE réussi, dans son monde, le défi de la copie parfaite sans défaut, sans faille.
 ~ Bon... Peut-être une ou deux failles, mais pas plus...
 ~ Aussi, l'objet CDE possède contrairement à l’objet photographie une rigueur absolue d'échelle. 
-~ les sujets représentés sur une CDE sont à échelle 1:1 , un icône qui mesurait 30 pixels de large mesurera exactement 30 pixels de large dans la CDE qui le représente.
+~ les sujets représentés sur une CDE sont à échelle 1:1, un icône qui mesurait 30 pixels de large mesurera exactement 30 pixels de large dans la CDE qui le représente.
 ~ Je peux tirer une photographie de telle sorte à ce que le sujet ait environ la même taille sur l'image qu'en vrai. Mais ce ne sera jamais exact. 
 ~ Cette histoire de parfaite réplique me semble importante. Quelle différence persiste alors entre la CDE et son référent ?
 ~ Par ici pour explorer d'autres différences entre photo et CDE.
 # les raisins
 ~ On l'a dit, la CDE est une reproduction extrêmement fidèle de son monde. Difficile de faire la différence entre l'objet et son image. Pourtant la CDE est bien une représentation.
 ~ Ici, nous voyons la capture d'écran d'un cadre de texte.
-~ Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant ils ne sont pas de même nature, le cadre dans lequel je suis en train de parler est une interprétation par votre navigateur d'une ligne de code HTML, la CDE n'est qu'une image. Et malgré les apparences, ça change tout. Car dans le cadre où je suis en train de parler, vous pouvez sélectionner le texte et par exemple le copier pour le coller autre part. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.
-~ Cette petite expérience nous apprend beaucoup, je trouve, sur la nature des CDE. Nous avons affaire à des illusions parfaites pour l'œil, mais qui ne résiste pas a l'expérience de la souris et de l'interaction.
-~ Entre ces fichiers image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra sélectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.
+~ Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant ils ne sont pas de même nature, le cadre dans lequel je suis en train de parler est une interprétation par votre navigateur d'une ligne de code HTML, la CDE n'est qu'une image. Et malgré les apparences, ça change tout. Car dans le cadre où je suis en train de parler, vous pouvez sélectionner le texte et par exemple le copier pour le coller ailleur. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.
+~ Cette petite expérience nous apprend beaucoup, je trouve, sur la nature des CDE. Nous avons affaire à des illusions parfaites pour l'œil, mais qui ne résistent pas à l'expérience de la souris et de l'interaction.
+~ Entre ces fichiers-image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra sélectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.
 ~ Comme un oiseau qui se cogne aux raisins de Zeuxis.
 ~ FUNNY !
 # à propos du numen
