@@ -2,20 +2,36 @@
   "extra": {
     "titre": "Le musee de CDE",
     "footer": "Se déplacer <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Regarder plus en l'air ou plus en bas <img src=\"img/icones_commandes/fleches_U_D.png\", alt=\"flèches haut et bas\"></img> | Passer une porte <img src=\"img/icones_commandes/space.png\", alt=\"barre d'espace\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Courir <img src=\"img/icones_commandes/shift.png\", alt=\"shift\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Lire la glose (s'il y a un *) <img src=\"img/icones_commandes/alt.png\", alt=\"alt\"></img> | Acceder à une salle en connaissant son nom <img src=\"img/icones_commandes/entrer.png\", alt=\"entrer\"></img>",
-    "nav": "<a href='CDE-about.html'>À propos</a> | <a href='CDE-help.html'>Aide</a>"
+    "nav": [
+      {"texte" : "À propos", "lien" : "CDE-about.html"},
+      {"texte" : "Aide", "lien" : "CDE-help.html"}
+    ],
+    "alert": {
+      "firefox" : "Bonjour,\nIl semblerait que tu uttilise Firefox. C'est un très bon navigateur mais il a des soucis en ce qui concerne les touches spéciales (shift, barre d'éspace,...) ducoup tu risque d'avoir des problèmes lors de la visite (certaines touches qui peuvent se bloquer dans certaines situation).\nJe te conseil d'uttiliser un autre navigateur si tu en as la possibilité. Sinon, tant pis : tu peux tout à fait visiter le musée malgré ce déffaut.",
+      "enter" : "Entrez le nom de la salle à laquelle vous souhaitez accéder. (Prenez soin de respecter les accents).",
+      "salleInconnue" : "cette salle n'existe pas...",
+      "M" : "En appuyant sur M, vous passez en mode muet. Appuyez une nouvelle fois sur M pour annuler.",
+      "D" : "Quand vous appuyez sur D, le guide s'immagine qu'il danse.",
+      "Dbis" : "Le guide adore danser !!!",
+      "S" : ["La touche S ne fait pas parti du jeu, ça ne sers rien d'appuyer dessus", "tu peux appuyer sur S autant que tu veux ça ne fera jamais rien je te jure", "Un bon conseil : n'appuie plus sur S", "Moi aussi j'aime beaucoup cette lettre mais là tu en fais trop.", "Si tu penses que dans la vie c'est en insistant qu'on obtient ce qu'on veut alors tu te trompe. Qu'est ce que tu veux d'ailleurs ?", "Pourquoi tu continu d'appuyer sur S ?", "tu veux quoi ? que je te dévoile les secrets du jeu ?", "ok.", "mais alors il faudra appuyer encore deux-trois fois.", "1", "2", "3 (bien joué, tu m'as eu)","LES SECRETS DU JEU\ntouches secrettes : S = secrets | M = muet | D = danse | J = jump\ncodes secrets (presser ENTRER et taper le code): 'mur' = peinture | 'bolt' = vitesse | 'portes' = passe-partout"]
+    },
+    "premiereSalle" : "accueil"
+
   },
   "salles": {
     "accueil": [
       {
         "type": "CDE",
         "nom": "une_capture_d_ecran.png",
-        "texte": "Bonjour visiteur, bienvenue dans le musée de CDE.<br/>Je vais te guider tout au long de ta visite. Toi tu n'as qu'à utiliser les touches fléchées pour aller voir où tu veux.",
+        "texte": "Bonjour visiteur, bienvenue dans le musée de CDE.<br/>Je vais te guider tout au long de la visite. Toi tu n'as qu'à utiliser les touches fléchées pour aller voir où tu veux.",
+        "alt": "",
         "w": 208
       },
       {
         "type": "porte",
         "nom": "introduction",
         "texte": "Cette porte mène vers la salle d'introduction.<br/>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passes devant en marchant. ",
+        "alt": "",
         "w": 60
       }
     ],
@@ -37,7 +53,7 @@
       {
         "type": "CDE",
         "nom": "metaphaure_ouh.png",
-        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie à ce moment-là pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
+        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
         "alt": "Le Xerox PARC (aujourd'hui : PARC tout court) c'est un centre de recherche informatique qui a inventé tout un tas de choses dans les années 70-80. On raconte souvent la visite de Steave Jobs au Xerox PARC en 79 déterminante pour le développement de LISA.",
         "w": 311
       },
@@ -65,14 +81,14 @@
       {
         "type": "CDE",
         "nom": "Bureau_bien_range.png",
-        "texte": "on range notre bureau, on va chercher dans la corbeille un document qu'on a jeté par erreur. On se sent chez soi dans l'ordinateur et internet (qui prend de plus en plus un rôle important dans notre utilisation du PC) prend assez naturellement la place du monde extérieur.",
+        "texte": "On range notre bureau, on va chercher dans la corbeille un document qu'on a jeté par erreur. On se sent chez soi dans l'ordinateur et internet (qui a de plus en plus un rôle important dans notre utilisation du PC) prend assez naturellement la place du monde extérieur.",
         "alt": "",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "se_connecter_a_l_exterieur.png",
-        "texte": "Avec ses boutiques, ses lieux de rencontre (des forums, autre métaphore), un monde qui grouillent, en évolution continue et avec un fonctionnement spatio-temporel très différent de celui du monde réel...",
+        "texte": "Avec ses boutiques, ses lieux de rencontre (des forums, autre métaphore), un monde qui grouille, en évolution continue et avec un fonctionnement spatio-temporel très différent de celui du monde réel...",
         "alt": "",
         "w": 227
       },
@@ -151,7 +167,7 @@
       {
         "type": "CDE",
         "nom": "real_life.png",
-        "texte": "Les créateurs de jeux vidéos font parfois appel à des personnes extérieures dont le rôle sera de prendre les CDE qui mettront le plus en valeur le travail des graphistes. Ici, le geste ressemble énormément à celui du photographe.",
+        "texte": "Les créateurs de jeux vidéos font parfois appel à des personnes extérieures dont le rôle sera de prendre les CDE qui mettront le plus en valeur le travail des graphistes. Ici, le geste ressemble énormément à celui du photographe de pub.",
         "alt": "",
         "w": 554
       },
@@ -210,36 +226,42 @@
         "type": "CDE",
         "nom": "FUNNY.png",
         "texte": "Je trouve cette image très drôle !",
+        "alt": "",
         "w": 543
       },
       {
         "type": "CDE",
         "nom": "cde_a_l_ancienne.png",
         "texte": "Celle là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des différences fondamentales entre photo et CDE.",
+        "alt": "",
         "w": 561
       },
       {
         "type": "porte",
         "nom": "à propos de la précision",
-        "texte": "Dans cette salle, nous verrons comment la photographie est infiniment moins fidèle à son monde que la CDE au sien",
+        "texte": "Dans cette salle, nous verrons comment la photographie est infiniment moins fidèle à son monde que la CDE au sien.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "à propos du numen",
         "texte": "Dans celle-là nous parlerons du concept de Numen en photographie et comment il peut s'appliquer ou non à la CDE. ",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "à propos du cadre",
-        "texte": "Dans celle-ci, nous verrons ce qui distingue le cadrage d'une photo et celui d'une CDE",
+        "texte": "Dans celle-ci, nous verrons ce qui distingue le cadrage d'une photo et celui d'une CDE.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "accueil",
         "texte": "Retour au point de départ....",
+        "alt": "",
         "w": 60
       }
     ],
@@ -932,42 +954,49 @@
         "type": "CDE",
         "nom": "je_t_explique.png",
         "texte": "On peut avoir du mal à considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal a considérer la CDE comme un medium car le monde de l'ordinateur est souvent considéré comme un médium, alors que non, c'est un monde ou à la limite un super-médium, un métamédium.",
+        "alt": "",
         "w": 633
       },
       {
         "type": "CDE",
         "nom": "chargement_bug.png",
         "texte": "On peut avoir du mal à considérer que la CDE produit des images. En effet, tout ce qu'une capture d'écran peut capturer c'est des images créées par l'homme ou des images créés par des créations de l'homme. Les images produites par une CDE ont pour ainsi dire, déjà été produites. Chaque partie d'une CDE est la reproduction d'une œuvre (que ce soit un bout de texte, une photo, une typographie, un icône, le design d'une scroll-bar).",
+        "alt": "",
         "w": 227
       },
       {
         "type": "CDE",
         "nom": "panorama.png",
         "texte": "Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plupart des pays, mes CDE seraient des rectangles noirs. ",
+        "alt": "",
         "w": 1039
       },
       {
         "type": "CDE",
         "nom": "la_question_des_droits_d_auteurs_screenshot.png",
         "texte": "Pourtant ces CDE sont les miennes et je ne peux pas m'empêcher de penser que ce sont des images que je produis. Je ne vais pas aller plus loin dans cette réflexion, ce sont des questions beaucoup trop compliquées, il leur faudrait un deuxième musée de CDE.",
+        "alt": "",
         "w": 407
       },
       {
         "type": "CDE",
         "nom": "la_nature_peut_faire.png",
-        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.",
+        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas l'équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.",
+        "alt": "",
         "w": 290
       },
       {
         "type": "porte",
         "nom": "beaux bugs",
         "texte": "Ce qui s'en approche le plus c'est les moments ou l'homme perd le contrôle de la machine, j'en parle très rapidement dans cette pièce.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "conclusion",
         "texte": "Enfait, on arrive à la fin du musée. La dernière salle du musée c'est celle-là…",
+        "alt": "",
         "w": 60
       }
     ],

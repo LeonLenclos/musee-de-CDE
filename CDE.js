@@ -28,6 +28,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
+
+
 //pref
 var GRAVITE =1;
 var JUMP = 10;
@@ -57,6 +59,7 @@ var tetelevee = false;
 var chosesDite =""; // ce qui dois etre dit
 var mute = false; //mode silencieux
 var speed = 3; //vitesse marche
+var speedCourse = 15;
 
 // Portes
 var entreDansLaPorte = null; //dans quelle porte il entre
@@ -75,12 +78,11 @@ var obj =[];//array pour recevoir des 'ObjetMusee' cf: ObjetMusee.js
 // HTML elements
 var h;//dom
 var nav;//dom
-var aHelp;
-var aAbout;
 var cnv;// canvas (dom)
 var divBulle; //dom
 var footer; //dom
 
+var secretIndex =0;
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////     FONCTIONS P5   ////////////////////////////////
@@ -89,6 +91,7 @@ var footer; //dom
 
 //P5 PRELOAD charge les animations le musee.json et la font
 function preload () {
+
 	//On récupère toutes les infos sur le contenu du musee
 	musee = loadJSON('musee.json');
 
@@ -117,26 +120,26 @@ function preload () {
 
 //P5 SETUP innitialise les ellements html et appelle la fonction intallerLaSalle
 function setup() {
+	//Un soucis avec firefox fait qu'il y a un bug avec les touches spéciales, j'en allerte l'uttilisateur
+	if(navigator.userAgent.indexOf('Firefox')>0){alert(musee.extra.alert.firefox);}
 
 	//DOM
 	h = createElement('h1', musee.extra.titre);
 	nav = createElement('nav');
-	nav.child(aAbout = createA('CDE-about.html','À propos'));
-	aAbout.attribute('target','_blank');
-	nav.child(createSpan(' | '));
-	nav.child(aHelp = createA('CDE-help.html','Aide'));
-	aHelp.attribute('target','_blank');
-
+	for (var i = 0; i < musee.extra.nav.length; i++) {
+		if(i!==0) nav.child(createSpan(' | '));
+		nav.child(createA(musee.extra.nav[i].lien,musee.extra.nav[i].texte).attribute('target','_blank'));
+	}
 	divBulle = createDiv('loading...');
 	cnv =  createCanvas();
 	footer = createElement('footer', musee.extra.footer);
 
 	//on resize le canvas
-	var cnvHeight = windowHeight - aAbout.height - footer.height - 45;
+	var cnvHeight = windowHeight - h.height - footer.height - 45;
 	cnv.resize(windowWidth-20,cnvHeight);
 
 	//go!
-	installerLaSalle('accueil');
+	installerLaSalle(musee.extra.premiereSalle);
 
 
 
@@ -172,17 +175,20 @@ function keyTyped () {
 			mute = false;
 			divBulle.show();
 		} else {
-			alert('En appuyant sur M, vous passez en mode muet. Appuyez une nouvelle fois sur M pour annuler.');
+			alert(musee.extra.alert.M);
 			mute = true;
 			divBulle.hide();
 		}
-	}
-	if(key === 'd') {
+	}else if(key === 'd') {
 		if(!ilDanse) {
-			alert('Quand vous appuyez sur D, le guide s\'immagine qu\'il danse.');
+			alert(musee.extra.alert.D);
 		} else {
-			alert('Le guide adore danser !!!');
+			alert(musee.extra.alert.Dbis);
 		}
+	}else if(key === 's') {
+		alert(musee.extra.alert.S[secretIndex]);
+		if(secretIndex<musee.extra.alert.S.length-1)
+			secretIndex ++;
 	}
 }
 
@@ -208,7 +214,8 @@ function PART_GRAVITE () {
 function PART_DISPLAYOBJ () {
 	spe.visible = false; // le perso spectial, masqué par déffaut
 	for (var i = 0; i < salle.length; i++) {
-		obj[i].display();
+		if(obj[i].x < (camera.position.x + width/2) && (obj[i].x + obj[i].w) > (camera.position.x - width/2))
+			obj[i].display();
 	}
 }
 
@@ -223,7 +230,7 @@ function PART_ANIMATION () {
 
 		if(keyIsDown(SHIFT)){		// rapide ou lent ? 
 			anim += "COURSE";
-			speed=15;
+			speed=speedCourse;
 		} else {
 			anim += "MARCHE";
 			speed =3;
@@ -273,9 +280,9 @@ function PART_ANIMATION () {
 
 	// edges
 	if (man.position.x>LARGEUR_SCENE-30) {
-		man.position.x=LARGEUR_SCENE-30;
+		man.position.x=LARGEUR_SCENE-31;
 	} else if (man.position.x<30) {
-		man.position.x=30;
+		man.position.x=31;
 	}
 }
 
@@ -360,7 +367,6 @@ function PART_PORTE () {
 		obj[entreDansLaPorte].cachePorte(); //ON MET LE CACHE
 
 		//S'IL REPASSE PAR LE MILIEU ON ANNULE
-			console.log(entreDansLaPorte);
 		if ((!passeDansLaPorteParLaGauche && man.position.x > obj[entreDansLaPorte].x  + obj[entreDansLaPorte].w/2) ||
 			(passeDansLaPorteParLaGauche && man.position.x < obj[entreDansLaPorte].x + obj[entreDansLaPorte].w/2)) {
 			estEnTrainDePasserLaPorte = false;
@@ -374,10 +380,12 @@ function PART_PORTE () {
 
 	
 	if (keyDown(ENTER)) { // ENTRER
-		var p = prompt('Entrez le nom de la salle à laquelle vous souhaitez accéder. (Prenez soin de respecter accents et majuscules).');
+		var p = prompt(musee.extra.alert.entrer);
 		if(p !== null && p !== ""){
 			if(p=="mur") {
 				couleurMur = color(random(200,255),random(155,200),random(155,200));
+			} else if(p=="bolt") {
+				speedCourse = speedCourse == 15 ? 60 : 15;
 			} else {
 				installerLaSalle(p);
 			}
@@ -394,16 +402,26 @@ function PART_PORTE () {
 
 //INSTALLER LA SALLE (la salle à installer en entree) innitiallise les objets dans la salle (porte et cde)
 // cette fonction calcule aussi la position des cde, la taille de la salle et deux trois truc.
+function laSalleADejaEteVisitee (s) {
+	for (var i = 0; i < sallesVisitees.length; i++) {
+		if(sallesVisitees[i] == s){
+			return true;
+		}
+	}
+	return false;
+}
+
 function installerLaSalle (s) {
 	s=s.toLowerCase();
 	//Verification de l'existence de la salle
 	if(!musee.salles[s]){
-		alert('cette salle n\'existe pas...');
+		alert(musee.extra.alert.salleInconnue);
 		return;
 	}
 
 	//On s'occupe de tenir l'historique des salles visitées
-	if(!sallesVisitees.includes(s)){
+
+	if(!laSalleADejaEteVisitee(s)){
 		sallesVisitees.push(s);
 	}
 	
@@ -510,7 +528,7 @@ function ObjetMusee (objet) {
 		noStroke();
 		fill(0);
 		textSize(12);
-		textStyle(sallesVisitees.includes(this.nom) ? ITALIC : NORMAL); // en italic si la salle a étée visitée
+		textStyle(laSalleADejaEteVisitee(this.nom) ? ITALIC : NORMAL); // en italic si la salle a étée visitée
 		text(this.nom, this.x+this.w/2, HAUTEUR_SCENE-this.hPorte-10);
 	};
 
@@ -545,16 +563,5 @@ function ObjetMusee (objet) {
 			points = points + ".";
 		}
 		text("cde loading " + points,this.x,HAUTEUR_SCENE-height/2);
-		// fill(0);
-		// rect(this.x,HAUTEUR_SCENE - height/2 -30,this.w,30);
-		// push();
-		// translate(this.x+this.w/2,HAUTEUR_SCENE - height/2 - 15);
-		// noStroke();
-		// fill(0); rect(-15,-15,30,30);
-		// fill(255); ellipse(0,0,20,20);
-		// fill(0); ellipse(0,0,15,15);
-		// rotate(frameCount/10);
-		// fill(0); rect(-11,-10,11,20);
-		// pop();
 	};
 }
