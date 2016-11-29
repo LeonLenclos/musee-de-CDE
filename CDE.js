@@ -60,7 +60,7 @@ var chosesDite =""; // ce qui dois etre dit
 var mute = false; //mode silencieux
 var speed = 3; //vitesse marche
 var speedCourse = 15;
-
+var glose = false;
 // Portes
 var entreDansLaPorte = null; //dans quelle porte il entre
 var estEnTrainDePasserLaPorte = false;
@@ -74,7 +74,8 @@ var loading = true;
 var musee; //json
 var salle;//json
 var obj =[];//array pour recevoir des 'ObjetMusee' cf: ObjetMusee.js
-
+var objActuel =null;
+var objPrev =undefined;
 // HTML elements
 var h;//dom
 var nav;//dom
@@ -288,8 +289,13 @@ function PART_ANIMATION () {
 
 //PART BULLE gère le div pour le texte
 function PART_BULLE () {
-	var txt = ilParle ? chosesDite : "..." ;
-	if(divBulle.html()!=txt) { // on change le contenu du div que si c'est necessaire
+	if(ilParle){
+		txt = chosesDite;
+	} else {
+		txt = "...";
+		glose = false;
+	}
+	if(objPrev!==objActuel){//divBulle.html()!=txt) { // on change le contenu du div que si c'est necessaire
 		divBulle.html(txt);
 	}
 }
@@ -326,14 +332,18 @@ function PART_HISTOIRE () {
 	ilDanse = false;
 	for (var i = 0; i < salle.length; i++) {
 		if(man.position.x >= obj[i].x && man.position.x <= obj[i].x+obj[i].w ){	//check si le guide est devant un obj
-			if(keyIsDown(ALT) && obj[i].alt){
-				chosesDite = "* " + obj[i].alt;
-				divBulle.style("font-size", "11px");
-			} else {
-				chosesDite = obj[i].texte;
-				divBulle.style("font-size", "15px");
+			objPrev = objActuel;
+			objActuel = i;
 
+			if(keyIsDown(ALT) && obj[i].alt){
+				glose = true;
+				objActuel += 0.5;
 			}
+			chosesDite = "<p>" + obj[i].texte + "</p>";
+			if (glose) {
+				chosesDite += "<p class=\"glose\">* " + obj[i].alt + "</p>";
+			}
+			
 			ilParle = true;
 			if(obj[i].nom == 'DANSE') {
 				ilDanse = true;
@@ -342,6 +352,7 @@ function PART_HISTOIRE () {
 		}
 	}
 	ilParle = false;
+	objActuel =null;
 	return;
 }
 
@@ -441,6 +452,10 @@ function installerLaSalle (s) {
 		obj[i] = new ObjetMusee(salle[i]);
 		obj[i].x = largeurSalle;
 		largeurSalle += ecart + obj[i].w;
+		if(obj[i].nom=="DANSE"){
+			obj[i].x -= ecart;
+			largeurSalle -= 2*ecart;
+		}
 	}
 
 
@@ -458,6 +473,11 @@ function installerLaSalle (s) {
 	man.position.x = 100;
 	man.position.y = HAUTEUR_SCENE - height-120;
 	
+	//
+	objActuel =null;
+	objPrev =undefined;
+
+
 	//c'est parti mon kiki
 	loading = false;
 }

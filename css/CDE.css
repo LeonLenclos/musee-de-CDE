@@ -38,3 +38,15 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+p {
+	font-size: 15px;
+	margin : 0px;
+}
+
+.glose{
+	border-top : solid 1px black;
+	font-size: 11px;
+	margin-top: 10px;
+	padding-top: 10px;
+}

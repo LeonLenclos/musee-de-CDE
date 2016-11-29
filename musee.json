@@ -3,34 +3,53 @@
     "titre": "Le musee de CDE",
     "footer": "Se déplacer <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Regarder plus en l'air ou plus en bas <img src=\"img/icones_commandes/fleches_U_D.png\", alt=\"flèches haut et bas\"></img> | Passer une porte <img src=\"img/icones_commandes/space.png\", alt=\"barre d'espace\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Courir <img src=\"img/icones_commandes/shift.png\", alt=\"shift\"></img> + <img src=\"img/icones_commandes/fleches_L_R.png\", alt=\"flèches gauche et droite\"></img> | Lire la glose (s'il y a un *) <img src=\"img/icones_commandes/alt.png\", alt=\"alt\"></img> | Acceder à une salle en connaissant son nom <img src=\"img/icones_commandes/entrer.png\", alt=\"entrer\"></img>",
     "nav": [
-      {"texte" : "À propos", "lien" : "CDE-about.html"},
-      {"texte" : "Aide", "lien" : "CDE-help.html"}
+      {
+        "texte": "À propos",
+        "lien": "CDE-about.html"
+      },
+      {
+        "texte": "Aide",
+        "lien": "CDE-help.html"
+      }
     ],
     "alert": {
-      "firefox" : "Bonjour,\nIl semblerait que tu uttilise Firefox. C'est un très bon navigateur mais il a des soucis en ce qui concerne les touches spéciales (shift, barre d'éspace,...) ducoup tu risque d'avoir des problèmes lors de la visite (certaines touches qui peuvent se bloquer dans certaines situation).\nJe te conseil d'uttiliser un autre navigateur si tu en as la possibilité. Sinon, tant pis : tu peux tout à fait visiter le musée malgré ce déffaut.",
-      "enter" : "Entrez le nom de la salle à laquelle vous souhaitez accéder. (Prenez soin de respecter les accents).",
-      "salleInconnue" : "cette salle n'existe pas...",
-      "M" : "En appuyant sur M, vous passez en mode muet. Appuyez une nouvelle fois sur M pour annuler.",
-      "D" : "Quand vous appuyez sur D, le guide s'immagine qu'il danse.",
-      "Dbis" : "Le guide adore danser !!!",
-      "S" : ["La touche S ne fait pas parti du jeu, ça ne sers rien d'appuyer dessus", "tu peux appuyer sur S autant que tu veux ça ne fera jamais rien je te jure", "Un bon conseil : n'appuie plus sur S", "Moi aussi j'aime beaucoup cette lettre mais là tu en fais trop.", "Si tu penses que dans la vie c'est en insistant qu'on obtient ce qu'on veut alors tu te trompe. Qu'est ce que tu veux d'ailleurs ?", "Pourquoi tu continu d'appuyer sur S ?", "tu veux quoi ? que je te dévoile les secrets du jeu ?", "ok.", "mais alors il faudra appuyer encore deux-trois fois.", "1", "2", "3 (bien joué, tu m'as eu)","LES SECRETS DU JEU\ntouches secrettes : S = secrets | M = muet | D = danse | J = jump\ncodes secrets (presser ENTRER et taper le code): 'mur' = peinture | 'bolt' = vitesse | 'portes' = passe-partout"]
+      "firefox": "Bonjour,\nIl semblerait que tu uttilise Firefox. C'est un très bon navigateur mais il a des soucis en ce qui concerne les touches spéciales (shift, barre d'éspace,...) ducoup tu risque d'avoir des problèmes lors de la visite (certaines touches qui peuvent se bloquer dans certaines situation).\nJe te conseil d'uttiliser un autre navigateur si tu en as la possibilité. Sinon, tant pis : tu peux tout à fait visiter le musée malgré ce déffaut.",
+      "enter": "Entrez le nom de la salle à laquelle vous souhaitez accéder. (Prenez soin de respecter les accents).",
+      "salleInconnue": "cette salle n'existe pas...",
+      "M": "En appuyant sur M, vous passez en mode muet. Appuyez une nouvelle fois sur M pour annuler.",
+      "D": "Quand vous appuyez sur D, le guide s'immagine qu'il danse.",
+      "Dbis": "Le guide adore danser !!!",
+      "S": [
+        "La touche S ne fait pas parti du jeu, ça ne sers rien d'appuyer dessus",
+        "tu peux appuyer sur S autant que tu veux ça ne fera jamais rien je te jure",
+        "Un bon conseil : n'appuie plus sur S",
+        "Moi aussi j'aime beaucoup cette lettre mais là tu en fais trop.",
+        "Si tu penses que dans la vie c'est en insistant qu'on obtient ce qu'on veut alors tu te trompe. Qu'est ce que tu veux d'ailleurs ?",
+        "Pourquoi tu continu d'appuyer sur S ?",
+        "tu veux quoi ? que je te dévoile les secrets du jeu ?",
+        "ok.",
+        "mais alors il faudra appuyer encore deux-trois fois.",
+        "1",
+        "2",
+        "3 (bien joué, tu m'as eu)",
+        "LES SECRETS DU JEU\ntouches secrettes : S = secrets | M = muet | D = danse | J = jump\ncodes secrets (presser ENTRER et taper le code): 'mur' = peinture | 'bolt' = vitesse | 'portes' = passe-partout"
+      ]
     },
-    "premiereSalle" : "accueil"
-
+    "premiereSalle": "accueil"
   },
   "salles": {
     "accueil": [
       {
         "type": "CDE",
         "nom": "une_capture_d_ecran.png",
-        "texte": "Bonjour visiteur, bienvenue dans le musée de CDE.<br/>Je vais te guider tout au long de la visite. Toi tu n'as qu'à utiliser les touches fléchées pour aller voir où tu veux.",
+        "texte": "Bonjour visiteur, bienvenue dans le musée de CDE.<br>Je vais te guider tout au long de la visite. Toi tu n'as qu'à utiliser les touches fléchées pour aller voir où tu veux.",
         "alt": "",
         "w": 208
       },
       {
         "type": "porte",
         "nom": "introduction",
-        "texte": "Cette porte mène vers la salle d'introduction.<br/>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passes devant en marchant. ",
+        "texte": "Cette porte mène vers la salle d'introduction.<br>Pour passer les portes il te suffit de maintenir la barre d'espace enfoncée pendant que tu passes devant en marchant.",
         "alt": "",
         "w": 60
       }
@@ -39,28 +58,28 @@
       {
         "type": "CDE",
         "nom": "62747_heures.png",
-        "texte": "En fait, à partir du début des années 80 il y a un changement radical dans le monde de l'informatique grand public : l’arrivée des premières interfaces graphiques. Avant, un ordinateur c'était des lignes de textes peu intuitives ou totalement incompréhensibles pour le novice. Le but est de rendre l'utilisation des ordinateurs plus facile pour qu'ils puissent se répandre dans les bureaux voire les salons.",
+        "texte": "En fait, à partir du début des années 80 il y a un changement radical dans le monde de l'informatique grand public : l’arrivée des premières interfaces graphiques. Avant, un ordinateur c'était des lignes de textes peu intuitives ou totalement incompréhensibles pour le novice. Le but est de rendre l'utilisation des ordinateurs plus facile pour qu'ils puissent se répandre dans les bureaux voire les salons.",
         "alt": "",
         "w": 395
       },
       {
         "type": "CDE",
         "nom": "chaise_de_bureau.png",
-        "texte": "Alors oui, un ordinateur avec une interface graphique développée coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés de cette entreprise sera longue et coûteuse.",
+        "texte": "Alors oui, un ordinateur avec une interface graphique développée coûte plus cher à l'entreprise qui veut en équiper ses bureaux, mais plus l'interface est instinctive moins la formation que devront recevoir ses employés sera longue et coûteuse.",
         "alt": "",
         "w": 610
       },
       {
         "type": "CDE",
         "nom": "metaphaure_ouh.png",
-        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser tout l'environnement de l'ordinateur dessus.",
+        "texte": "Là où c'est très important pour le sujet qui nous intéresse, c'est que la stratégie qui va être choisie pour rendre les interfaces graphiques instinctives c'est une des plus puissantes figures de rhétorique : la métaphore. C'est les ingénieurs du Xerox PARC* qui ont l'idée de développer la dekstop metaphor. Elle était déjà vaguement perceptible dans le vocabulaire informatique, mais ils vont la placer au centre et baser sur elle tout l'environnement de l'ordinateur.",
         "alt": "Le Xerox PARC (aujourd'hui : PARC tout court) c'est un centre de recherche informatique qui a inventé tout un tas de choses dans les années 70-80. On raconte souvent la visite de Steave Jobs au Xerox PARC en 79 déterminante pour le développement de LISA.",
         "w": 311
       },
       {
         "type": "CDE",
         "nom": "3_poubelles.png",
-        "texte": "Étant donné qu'on s'adresse à des employés de bureau, on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que depuis, tous les systèmes d'exploitation ont suivi cette idée de \"métaphore du bureau\".",
+        "texte": "Étant donné qu'on s'adresse à des employés de bureau, on va utiliser leur vocabulaire et leur imagerie : les dossiers, les fichiers, la corbeille… C'est étonnant de voir que tous les systèmes d'exploitation ont suivi depuis cette idée de \"métaphore du bureau\".",
         "alt": "",
         "w": 750
       },
@@ -95,7 +114,7 @@
       {
         "type": "CDE",
         "nom": "voyage_voyage_voyage_voyage.png",
-        "texte": "Dans le monde de l'ordinateur, autre chose importante, on se déplace : on va voir dans ce dossier, on va visiter ce site. Ce site comme ce dossier ont une adresse.",
+        "texte": "Dans le monde de l'ordinateur, autre chose importante, on se déplace : on va voir dans ce dossier, on va visiter ce site. Ce site comme ce dossier ont une adresse.",
         "alt": "",
         "w": 396
       },
@@ -123,7 +142,7 @@
       {
         "type": "CDE",
         "nom": "ecran_range.png",
-        "texte": "Ici on a une autre manière de ranger son bureau. (Peut-être ai-je oublié de vous dire que vous pouvez me faire lever la tête en appuyant sur la flèche du haut. Ça s'avérera pratique pour toutes les captures d'écran plus grandes que votre fenêtre puisque nous avons pris le parti de présenter toutes les CDE de notre collection à échelle 1)",
+        "texte": "Ici on a une autre manière de ranger son bureau. (Peut-être ai-je oublié de vous dire que vous pouvez me faire lever la tête en appuyant sur la flèche du haut. Ça s'avérera pratique pour toutes les captures d'écran plus grandes que votre fenêtre puisque nous avons pris le parti de présenter toutes les CDE de notre collection à échelle 1)",
         "alt": "",
         "w": 1920
       }
@@ -174,8 +193,8 @@
       {
         "type": "CDE",
         "nom": "regard_cam_3.png",
-        "texte": "Un autre monde dans le monde de l'ordinateur qui, par sa ressemblance avec le monde réel, incite à une pratique de la CDE très proche de celle de la photographie c'est Google Street View. ",
-        "alt": "",
+        "texte": "Un autre monde dans le monde de l'ordinateur qui, par sa ressemblance avec le monde réel, incite à une pratique de la CDE très proche de celle de la photographie c'est Google Street View*.",
+        "alt": "Google Street View est une fonctionnalité de <a href=\"https://www.google.fr/maps\" target=\"_blank\">Google Map</a> (<a href=\"https://support.google.com/maps/answer/3093484?hl=fr&ref_topic=6275604\" target=\"_blank\">comment uttiliser Street View</a>)",
         "w": 1280
       },
       {
@@ -189,14 +208,14 @@
         "type": "CDE",
         "nom": "regard_cam_5.png",
         "texte": "(c'est à dire essentiellement sur les routes des pays occidentaux), mais Google Street View est fait de telle sorte à ce qu'on oublie assez facilement la présence de la voiture aux 15 yeux* et qu'on s'identifie à son point de vue.",
-        "alt": "La Google Street View Car est coiffée d'une boule de 15 caméras qui lui permettent de photographier tout autour d'elle.",
+        "alt": "Les 15 yeux ce sont les 15 caméras dont est coiffée la Google Street View Car et qui lui permettent de photographier tout autour d'elle.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "rafman.png",
-        "texte": "Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerait dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes se prennent au jeu de la CDE Street View. Cette pratique pose évidemment des questions morales, légales et artistiques sur le statut de créateur d’image.",
-        "alt": "",
+        "texte": "Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerait dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes* se prennent au jeu de la CDE Street View. Cette pratique pose évidemment des questions morales, légales et artistiques sur le statut de créateur d’image.",
+        "alt": "Pour ne citez qu'eux : <a href=\"http://www.dougrickard.com/a-new-american-picture/\" target=\"_blank\">Doug Rickard</a>, <a href=\"http://dreamlands-virtual-tour.blogspot.fr/p/mes-images-preferees.html\" target=\"_blank\">Olivier Hodasava</a>, <a href=\"http://9-eyes.com/\" target=\"_blank\">Jon Rafman</a>.",
         "w": 684
       },
       {
@@ -232,7 +251,7 @@
       {
         "type": "CDE",
         "nom": "cde_a_l_ancienne.png",
-        "texte": "Celle là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des différences fondamentales entre photo et CDE.",
+        "texte": "Celle-là aussi ! C'est la capture d'écran d'une photographie postée sur internet. Le sujet est en train de prendre son écran en photo, pourtant il ne fait pas une capture d'écran. C'est l'occasion de discuter des différences fondamentales entre photo et CDE.",
         "alt": "",
         "w": 561
       },
@@ -246,7 +265,7 @@
       {
         "type": "porte",
         "nom": "à propos du numen",
-        "texte": "Dans celle-là nous parlerons du concept de Numen en photographie et comment il peut s'appliquer ou non à la CDE. ",
+        "texte": "Dans celle-là nous parlerons du concept de Numen en photographie et comment il peut s'appliquer ou non à la CDE.",
         "alt": "",
         "w": 60
       },
@@ -295,13 +314,13 @@
       {
         "type": "CDE",
         "nom": "dvd_cde.png",
-        "texte": "J'ai eu besoin de dire dans la salle \"À propos de la précision\" qu'une CDE était \"[une] copie parfaite [de son monde] sans défaut, sans faille\". J'avais besoins de dire ça pour construire mon propos. Et je ne le regrette pas. Mais maintenant que l'on est ici dans une salle un peu plus secondaire je souhaite nuancer.",
+        "texte": "J'ai eu besoin de dire dans la salle \"À propos de la précision\" qu'une CDE était \"[une] copie parfaite [de son monde] sans défaut, sans faille\". J'avais besoin de dire ça pour construire mon propos. Et je ne le regrette pas. Mais maintenant que l'on est ici dans une salle un peu plus secondaire je souhaite nuancer.",
         "w": 673
       },
       {
         "type": "CDE",
         "nom": "dvd_cde_noir.png",
-        "texte": "Une CDE est une copie parfaite de son monde dans presque toutes les situations. Il existe des situations ou la CDE échoue. Je vais citer l'exemple de l'application Lecteur DVD sous Mac OSX. Pour des raisons de copyright, si vous prenez une capture d'écran de cette application, vous verrez un écran noir (comme ci-dessus). Ici manifestement la CDE ne réstitue pas une copie sans faille de son monde. Et c'est dommage. Mais c'est comme ça.",
+        "texte": "Une CDE est une copie parfaite de son monde dans presque toutes les situations. Il existe des situations ou la CDE échoue. Je vais citer l'exemple de l'application Lecteur DVD sous Mac OSX. Pour des raisons de copyright, si vous prenez une capture d'écran de cette application, vous verrez un écran noir (comme ci-dessus). Ici manifestement la CDE ne restitue pas une copie sans faille de son monde. Et c'est dommage. Mais c'est comme ça.",
         "w": 720
       },
       {
@@ -315,7 +334,7 @@
       {
         "type": "CDE",
         "nom": "photo_reel.png",
-        "texte": "On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde réel. Mais la photographie est loin de réussir, dans son monde, cette mission si bien que la CDE dans le siens.",
+        "texte": "On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde réel. Mais la photographie est loin, dans son monde, de réussir cette mission si bien que la CDE dans le sien.",
         "w": 585
       },
       {
@@ -327,8 +346,9 @@
       {
         "type": "CDE",
         "nom": "cette_etoile.png",
-        "texte": "Si je suppose qu'il y a dans le monde réel une échelle de détail qui serai l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.",
-        "w": 777
+        "texte": "Si je suppose qu'il y a dans le monde réel une échelle de détail qui serait l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck*, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.",
+        "w": 777,
+        "alt": "La longueur de Planck c'est vraiment très petit comme on peut le voir sur <a href=\"http://htwins.net/scale2/\" target=\"_blank\">The scale of the universe</a> ou sur <a href=\"https://fr.wikipedia.org/wiki/Longueur_de_Planck\" target=\"_blank\">Wikipedia</a>"
       },
       {
         "type": "CDE",
@@ -345,19 +365,19 @@
       {
         "type": "CDE",
         "nom": "Exemple_de_capture_d_ecran.png",
-        "texte": "Aussi, l'objet CDE possède contrairement à l’objet photographie une rigueur absolue d'échelle. ",
+        "texte": "Aussi, l'objet CDE possède contrairement à l’objet photographie une rigueur absolue d'échelle.",
         "w": 236
       },
       {
         "type": "CDE",
         "nom": "Guide.png",
-        "texte": "les sujets représentés sur une CDE sont à échelle 1:1 , un icône qui mesurait 30 pixels de large mesurera exactement 30 pixels de large dans la CDE qui le représente.",
+        "texte": "les sujets représentés sur une CDE sont à échelle 1:1, un icône qui mesurait 30 pixels de large mesurera exactement 30 pixels de large dans la CDE qui le représente.",
         "w": 90
       },
       {
         "type": "CDE",
         "nom": "mesurez_la_taille_de_l_ecran.png",
-        "texte": "Je peux tirer une photographie de telle sorte à ce que le sujet ait environ la même taille sur l'image qu'en vrai. Mais ce ne sera jamais exact. ",
+        "texte": "Je peux tirer une photographie de telle sorte à ce que le sujet ait environ la même taille sur l'image qu'en vrai. Mais ce ne sera jamais exact.",
         "w": 677
       },
       {
@@ -389,26 +409,27 @@
       {
         "type": "CDE",
         "nom": "cadre.png",
-        "texte": "Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant ils ne sont pas de même nature, le cadre dans lequel je suis en train de parler est une interprétation par votre navigateur d'une ligne de code HTML, la CDE n'est qu'une image. Et malgré les apparences, ça change tout. Car dans le cadre où je suis en train de parler, vous pouvez sélectionner le texte et par exemple le copier pour le coller autre part. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.",
+        "texte": "Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant ils ne sont pas de même nature, le cadre dans lequel je suis en train de parler est une interprétation par votre navigateur d'une ligne de code HTML, la CDE n'est qu'une image. Et malgré les apparences, ça change tout. Car dans le cadre où je suis en train de parler, vous pouvez sélectionner le texte et par exemple le copier pour le coller ailleur. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.",
         "w": 812
       },
       {
         "type": "CDE",
         "nom": "balduchi_blaine.png",
-        "texte": "Cette petite expérience nous apprend beaucoup, je trouve, sur la nature des CDE. Nous avons affaire à des illusions parfaites pour l'œil, mais qui ne résiste pas a l'expérience de la souris et de l'interaction.",
+        "texte": "Cette petite expérience nous apprend beaucoup, je trouve, sur la nature des CDE. Nous avons affaire à des illusions parfaites pour l'œil, mais qui ne résistent pas à l'expérience de la souris et de l'interaction.",
         "w": 1280
       },
       {
         "type": "CDE",
         "nom": "copie-parfaite.png",
-        "texte": "Entre ces fichiers image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra sélectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.",
+        "texte": "Entre ces fichiers-image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra sélectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.",
         "w": 875
       },
       {
         "type": "CDE",
         "nom": "zeuxis.png",
-        "texte": "Comme un oiseau qui se cogne aux raisins de Zeuxis.",
-        "w": 487
+        "texte": "Comme un oiseau qui se cogne aux raisins de Zeuxis*.",
+        "w": 487,
+        "alt": "<a href=\"http://remacle.org/bloodwolf/erudits/plineancien/livre35.htm\" target=\"_blank\">Histoire naturelle, Pline L’Ancien, livre XXXV</a>, XXXVI, 5"
       },
       {
         "type": "porte",
@@ -433,8 +454,9 @@
       {
         "type": "CDE",
         "nom": "ferdi_vol.png",
-        "texte": "Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthe appelle le numen.",
-        "w": 239
+        "texte": "Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthes* appelle le numen.",
+        "w": 239,
+        "alt": "Roland Barthes, La chambre claire : Note sur la photographie, Paris, Seuil, 1980"
       },
       {
         "type": "CDE",
@@ -445,19 +467,19 @@
       {
         "type": "CDE",
         "nom": "fake_snow.png",
-        "texte": "Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du Numen est aussi possible dans les jeux vidéos.",
+        "texte": "Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du numen est aussi possible dans les jeux vidéos.",
         "w": 1280
       },
       {
         "type": "porte",
         "nom": "expérience",
-        "texte": "D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du Numen.",
+        "texte": "D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du numen.",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "pile",
-        "texte": "Et par ici, je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écrans qui ont dû être prises à la seconde près.",
+        "texte": "Et par ici, je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écran qui ont dû être prises à la seconde près.",
         "w": 60
       },
       {
@@ -477,7 +499,7 @@
       {
         "type": "CDE",
         "nom": "1.png",
-        "texte": "Vous êtes venus visiter la collection d'heures pile !",
+        "texte": "Vous êtes venu visiter la collection d'heures-pile !",
         "w": 497
       },
       {
@@ -495,7 +517,7 @@
       {
         "type": "CDE",
         "nom": "4.png",
-        "texte": "C'est le moment de vous rappeler que vous pouvez courir en maintenant la touche shift enfoncée pendant que vous vous déplacez. ",
+        "texte": "C'est le moment de vous rappeler que vous pouvez courir en maintenant la touche shift enfoncée pendant que vous vous déplacez.",
         "w": 372
       },
       {
@@ -519,13 +541,14 @@
       {
         "type": "CDE",
         "nom": "13.png",
-        "texte": "Ça me fait penser que je ne vous ai pas encore parlé de http://cherchetescles.tumblr.com ! C'est une autre collection de CDE que je tiens. Allez jeter un coup d'œil !",
-        "w": 559
+        "texte": "Ça me fait penser que je ne vous ai pas encore parlé de cherchetescles* ! C'est une autre collection de CDE que je tiens.",
+        "w": 559,
+        "alt": "<a href=\"http://cherchetescles.tumblr.com/\" target=\"_blank\">cherchetescles.tumblr.com</a>"
       },
       {
         "type": "CDE",
         "nom": "14.png",
-        "texte": "Vous ne pouvez pas imaginer le nombre de CDE d'heures piles que j'ai raté !",
+        "texte": "Vous ne pouvez pas imaginer le nombre de CDE d'heures-pile que j'ai raté !",
         "w": 464
       },
       {
@@ -537,13 +560,13 @@
       {
         "type": "CDE",
         "nom": "16.png",
-        "texte": "Parfois je vois qu'il est 13h13m2s, ce qui me laisse le temps de me préparer. Mais, malheur, je prends la CDE trop tôt 13h13m12s ! le temps que j'en prenne une seconde il est trop tard... ",
+        "texte": "Parfois je vois qu'il est 13h13m2s, ce qui me laisse le temps de me préparer. Mais, malheur, je prends la CDE trop tôt 13h13m12s ! le temps que j'en prenne une seconde il est trop tard...",
         "w": 321
       },
       {
         "type": "CDE",
         "nom": "17.png",
-        "texte": "Comme il me manque les CDE d'heures pile de toute une partie de la journée (de 5h5m5s à 9h9m9s), j'ai parfois pensé à tricher, à déregler l'horloge de mon ordinateur pour enfin atteindre l'objectif tour-du-cadran.",
+        "texte": "Comme il me manque les CDE d'heures-pile de toute une partie de la journée (de 5h5m5s à 9h9m9s), j'ai parfois pensé à tricher, à déregler l'horloge de mon ordinateur pour enfin atteindre l'objectif tour-du-cadran.",
         "w": 422
       },
       {
@@ -579,7 +602,7 @@
       {
         "type": "porte",
         "nom": "différences formelles entre photos et cde",
-        "texte": "par ici :",
+        "texte": "par ici :",
         "w": 60
       },
       {
@@ -593,14 +616,16 @@
       {
         "type": "CDE",
         "nom": "les_yeux_fermes.png",
-        "texte": "Je vais vous présenter mon ami, pour une expérience du Numen vous pouvez en faire une capture d'écran et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.",
-        "w": 525
+        "texte": "Je vais vous présenter mon ami, pour une expérience du numen vous pouvez en faire une capture d'écran* et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.",
+        "w": 525,
+        "alt": "<a href=\"https://www.take-a-screenshot.org/\" target=\"_blank\">take-a-screenshot.org</a>, un très bon site si vous ne savez pas comment prendre une capture d'écran."
       },
       {
         "type": "special",
         "nom": "NUMENBOY",
-        "texte": "La prochaine fois que vous aurez un dé à envoyer, vous pourrez venir le voir plutôt que d'aller sur random.org",
-        "w": 60
+        "texte": "La prochaine fois que vous aurez un dé à envoyer, vous pourrez venir le voir plutôt que d'aller sur random.org*",
+        "w": 60,
+        "alt": "<a href=\"https://www.random.org/\" target=\"_blank\">www.random.org/</a>"
       },
       {
         "type": "porte",
@@ -619,7 +644,7 @@
       {
         "type": "CDE",
         "nom": "crepes.png",
-        "texte": "On reconnait une CDE à ce que son cadre souvent bave, une CDE de photo a souvent sur ses bords des indices du contexte dans lequel elle a été prise. (regardez bien)",
+        "texte": "On reconnait une CDE à ce que son cadre souvent bave, une CDE de photo a souvent sur ses bords des indices du contexte dans lequel elle a été prise (regardez bien).",
         "w": 504
       },
       {
@@ -649,7 +674,7 @@
       {
         "type": "porte",
         "nom": "quelle métaphore pour la cde",
-        "texte": "Puisque j'y suis, on parle de Richter aussi par ici",
+        "texte": "Puisque j'y suis, on parle de Richter aussi par ici.",
         "w": 60
       }
     ],
@@ -785,7 +810,7 @@
       {
         "type": "CDE",
         "nom": "taken_out_of_context.png",
-        "texte": "Une capture d'écran cadrée (qui n'est pas une capture de tout l'écran) comme elle est une partie extraite d'un tout montre toujours une situation ’sortie de son contexte’.",
+        "texte": "Une capture d'écran cadrée (qui n'est pas une capture de tout l'écran) comme elle est une partie extraite d'un tout montre toujours une situation \"sortie de son contexte\".",
         "w": 135
       },
       {
@@ -835,8 +860,9 @@
       {
         "type": "CDE",
         "nom": "lions.png",
-        "texte": "Le peintre Richter a développé un Corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.",
-        "w": 664
+        "texte": "Le peintre Richter a développé un corpus d'images qu'il a appelé Atlas*, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.",
+        "w": 664,
+        "alt": "Des bouts d'Atlas sont publiés sur <a href=\"https://www.gerhard-richter.com/fr/art/atlas\" target=\"_blank\">gerhard-richter.com</a>"
       },
       {
         "type": "CDE",
@@ -847,7 +873,7 @@
       {
         "type": "CDE",
         "nom": "rouge_et_noir.png",
-        "texte": "Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'image, simplicité, immédiateté.",
+        "texte": "Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'images, simplicité, immédiateté.",
         "w": 299
       },
       {
@@ -859,7 +885,7 @@
       {
         "type": "CDE",
         "nom": "code_repondeur.png",
-        "texte": "Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bêtes.",
+        "texte": "Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bête.",
         "w": 686
       },
       {
@@ -901,7 +927,7 @@
       {
         "type": "CDE",
         "nom": "Anne_horel.png",
-        "texte": "Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et 'réalisme') sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)",
+        "texte": "Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et \"réalisme\") sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)",
         "w": 347
       },
       {
@@ -913,15 +939,16 @@
       {
         "type": "CDE",
         "nom": "deckstop_is.png",
-        "texte": "Ça c'est la page d'accueil de Deckstop IS, une exposition en ligne de capture d'écran de bureau (en 97)",
-        "w": 811
+        "texte": "Ça c'est la page d'accueil de Deckstop IS*, une exposition en ligne de capture d'écran de bureau",
+        "w": 811,
+        "alt": "C'était une exposition de Alexei Shulgin en 1997 (<a href=\"http://www.easylife.org/desktop/\" target=\"_blank\">toujours en partie visible ici</a>)"
       }
     ],
     "paroles": [
       {
         "type": "CDE",
         "nom": "orthographe.png",
-        "texte": "Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour ’photographier’ des paroles, ce que la photographie ne peut pas faire.",
+        "texte": "Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour \"photographier\" des paroles, ce que la photographie ne peut pas faire.",
         "w": 564
       },
       {
@@ -933,7 +960,7 @@
       {
         "type": "CDE",
         "nom": "sms.png",
-        "texte": "On trouve sur internet une abondance de capture d'écran de téléphone ou l'on peut lire une conversation SMS entre deux personnes. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouve que ce jeu de mise en scène virtuelle est conceptuellement intéressant, qu'il mériterait d'être creusé.",
+        "texte": "On trouve sur internet une abondance de captures d'écrans de téléphone où l'on peut lire une conversation SMS entre deux personnes. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouve que ce jeu de mise en scène virtuelle est conceptuellement intéressant, et mériterait d'être creusé.",
         "w": 1265
       },
       {
@@ -967,8 +994,8 @@
       {
         "type": "CDE",
         "nom": "panorama.png",
-        "texte": "Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plupart des pays, mes CDE seraient des rectangles noirs. ",
-        "alt": "",
+        "texte": "Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama* dans la plupart des pays, mes CDE seraient des rectangles noirs.",
+        "alt": "La liberté de panorama, c'est ce droit (dont on ne dispose pas en France) de photographier des monuments ou des sculptures dans l'espace public. <a href=\"http://libertedepanorama.fr/\" target=\"_blank\">libertedepanorama.fr</a>",
         "w": 1039
       },
       {
@@ -981,7 +1008,7 @@
       {
         "type": "CDE",
         "nom": "la_nature_peut_faire.png",
-        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas l'équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.",
+        "texte": "Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas l'équivalent de ce qu'on appelle dans le monde réel \"la nature\", pas de formes que personne ne puisse revendiquer.",
         "alt": "",
         "w": 290
       },
@@ -1016,25 +1043,25 @@
       {
         "type": "CDE",
         "nom": "youtube_couleur.png",
-        "texte": "J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glictch. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maitrisé).",
+        "texte": "J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glitches. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maitrisé).",
         "w": 871
       },
       {
         "type": "CDE",
         "nom": "fichier_code.png",
-        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adresse pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.",
+        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adressent pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.",
         "w": 1107
       },
       {
         "type": "CDE",
         "nom": "main_sur_un_arbre.png",
-        "texte": "Malgrè que l'on puisse dire que l'homme en est l'auteur (indirectement, mais indéniablement), on trouve dans ces deux images quelque chose proche de ce qu'on appelle dans le monde réel, la nature. Des formes qui semblent arbitraires ou l'on peut percevoir pourtant une logique soujacente. Une sorte d'irrégularité tranquille. Je ressens un très fort besoin que j'ai de prendre une capture d'écran de ces situations quand j'en vois une.",
+        "texte": "Malgré que l'on puisse dire que l'homme en est l'auteur (indirectement, mais indéniablement), on trouve dans ces deux images quelque chose proche de ce qu'on appelle dans le monde réel, la nature. Des formes qui semblent arbitraires et où l'on peut percevoir pourtant une logique sous-jacente. Une sorte d'irrégularité tranquille. Je ressens un très fort besoin de prendre une capture d'écran de ces situations quand j'en vois une.",
         "w": 303
       },
       {
         "type": "CDE",
         "nom": "Yang_tse.png",
-        "texte": "Ces situations sont pittoresques au sens propre : elles méritent de devenir images.",
+        "texte": "Ces situations sont pittoresques au sens propre : elles méritent de devenir images.",
         "w": 431
       },
       {
@@ -1048,7 +1075,7 @@
       {
         "type": "CDE",
         "nom": "conclusion.png",
-        "texte": "Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ait pas de porte et qu'elle s'appelle ’conclusion’ m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.",
+        "texte": "Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ait pas de porte et qu'elle s'appelle \"conclusion\" m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.",
         "w": 831
       },
       {
@@ -1063,7 +1090,6 @@
         "texte": "lalala lalalalala !!",
         "w": 600
       }
-    ],
-    "choisissez la salle": []
+    ]
   }
 }
