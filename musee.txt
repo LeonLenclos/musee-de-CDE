@@ -23,11 +23,13 @@
 ~ Ce n'est pas étonnant de voir que beaucoup de captures d'écran sont prises dans les jeux vidéos. Je suis impressionné par la beauté des graphismes devant un paysage, je prends une CDE. Je veux garder une trace de ce que je viens d'accomplir, je prends une CDE. Une situation amusante, CDE.
 ~ Il faut aussi souligner que l'industrie du jeu vidéo a besoin de CDE pour vendre ses produits, on n’achète pas un jeu avant d'avoir vu ce à quoi il ressemble et la beauté des graphismes est souvent au cœur de l'argumentaire de vente.
 ~ Les créateurs de jeux vidéos font parfois appel à des personnes extérieures dont le rôle sera de prendre les CDE qui mettront le plus en valeur le travail des graphistes. Ici, le geste ressemble énormément à celui du photographe de pub.
-~ Un autre monde dans le monde de l'ordinateur qui, par sa ressemblance avec le monde réel, incite à une pratique de la CDE très proche de celle de la photographie c'est Google Street View. 
+~ Un autre monde dans le monde de l'ordinateur qui, par sa ressemblance avec le monde réel, incite à une pratique de la CDE très proche de celle de la photographie c'est Google Street View*.
+* Google Street View est une fonctionnalité de <a href="https://www.google.fr/maps">Google Map</a> (<a href="https://support.google.com/maps/answer/3093484?hl=fr&ref_topic=6275604">comment uttiliser Street View</a>)
 ~ Google Street View donne réellement l'illusion d'être dans le monde réel et de pouvoir s'y déplacer à son gré. En réalité, on ne peut aller bien sûr, que là où la voiture de Google est passée
 ~ (c'est à dire essentiellement sur les routes des pays occidentaux), mais Google Street View est fait de telle sorte à ce qu'on oublie assez facilement la présence de la voiture aux 15 yeux* et qu'on s'identifie à son point de vue.
-* La Google Street View Car est coiffée d'une boule de 15 caméras qui lui permettent de photographier tout autour d'elle.
-~ Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerait dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes se prennent au jeu de la CDE Street View. Cette pratique pose évidemment des questions morales, légales et artistiques sur le statut de créateur d’image.
+* Les 15 yeux ce sont les 15 caméras dont est coiffée la Google Street View Car et qui lui permettent de photographier tout autour d'elle.
+~ Aussi, le processus algorithmique de création et d'assemblage des images peut donner l'impression à quelqu'un qui se baladerait dans Google Street View qu'il peut être parfois, le premier à découvrir une scène. Ainsi, plusieurs photographes* se prennent au jeu de la CDE Street View. Cette pratique pose évidemment des questions morales, légales et artistiques sur le statut de créateur d’image.
+* Pour ne citez qu'eux : <a href="http://dreamlands-virtual-tour.blogspot.fr/p/mes-images-preferees.html">Olivier Hodasava</a> et <a href="http://9-eyes.com/">Jon Rafman</a>.
 ~ Par ici, on va parler des différences formelles qui opposent une photographie et une capture d'écran.
 ~ Par là, on peut revenir à l'Accueil. (Le nom des salles que vous avez déjà visitées s'affiche en italique)
 ~ Le mini golf est à l'instar de l'ordinateur un monde dans le monde réel. J'utilise l'expression "monde réel", expression discutable puisque les autres mondes dont je parle n'ont rien d'irréels. Je veux parler en fait du monde qui contient tous les autres. Et à la fois celui dans lequel nous avons l'habitude d'évoluer.
@@ -50,7 +52,8 @@
 # à propos de la précision
 ~ On a pu penser la photographie comme la technique qui permettrait de reproduire parfaitement et fidèlement le monde réel. Mais la photographie est loin, dans son monde, de réussir cette mission si bien que la CDE dans le sien.
 ~ Si je regarde une photographie de très près, je trouverai toujours un détail qui manque.
-~ Si je suppose qu'il y a dans le monde réel une échelle de détail qui serait l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.
+~ Si je suppose qu'il y a dans le monde réel une échelle de détail qui serait l'échelle du plus petit détail qui soit un détail petit comme la longueur de Planck*, ce détail est techniquement (et peut être même par nature) inatteignable par la photographie.
+* La longueur de Planck c'est vraiment très petit comme on peut le voir sur <a href="http://htwins.net/scale2/">The scale of the universe</a> ou sur <a href="https://fr.wikipedia.org/wiki/Longueur_de_Planck">Wikipedia</a>
 ~ Dans le monde de l'ordinateur, ce détail le plus petit qui soit est le pixel. En réussissant à se renseigner dans l'instant sur la couleur précise de chaque pixel, la CDE réussi, dans son monde, le défi de la copie parfaite sans défaut, sans faille.
 ~ Bon... Peut-être une ou deux failles, mais pas plus...
 ~ Aussi, l'objet CDE possède contrairement à l’objet photographie une rigueur absolue d'échelle. 
@@ -64,12 +67,14 @@
 ~ Vous remarquez qu'il est très difficile de faire la différence entre cette image de cadre et le cadre (réel) dans lequel je suis en train de parler. Pourtant ils ne sont pas de même nature, le cadre dans lequel je suis en train de parler est une interprétation par votre navigateur d'une ligne de code HTML, la CDE n'est qu'une image. Et malgré les apparences, ça change tout. Car dans le cadre où je suis en train de parler, vous pouvez sélectionner le texte et par exemple le copier pour le coller ailleur. Le texte de l'image n'est qu'une illusion de texte, vous ne pouvez rien faire avec.
 ~ Cette petite expérience nous apprend beaucoup, je trouve, sur la nature des CDE. Nous avons affaire à des illusions parfaites pour l'œil, mais qui ne résistent pas à l'expérience de la souris et de l'interaction.
 ~ Entre ces fichiers-image et la capture d'écran de ces fichiers image, aucune différence visuelle. Mais l'utilisateur pourra sélectionner les premiers, les ouvrir, les renommer. S'il essaye de faire ça avec les seconds, il comprendra vite que ce n'est qu'une image.
-~ Comme un oiseau qui se cogne aux raisins de Zeuxis.
+~ Comme un oiseau qui se cogne aux raisins de Zeuxis*.
+* <a href="http://remacle.org/bloodwolf/erudits/plineancien/livre35.htm">Histoire naturelle, Pline L’Ancien, livre XXXV</a>, XXXVI, 5
 ~ FUNNY !
 # à propos du numen
 ~ On a évoqué dans l'introduction la différence radicale entre le fonctionnement spatio-temporel du monde de l'ordinateur et celui du monde réel. Cette différence va être significative pour notre comparaison entre CDE et photographie. En effet, la photographie est une technique qui repose beaucoup sur sa faculté à fixer l'instant présent.
 ~ Dans le monde de l'ordinateur, il y a beaucoup de moment où tout, ou presque, est figé l'auteur de CDE a tout son temps. Sur internet, la plupart des sites sont immobiles tant qu'on n’interagit pas avec eux et qu'on ne recharge pas la page.
-~ Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthes appelle le numen.
+~ Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthes* appelle le numen.
+* Roland Barthes, La chambre claire : Note sur la photographie, Paris, Seuil, 1980
 ~ On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur référent. En effet, si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde réel). On n'aurait pas de mal a distinguer une capture d'écran de ce qu'elle a capturé.
 ~ Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du numen est aussi possible dans les jeux vidéos.
 ~ D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du numen.
@@ -84,7 +89,9 @@
 ~ lalala lala...
 ~ Cette collection a commencé le 13 avril 2013 à 11h11 et 11 secondes, lorsque j'ai pris cette CDE.
 ~ Une de mes premières collections de CDE !
-~ Ça me fait penser que je ne vous ai pas encore parlé de http://cherchetescles.tumblr.com ! C'est une autre collection de CDE que je tiens. Allez jeter un coup d'œil !
+~ Ça me fait penser que je ne vous ai pas encore parlé de cherchetescles* ! C'est une autre collection de CDE que je tiens.
+Allez jeter un coup d'œil !
+* <a href="http://cherchetescles.tumblr.com/>cherchetescles.tumblr.com</a>
 ~ Vous ne pouvez pas imaginer le nombre de CDE d'heures-pile que j'ai raté !
 ~ Je vois qu'il est 9h9m9s et le temps de presser pomme-shift-quatre il est déjà 9h9m11s...
 ~ Parfois je vois qu'il est 13h13m2s, ce qui me laisse le temps de me préparer. Mais, malheur, je prends la CDE trop tôt 13h13m12s ! le temps que j'en prenne une seconde il est trop tard... 
@@ -97,8 +104,10 @@
 ~ par ici :
 ~ lala, lala, lalala...
 # expérience
-~ Je vais vous présenter mon ami, pour une expérience du numen vous pouvez en faire une capture d'écran et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.
-~ La prochaine fois que vous aurez un dé à envoyer, vous pourrez venir le voir plutôt que d'aller sur random.org
+~ Je vais vous présenter mon ami, pour une expérience du numen vous pouvez en faire une capture d'écran* et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.
+* <a href="https://www.take-a-screenshot.org/">take-a-screenshot.org</a>, un très bon site si vous ne savez pas comment prendre une capture d'écran.
+~ La prochaine fois que vous aurez un dé à envoyer, vous pourrez venir le voir plutôt que d'aller sur random.org*
+* <a href="https://www.random.org/">www.random.org/</a>
 ~ À bientôt mon ami !
 # à quoi ressemble une cde
 ~ Je voulais un peu parler d'un élément caractéristique de l'esthétique CDE, le mal-cadrage.
@@ -140,7 +149,8 @@
 ~ Ce qu'il fait pendant c'est choisir l'instant (ce choix de l'instant, vu la temporalité du monde de l'ordinateur, a une faible influence) et, pour les CDE cadrées, choisir le cadre. Le choix du cadre c'est sortir le référent de son contexte et c'est, je pense, ce qu'il y a de majeur dans le geste CDE.
 ~ Par là, c'est de nouveau la salle avec une photo de polystyrène.
 # quelle métaphore pour la cde
-~ Le peintre Richter a développé un corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.
+~ Le peintre Richter a développé un corpus d'images qu'il a appelé Atlas*, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.
+* Des bouts d'Atlas sont publiés sur <a href="https://www.gerhard-richter.com/fr/art/atlas">gerhard-richter.com</a>
 ~ La collection d'images est une pratique courante, chez les artistes bien sûr, mais aussi chez les adolescents et puis aussi pour tout un tas d'autres personnes.
 ~ Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'images, simplicité, immédiateté.
 ~ Je pense d'ailleurs que cette métaphore du coup de ciseaux peut être plus adaptée à la CDE (et à la deckstop metaphor) que celle de la photographie.
@@ -153,7 +163,8 @@
 ~ Parfois, l'auteur de CDE en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil a porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.
 ~ Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et "réalisme") sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)
 ~ Parlons par ici de l'exploit permis par la CDE de prendre en photo ce que les gens disent.
-~ Ça c'est la page d'accueil de Deckstop IS, une exposition en ligne de capture d'écran de bureau (en 97)
+~ Ça c'est la page d'accueil de Deckstop IS*, une exposition en ligne de capture d'écran de bureau
+* C'était une exposition de Alexei Shulgin en 1997 (<a href="http://www.easylife.org/desktop/">toujours en partie visible ici</a>)
 # paroles
 ~ Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour "photographier" des paroles, ce que la photographie ne peut pas faire.
 ~ Les CDE de dialogues ont un fort pouvoir narratif. C'est une forme proche de la bande dessinée puisque ce sont des images de personnages qui parlent et de ce qu'ils disent. (Et puis les développeurs d'interface de chat et de messagerie se réapproprient parfois la bulle de BD.)
@@ -163,7 +174,8 @@
 # on peut avoir du mal
 ~ On peut avoir du mal à considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal a considérer la CDE comme un medium car le monde de l'ordinateur est souvent considéré comme un médium, alors que non, c'est un monde ou à la limite un super-médium, un métamédium.
 ~ On peut avoir du mal à considérer que la CDE produit des images. En effet, tout ce qu'une capture d'écran peut capturer c'est des images créées par l'homme ou des images créés par des créations de l'homme. Les images produites par une CDE ont pour ainsi dire, déjà été produites. Chaque partie d'une CDE est la reproduction d'une œuvre (que ce soit un bout de texte, une photo, une typographie, un icône, le design d'une scroll-bar).
-~ Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plupart des pays, mes CDE seraient des rectangles noirs. 
+~ Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama* dans la plupart des pays, mes CDE seraient des rectangles noirs.
+* La liberté de panorama, c'est ce droit dont on ne dispose pas (en France) de photographier des monuments ou des sculptures dans l'espace public. <a href="http://libertedepanorama.fr/">libertedepanorama.fr</a>
 ~ Pourtant ces CDE sont les miennes et je ne peux pas m'empêcher de penser que ce sont des images que je produis. Je ne vais pas aller plus loin dans cette réflexion, ce sont des questions beaucoup trop compliquées, il leur faudrait un deuxième musée de CDE.
 ~ Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas l'équivalent de ce qu'on appelle dans le monde réel "la nature", pas de formes que personne ne puisse revendiquer.
 ~ Ce qui s'en approche le plus c'est les moments ou l'homme perd le contrôle de la machine, j'en parle très rapidement dans cette pièce.
@@ -180,4 +192,3 @@
 ~ Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ait pas de porte et qu'elle s'appelle "conclusion" m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.
 ~ Et si je faisais plutôt une petite danse ?
 ~ lalala lalalalala !!
-# choisissez la salle
