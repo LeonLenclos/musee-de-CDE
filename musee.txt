@@ -69,15 +69,15 @@
 # à propos du numen
 ~ On a évoqué dans l'introduction la différence radicale entre le fonctionnement spatio-temporel du monde de l'ordinateur et celui du monde réel. Cette différence va être significative pour notre comparaison entre CDE et photographie. En effet, la photographie est une technique qui repose beaucoup sur sa faculté à fixer l'instant présent.
 ~ Dans le monde de l'ordinateur, il y a beaucoup de moment où tout, ou presque, est figé l'auteur de CDE a tout son temps. Sur internet, la plupart des sites sont immobiles tant qu'on n’interagit pas avec eux et qu'on ne recharge pas la page.
-~ Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthe appelle le numen.
+~ Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthes appelle le numen.
 ~ On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur référent. En effet, si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde réel). On n'aurait pas de mal a distinguer une capture d'écran de ce qu'elle a capturé.
-~ Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du Numen est aussi possible dans les jeux vidéos.
-~ D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du Numen.
-~ Et par ici, je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écrans qui ont dû être prises à la seconde près.
+~ Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du numen est aussi possible dans les jeux vidéos.
+~ D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du numen.
+~ Et par ici, je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écran qui ont dû être prises à la seconde près.
 ~ (Ici c'est le temps qui s'est arrêté)
 ~ Par là, vous pouvez revenir à la page sur les différences entre photo et CDE.
 # pile
-~ Vous êtes venus visiter la collection d'heures pile !
+~ Vous êtes venu visiter la collection d'heures-pile !
 ~ C'est une collection qui comporte à l'heure où je vous parle 42 éléments.
 ~ Ici je n'en montre qu'une petite moitié, histoire de vous donner une idée.
 ~ C'est le moment de vous rappeler que vous pouvez courir en maintenant la touche shift enfoncée pendant que vous vous déplacez. 
@@ -85,10 +85,10 @@
 ~ Cette collection a commencé le 13 avril 2013 à 11h11 et 11 secondes, lorsque j'ai pris cette CDE.
 ~ Une de mes premières collections de CDE !
 ~ Ça me fait penser que je ne vous ai pas encore parlé de http://cherchetescles.tumblr.com ! C'est une autre collection de CDE que je tiens. Allez jeter un coup d'œil !
-~ Vous ne pouvez pas imaginer le nombre de CDE d'heures piles que j'ai raté !
+~ Vous ne pouvez pas imaginer le nombre de CDE d'heures-pile que j'ai raté !
 ~ Je vois qu'il est 9h9m9s et le temps de presser pomme-shift-quatre il est déjà 9h9m11s...
 ~ Parfois je vois qu'il est 13h13m2s, ce qui me laisse le temps de me préparer. Mais, malheur, je prends la CDE trop tôt 13h13m12s ! le temps que j'en prenne une seconde il est trop tard... 
-~ Comme il me manque les CDE d'heures pile de toute une partie de la journée (de 5h5m5s à 9h9m9s), j'ai parfois pensé à tricher, à déregler l'horloge de mon ordinateur pour enfin atteindre l'objectif tour-du-cadran.
+~ Comme il me manque les CDE d'heures-pile de toute une partie de la journée (de 5h5m5s à 9h9m9s), j'ai parfois pensé à tricher, à déregler l'horloge de mon ordinateur pour enfin atteindre l'objectif tour-du-cadran.
 ~ Mais je ne l'ai jamais fait.
 ~ Pas par honnêteté, plutôt par flemme...
 ~ Enfin...
@@ -97,17 +97,17 @@
 ~ par ici :
 ~ lala, lala, lalala...
 # expérience
-~ Je vais vous présenter mon ami, pour une expérience du Numen vous pouvez en faire une capture d'écran et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.
+~ Je vais vous présenter mon ami, pour une expérience du numen vous pouvez en faire une capture d'écran et vous verrez que ça équivaut un peu à un lancer un dé à 6 faces.
 ~ La prochaine fois que vous aurez un dé à envoyer, vous pourrez venir le voir plutôt que d'aller sur random.org
 ~ À bientôt mon ami !
 # à quoi ressemble une cde
 ~ Je voulais un peu parler d'un élément caractéristique de l'esthétique CDE, le mal-cadrage.
-~ On reconnait une CDE à ce que son cadre souvent bave, une CDE de photo a souvent sur ses bords des indices du contexte dans lequel elle a été prise. (regardez bien)
+~ On reconnait une CDE à ce que son cadre souvent bave, une CDE de photo a souvent sur ses bords des indices du contexte dans lequel elle a été prise (regardez bien).
 ~ Il est possible pour l'auteur de CDE qui souhaite revendiquer son outil de s'assurer que ce mal-cadrage est bien présent dans sa CDE.
 ~ Cette idée de contexte qui déborde visuellement sur le sujet et la présence de mots et d'images tronquées ne sont pas propres à la CDE et ont déjà été explorées dans d'autres média.
 ~ Par ici, creusons le rapport entre une CDE et son contexte.
 ~ Certaines jeunes peintures de Richter, pour les raisons que l'on vient d'énoncer, ressemblent beaucoup à des CDE.
-~ Puisque j'y suis, on parle de Richter aussi par ici
+~ Puisque j'y suis, on parle de Richter aussi par ici.
 # portes
 ~ Ici c'est un peu de la triche puisque tu peux accéder à toutes les salles du musée.
 ~ Pour aller ici en fait il suffit de recharger la page.
@@ -131,7 +131,7 @@
 ~ Ici c'est ici.
 ~ Voilà.
 # dans son contexte
-~ Une capture d'écran cadrée (qui n'est pas une capture de tout l'écran) comme elle est une partie extraite d'un tout montre toujours une situation ’sortie de son contexte’.
+~ Une capture d'écran cadrée (qui n'est pas une capture de tout l'écran) comme elle est une partie extraite d'un tout montre toujours une situation "sortie de son contexte".
 ~ La CDE cadrée permet, en le sortant de son contexte, de redéfinir le sens de son référent.
 ~ Nous voyons dans cette salle qu'on peut avoir du mal avec la notion d'auteur de CDE. Puisque l'auteur de CDE ne fait absolument que transférer des extraits de créations d'autres auteurs.
 ~ Mais l'avantage d'un médium aussi simple que la CDE c'est qu'il est possible de décortiquer assez son geste pour comprendre où se situe la marge de créativité. Une fois qu'une marge de créativité est identifiée, le problème de l'idée de créateur est positivement résolu.
@@ -140,24 +140,24 @@
 ~ Ce qu'il fait pendant c'est choisir l'instant (ce choix de l'instant, vu la temporalité du monde de l'ordinateur, a une faible influence) et, pour les CDE cadrées, choisir le cadre. Le choix du cadre c'est sortir le référent de son contexte et c'est, je pense, ce qu'il y a de majeur dans le geste CDE.
 ~ Par là, c'est de nouveau la salle avec une photo de polystyrène.
 # quelle métaphore pour la cde
-~ Le peintre Richter a développé un Corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.
+~ Le peintre Richter a développé un corpus d'images qu'il a appelé Atlas, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.
 ~ La collection d'images est une pratique courante, chez les artistes bien sûr, mais aussi chez les adolescents et puis aussi pour tout un tas d'autres personnes.
-~ Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'image, simplicité, immédiateté.
+~ Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'images, simplicité, immédiateté.
 ~ Je pense d'ailleurs que cette métaphore du coup de ciseaux peut être plus adaptée à la CDE (et à la deckstop metaphor) que celle de la photographie.
-~ Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bêtes.
+~ Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bête.
 ~ Les CDE report-issue. Quand un utilisateur repère un bug sur un logiciel ou un site et qu'il décide bienveillamment d'en informer les développeurs, il peut lui être utile de prendre une CDE du bug.
 ~ Une CDE on l'a déjà dit peut servir à présenter à de potentiels acheteurs l'interface graphique d'un logiciel ou d'un jeu vidéo. Les premières CDE avaient très certainement ce but commercial.
 ~ La CDE peut être un moyen rapide de transmettre une information à un ami, elle peut être un moyen d'archiver le contenu d'un site par exemple pour constituer une preuve dans le cadre d'une affaire judiciaire.
 ~ La métaphore du coup de ciseaux dans les pages d'un magazine ne convient pas à toutes ces pratiques. La métaphore de la photocopieuse pourrait s'avérer plus pertinente dans certains cas, surtout qu'elle évoque l'idée, importante pour la CDE, de photographie à plat (reproduction d'un espace bidimensionnel).
 ~ En ce qui concerne la CDE artistique, la métaphore de la photographie semble souvent la plus pertinente. Notamment en ce qui concerne la posture.
 ~ Parfois, l'auteur de CDE en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil a porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.
-~ Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et 'réalisme') sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)
+~ Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et "réalisme") sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)
 ~ Parlons par ici de l'exploit permis par la CDE de prendre en photo ce que les gens disent.
 ~ Ça c'est la page d'accueil de Deckstop IS, une exposition en ligne de capture d'écran de bureau (en 97)
 # paroles
-~ Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour ’photographier’ des paroles, ce que la photographie ne peut pas faire.
+~ Ici je voulais rapidement parler du fait que la CDE pouvait être utilisée pour "photographier" des paroles, ce que la photographie ne peut pas faire.
 ~ Les CDE de dialogues ont un fort pouvoir narratif. C'est une forme proche de la bande dessinée puisque ce sont des images de personnages qui parlent et de ce qu'ils disent. (Et puis les développeurs d'interface de chat et de messagerie se réapproprient parfois la bulle de BD.)
-~ On trouve sur internet une abondance de capture d'écran de téléphone ou l'on peut lire une conversation SMS entre deux personnes. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouve que ce jeu de mise en scène virtuelle est conceptuellement intéressant, qu'il mériterait d'être creusé.
+~ On trouve sur internet une abondance de captures d'écrans de téléphone où l'on peut lire une conversation SMS entre deux personnes. Ce sont souvent des histoires sans intêrét, pas très drôles et qui se font maladroitement passer pour des conversations authentiques. Mais je trouve que ce jeu de mise en scène virtuelle est conceptuellement intéressant, et mériterait d'être creusé.
 ~ C'est tout ce que je voulais dire à ce propos.
 ~ Voilà une porte qui mène vers cette salle où l'on parle de contexte.
 # on peut avoir du mal
@@ -165,19 +165,19 @@
 ~ On peut avoir du mal à considérer que la CDE produit des images. En effet, tout ce qu'une capture d'écran peut capturer c'est des images créées par l'homme ou des images créés par des créations de l'homme. Les images produites par une CDE ont pour ainsi dire, déjà été produites. Chaque partie d'une CDE est la reproduction d'une œuvre (que ce soit un bout de texte, une photo, une typographie, un icône, le design d'une scroll-bar).
 ~ Dans ce musée, toutes les CDE ont été prises par moi. Quand je montre une photo de quelqu'un c'est une CDE de cette photo, quand je montre une CDE de quelqu'un je fais une CDE de cette CDE. Je ne peux revendiquer aucune de ces images. Si je devais y appliquer la même censure que celle imposée par l'absence de liberté de panorama dans la plupart des pays, mes CDE seraient des rectangles noirs. 
 ~ Pourtant ces CDE sont les miennes et je ne peux pas m'empêcher de penser que ce sont des images que je produis. Je ne vais pas aller plus loin dans cette réflexion, ce sont des questions beaucoup trop compliquées, il leur faudrait un deuxième musée de CDE.
-~ Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas l'équivalent de ce qu'on appelle dans le monde réel ’la nature’, pas de formes que personne ne peut revendiquer.
+~ Mais ça soulève aussi le fait que dans le monde de l'ordinateur il n'y a pas l'équivalent de ce qu'on appelle dans le monde réel "la nature", pas de formes que personne ne puisse revendiquer.
 ~ Ce qui s'en approche le plus c'est les moments ou l'homme perd le contrôle de la machine, j'en parle très rapidement dans cette pièce.
 ~ Enfait, on arrive à la fin du musée. La dernière salle du musée c'est celle-là…
 # beaux bugs
 ~ J'ai dit que la CDE était toujours la copie d'une création humaine ou d'une création de création humaine.
 ~ Ces créations de créations humaines sont des formes sur lesquelles l'humain semble n'avoir pas eu d'emprise.
-~ J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glictch. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maitrisé).
-~ Les secondes sont les endroits du monde de l'ordinateur qui ne s'adresse pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.
-~ Malgrè que l'on puisse dire que l'homme en est l'auteur (indirectement, mais indéniablement), on trouve dans ces deux images quelque chose proche de ce qu'on appelle dans le monde réel, la nature. Des formes qui semblent arbitraires ou l'on peut percevoir pourtant une logique soujacente. Une sorte d'irrégularité tranquille. Je ressens un très fort besoin que j'ai de prendre une capture d'écran de ces situations quand j'en vois une.
+~ J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glitches. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maitrisé).
+~ Les secondes sont les endroits du monde de l'ordinateur qui ne s'adressent pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.
+~ Malgré que l'on puisse dire que l'homme en est l'auteur (indirectement, mais indéniablement), on trouve dans ces deux images quelque chose proche de ce qu'on appelle dans le monde réel, la nature. Des formes qui semblent arbitraires et où l'on peut percevoir pourtant une logique sous-jacente. Une sorte d'irrégularité tranquille. Je ressens un très fort besoin de prendre une capture d'écran de ces situations quand j'en vois une.
 ~ Ces situations sont pittoresques au sens propre : elles méritent de devenir images.
 ~ Revenons à la salle précédente.
 # conclusion
-~ Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ait pas de porte et qu'elle s'appelle ’conclusion’ m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.
+~ Voilà une salle qui n'a pas de porte. Le fait qu'elle n'ait pas de porte et qu'elle s'appelle "conclusion" m'obligent à y dire quelque chose d'aboutissant. Surtout que j'ai lu sur internet qu'il existe des gens qui ne lisent que l'introduction et la conclusion. Je suis bien embêté.
 ~ Et si je faisais plutôt une petite danse ?
 ~ lalala lalalalala !!
 # choisissez la salle
