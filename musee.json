@@ -443,55 +443,63 @@
         "type": "CDE",
         "nom": "aiguilles_attachees.png",
         "texte": "On a évoqué dans l'introduction la différence radicale entre le fonctionnement spatio-temporel du monde de l'ordinateur et celui du monde réel. Cette différence va être significative pour notre comparaison entre CDE et photographie. En effet, la photographie est une technique qui repose beaucoup sur sa faculté à fixer l'instant présent.",
+        "alt": "",
         "w": 787
       },
       {
         "type": "CDE",
         "nom": "la.png",
-        "texte": "Dans le monde de l'ordinateur, il y a beaucoup de moment où tout, ou presque, est figé l'auteur de CDE a tout son temps. Sur internet, la plupart des sites sont immobiles tant qu'on n’interagit pas avec eux et qu'on ne recharge pas la page.",
+        "texte": "Dans le monde de l'ordinateur, il y a beaucoup de moment où tout, ou presque, est figé. L'auteur de CDE a tout son temps. Sur internet, la plupart des sites sont immobiles tant qu'on n’interagit pas avec eux et qu'on ne recharge pas la page.",
+        "alt": "",
         "w": 292
       },
       {
         "type": "CDE",
         "nom": "ferdi_vol.png",
-        "texte": "Le photographe à l'inverse est très souvent dans des situations ou il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthes* appelle le numen.",
-        "w": 239,
-        "alt": "Roland Barthes, La chambre claire : Note sur la photographie, Paris, Seuil, 1980"
+        "texte": "Le photographe à l'inverse est très souvent dans des situations où il doit capturer le moment décisif. Le monde réel est sans arrêt en mouvement. Cette faculté qu'a la photographie à capturer l'instant et à la figer, c'est ce que Barthes* appelle le numen.",
+        "alt": "Roland Barthes, La chambre claire : Note sur la photographie, Paris, Seuil, 1980",
+        "w": 239
       },
       {
         "type": "CDE",
         "nom": "immobilite.png",
-        "texte": "On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur référent. En effet, si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde réel). On n'aurait pas de mal a distinguer une capture d'écran de ce qu'elle a capturé.",
+        "texte": "On peut noter que l'immobilité dominante du monde de l'ordinateur est un des facteurs de la ressemblance frappante des CDE à leur référent. En effet, si tout se mouvait tout le temps dans le monde de l'ordinateur (comme c'est le cas dans le monde réel), on n'aurait pas de mal à distinguer une capture d'écran de ce qu'elle a capturé.",
+        "alt": "",
         "w": 254
       },
       {
         "type": "CDE",
         "nom": "fake_snow.png",
         "texte": "Mais il faut aussi préciser qu'il existe quand même des moments ou l'auteur de CDE est confronté au numen. L'exemple le plus courant est la prise de CDE sur une vidéo. Alors bien sûr, on peut mettre pause et revenir en arrière pour réussir à capturer le photogramme souhaité, mais toutes les vidéos du monde de l'ordinateur ne peuvent pas être pausées ! Une expérience du numen est aussi possible dans les jeux vidéos.",
+        "alt": "",
         "w": 1280
       },
       {
         "type": "porte",
         "nom": "expérience",
         "texte": "D'ailleurs, puisque nous sommes dans un jeu vidéo, je vous propose par ici une petite expérience du numen.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "porte",
         "nom": "pile",
         "texte": "Et par ici, je vous propose de regarder si vous voulez un échantillon de ma collection d'heures-pile, des captures d'écran qui ont dû être prises à la seconde près.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "ici_c_est_le_temps_qui_est_arrete.png",
         "texte": "(Ici c'est le temps qui s'est arrêté)",
+        "alt": "",
         "w": 641
       },
       {
         "type": "porte",
         "nom": "différences formelles entre photos et cde",
         "texte": "Par là, vous pouvez revenir à la page sur les différences entre photo et CDE.",
+        "alt": "",
         "w": 60
       }
     ],
@@ -861,87 +869,99 @@
         "type": "CDE",
         "nom": "lions.png",
         "texte": "Le peintre Richter a développé un corpus d'images qu'il a appelé Atlas*, une grande collection de photos de presse et de photos qu'il a prises. C'est un outil évidemment utile pour un artiste qui peint d'après photos.",
-        "w": 664,
-        "alt": "Des bouts d'Atlas sont publiés sur <a href=\"https://www.gerhard-richter.com/fr/art/atlas\" target=\"_blank\">gerhard-richter.com</a>"
+        "alt": "Des bouts d'Atlas sont publiés sur <a href=\"https://www.gerhard-richter.com/fr/art/atlas\" target=\"_blank\">gerhard-richter.com</a>",
+        "w": 664
       },
       {
         "type": "CDE",
         "nom": "lion.png",
         "texte": "La collection d'images est une pratique courante, chez les artistes bien sûr, mais aussi chez les adolescents et puis aussi pour tout un tas d'autres personnes.",
+        "alt": "",
         "w": 379
       },
       {
         "type": "CDE",
         "nom": "rouge_et_noir.png",
         "texte": "Le geste CDE peut aussi s'apparenter (plutôt qu'à la photographie) aux coups de ciseaux sur les pages de journaux et de magazine. Il est l'outil idéal du collectionneur d'images, simplicité, immédiateté.",
+        "alt": "",
         "w": 299
       },
       {
         "type": "CDE",
         "nom": "killing_the_book.png",
-        "texte": "Je pense d'ailleurs que cette métaphore du coup de ciseaux peut être plus adaptée à la CDE (et à la deckstop metaphor) que celle de la photographie.",
+        "texte": "Je pense d'ailleurs que cette métaphore du coup de ciseaux peut être plus adaptée à la CDE (et à la dekstop metaphor) que celle de la photographie.",
+        "alt": "",
         "w": 221
       },
       {
         "type": "CDE",
         "nom": "code_repondeur.png",
         "texte": "Mais la collection n'est bien sûr pas le seul moteur de CDE, il existe tout un tas de raisons qui peuvent pousser quelqu'un à prendre une CDE. Il y a les CDE pense-bête.",
+        "alt": "",
         "w": 686
       },
       {
         "type": "CDE",
         "nom": "bar_de_menu_bug.png",
         "texte": "Les CDE report-issue. Quand un utilisateur repère un bug sur un logiciel ou un site et qu'il décide bienveillamment d'en informer les développeurs, il peut lui être utile de prendre une CDE du bug.",
+        "alt": "",
         "w": 755
       },
       {
         "type": "CDE",
         "nom": "Gwyddion.png",
         "texte": "Une CDE on l'a déjà dit peut servir à présenter à de potentiels acheteurs l'interface graphique d'un logiciel ou d'un jeu vidéo. Les premières CDE avaient très certainement ce but commercial.",
+        "alt": "",
         "w": 741
       },
       {
         "type": "CDE",
         "nom": "avocate_qui_uttilise_des_cde.png",
         "texte": "La CDE peut être un moyen rapide de transmettre une information à un ami, elle peut être un moyen d'archiver le contenu d'un site par exemple pour constituer une preuve dans le cadre d'une affaire judiciaire.",
+        "alt": "",
         "w": 540
       },
       {
         "type": "CDE",
         "nom": "appareil_photo_a_cde.png",
         "texte": "La métaphore du coup de ciseaux dans les pages d'un magazine ne convient pas à toutes ces pratiques. La métaphore de la photocopieuse pourrait s'avérer plus pertinente dans certains cas, surtout qu'elle évoque l'idée, importante pour la CDE, de photographie à plat (reproduction d'un espace bidimensionnel).",
+        "alt": "",
         "w": 655
       },
       {
         "type": "CDE",
         "nom": "exercice.png",
         "texte": "En ce qui concerne la CDE artistique, la métaphore de la photographie semble souvent la plus pertinente. Notamment en ce qui concerne la posture.",
+        "alt": "",
         "w": 231
       },
       {
         "type": "CDE",
         "nom": "Antti_Laitinen.png",
-        "texte": "Parfois, l'auteur de CDE en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil a porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.",
+        "texte": "Parfois, l'auteur de CDE en se baladant dans le monde de l'ordinateur, tombe par hasard sur une opportunité de CDE (sa chance, contrairement au photographe est de toujours avoir son outil à porté de main). Il lui arrive aussi de se balader dans le monde de l'ordinateur dans le but de prendre une CDE. On retrouve ces deux postures dans la photographie, celle du trouveur et celle du prospecteur.",
+        "alt": "",
         "w": 508
       },
       {
         "type": "CDE",
         "nom": "Anne_horel.png",
         "texte": "Et puis, l'auteur de CDE peut aussi bien prendre une CDE de ce qu'il trouve tel qu'il le trouve, que mettre en scène son environnement (par exemple intervenir dans une discussion sur un forum puis prendre une CDE, organiser son bureau et ses fenêtre d'une certaine manière puis prendre une CDE…). Ces deux attitudes (mise en scène et \"réalisme\") sont aussi présentes dans la photographie. (ici, cde d'une cde d'Anne Horel)",
+        "alt": "",
         "w": 347
       },
       {
         "type": "porte",
         "nom": "paroles",
         "texte": "Parlons par ici de l'exploit permis par la CDE de prendre en photo ce que les gens disent.",
+        "alt": "",
         "w": 60
       },
       {
         "type": "CDE",
         "nom": "deckstop_is.png",
         "texte": "Ça c'est la page d'accueil de Deckstop IS*, une exposition en ligne de capture d'écran de bureau",
-        "w": 811,
-        "alt": "C'était une exposition de Alexei Shulgin en 1997 (<a href=\"http://www.easylife.org/desktop/\" target=\"_blank\">toujours en partie visible ici</a>)"
+        "alt": "C'était une exposition de Alexei Shulgin en 1997 (<a href=\"http://www.easylife.org/desktop/\" target=\"_blank\">toujours en partie visible ici</a>)",
+        "w": 811
       }
     ],
     "paroles": [
@@ -980,7 +1000,7 @@
       {
         "type": "CDE",
         "nom": "je_t_explique.png",
-        "texte": "On peut avoir du mal à considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal a considérer la CDE comme un medium car le monde de l'ordinateur est souvent considéré comme un médium, alors que non, c'est un monde ou à la limite un super-médium, un métamédium.",
+        "texte": "On peut avoir du mal à considérer la CDE comme un médium. C'est un moyen de production d'image qui ne semble pas pouvoir s'émanciper du monde de l'ordinateur. Du mal à considérer la CDE comme un médium car le monde de l'ordinateur est souvent considéré comme un médium, alors que non, c'est un monde ou à la limite un super-médium, un métamédium.",
         "alt": "",
         "w": 633
       },
@@ -1032,42 +1052,49 @@
         "type": "CDE",
         "nom": "glitch_glisse.png",
         "texte": "J'ai dit que la CDE était toujours la copie d'une création humaine ou d'une création de création humaine.",
+        "alt": "",
         "w": 557
       },
       {
         "type": "CDE",
         "nom": "deroute.png",
         "texte": "Ces créations de créations humaines sont des formes sur lesquelles l'humain semble n'avoir pas eu d'emprise.",
+        "alt": "",
         "w": 634
       },
       {
         "type": "CDE",
         "nom": "youtube_couleur.png",
-        "texte": "J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glitches. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maitrisé).",
+        "texte": "J'ai pu en identifier deux, les premières sont les endroits ou la machine ne fait pas ce qu'elle devrait faire. Ce sont les bugs, les glitches. Mais la machine ne peut pas faire d'erreur, contrairement à ce que l'on pense parfois. Un bug n'est toujours que le résultat d'un défaut de la machine dû à une mauvaise conception. Puisque l'homme est l'auteur de la machine, l'homme est l'auteur du bug (à travers un processus de création complexe et non maîtrisé).",
+        "alt": "",
         "w": 871
       },
       {
         "type": "CDE",
         "nom": "fichier_code.png",
-        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adressent pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc à l'auteur de ce texte.",
+        "texte": "Les secondes sont les endroits du monde de l'ordinateur qui ne s'adressent pas à l'humain. Ce fichier texte par exemple a été compilé par un programme pour qu'un autre programme puisse le lire, et pas un humain. Si je le vois, c'est que je suis au mauvais endroit. Encore une fois, l'homme est à l'origine de la machine qui est à l'origine de ce texte, il est donc l'auteur de ce texte.",
+        "alt": "",
         "w": 1107
       },
       {
         "type": "CDE",
         "nom": "main_sur_un_arbre.png",
         "texte": "Malgré que l'on puisse dire que l'homme en est l'auteur (indirectement, mais indéniablement), on trouve dans ces deux images quelque chose proche de ce qu'on appelle dans le monde réel, la nature. Des formes qui semblent arbitraires et où l'on peut percevoir pourtant une logique sous-jacente. Une sorte d'irrégularité tranquille. Je ressens un très fort besoin de prendre une capture d'écran de ces situations quand j'en vois une.",
+        "alt": "",
         "w": 303
       },
       {
         "type": "CDE",
         "nom": "Yang_tse.png",
         "texte": "Ces situations sont pittoresques au sens propre : elles méritent de devenir images.",
+        "alt": "",
         "w": 431
       },
       {
         "type": "porte",
         "nom": "on peut avoir du mal",
         "texte": "Revenons à la salle précédente.",
+        "alt": "",
         "w": 60
       }
     ],
